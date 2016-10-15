@@ -1,0 +1,28 @@
+calls to test:
+open, read, write, close
+printf*
+fork
+pipe
+type converstion (atoi, string funcs)
+fread, fwrite, f*
+pthread_* (locks and condition vars)
+malloc and friends
+TCP/UDP?
+
+programs to test:
+coreutils
+mozilla open source stuff (firefox, thunderbird)
+openoffice
+gimp
+vlc
+vim, emacs
+compilers?
+
+misc:
+need to run in a VM? (Bart says no)
+end to end 
+binary  dumps
+careful with man page types
+return real errors
+return a closed file
+clean code
