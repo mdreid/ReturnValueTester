@@ -1,0 +1,61 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{indentfirst}
+\usepackage{adjustbox}
+%\usepackage{graphicx}
+%\usepackage{float}
+
+\title{Final Paper Proposal}
+\author{Colin Samplawski, Malcolm Reid, and Keith Funkhouser}
+\date{CS 736 - Fall 2016}
+
+\begin{document}
+\maketitle
+\setlength{\baselineskip}{18pt}
+\section{Introduction}
+Nearly every function from commonly used C libraries returns some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, most functions can return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions. In our work, we plan to analysis a suite of commonly used Linux applications and see if any do not correctly handle errors returned by commonly used system/library calls.
+
+\section{Motivation}
+In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicting that memory allocation has failed. They then tested a variety of Linux utilities using this this version of \texttt{malloc} to test if they correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. We plan to expand on this idea and test significantly more system/library calls in a similar way.
+
+\section{Methods/Process}
+%talking about LD_PRELOAD
+	%advantages
+	%compare against other methods
+	%wont work on windows
+
+\section{A Small Example}
+%open call on some command line 
+
+\section{Schedule}
+
+\begin{center}
+	\begin{adjustbox}{width=1\textwidth}
+	\def\arraystretch{1.5}
+	\begin{tabular}{c |c |c |c | c | c | c}
+		\hline
+		Monday & Tuesday & Wednesday & Thursday & Friday & Saturday & Sunday \\
+		\hline \hline
+		Oct 24th & Oct 25th & Oct 26th & Oct 27th & Oct 28th & Oct 29th & Oct 30th \\ 
+		 &  &  &  &  &  &  \\ \hline
+		Oct 31st & Nov 1st & Nov 2nd & Nov 3rd & Nov 4th & Nov 5th & Nov 6th \\
+		No class &  & No class &  & No class &  &  \\ \hline
+		Nov 7th & Nov 8th & Nov 9th & Nov 10th & Nov 11th & Nov 12th & Nov 13th \\
+		 &  &  &  &  &  &  \\ \hline
+		Nov 14th & Nov 15th & Nov 16th & Nov 17th & Nov 18th & Nov 19th & Nov 20th \\ 
+		No class &  & No class &  &  &  &  \\ \hline
+		Nov 21st & Nov 22nd & Nov 23rd & Nov 24th & Nov 25th & Nov 26th & Nov 27th \\ 
+		 &  &  & Thanksgiving recess & Thanksgiving recess & Thanksgiving recess & Thanksgiving recess \\ \hline
+		Nov 28th & Nov 29th & Nov 30th & Dec 1st & Dec 2nd & Dec 3rd & Dec 4th \\ 
+		 &  &  &  &  &  &  \\ \hline
+		Dec 5th & Dec 6th & Dec 7th & Dec 8th & Dec 9th & Dec 10th & Dec 11th \\ 
+		No class &  & No class&  & Paper draft due to referees &  &  \\ \hline
+		Dec 12th & Dec 13th & Dec 14th & Dec 15th & Dec 16th & Dec 17th & Dec 18th \\ 
+		 &  &  & Paper reviews back to author &  &  &  \\ \hline
+		Dec 19th & Dec 20th & Dec 21st & Dec 22nd & Dec 23rd & Dec 24th & Dec 25th \\
+		Final project papers due &  & Project Poster Session &  &  &  & \\ \hline
+	\end{tabular}
+	\end{adjustbox}
+\end{center}
+
+\end{document}
