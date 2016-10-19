@@ -2,6 +2,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{indentfirst}
 \usepackage{adjustbox}
+\newenvironment{allintypewriter}{\ttfamily}{\par}
 %\usepackage{graphicx}
 %\usepackage{float}
 
@@ -16,16 +17,19 @@
 Nearly every function from commonly used C libraries returns some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, most functions can return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions. In our work, we plan to analysis a suite of commonly used Linux applications and see if any do not correctly handle errors returned by commonly used system/library calls.
 
 \section{Motivation}
-In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicting that memory allocation has failed. They then tested a variety of Linux utilities using this this version of \texttt{malloc} to test if they correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. We plan to expand on this idea and test significantly more system/library calls in a similar way.
+In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicting that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if they correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. We plan to expand on this idea and test significantly more system/library calls in a similar way.
 
-\section{Methods/Process}
+\section{Method}
+We do not expect our process to be terribly difficult to implement. Our main challenge is designing a way to wrap the system/library calls of interest. We need to be intercept calls in a way that is invisible and non-distributive to the application being tested. To solve this problem, Miller et al. extracted the binary of the call of interest (in their case \texttt{malloc}) and used a binary rewriter to rename \texttt{malloc} to \texttt{\_malloc}. They could then write a new function called \texttt{malloc} which would be called by the applications. This new version returned an error value with some probability or just passed the call along to \texttt{\_malloc}. We have come up with a similar solution that we believe is slightly more elegant.
+
+Linux systems have a built in environment variable named \texttt{LD\_PRELOAD} which allows users to load a shared library before starting an application. Most importantly, these preloaded libraries take precedence over any other libraries loaded by the application. Therefore if this preloaded library contains a function named \texttt{open}, any calls to \texttt{open} by the application will invoke the preloaded \texttt{open} and not the version found in the C library(?).
 %talking about LD_PRELOAD
 	%advantages
 	%compare against other methods
 	%wont work on windows
 
 \section{A Small Example}
-%open call on some command line 
+%open call on some command line apps
 
 \section{Schedule}
 
@@ -58,4 +62,25 @@ In their paper (cite), Miller et al. modified the \texttt{malloc} library functi
 	\end{adjustbox}
 \end{center}
 
+\begin{center}
+	\begin{allintypewriter}
+%	\begin{adjustbox}{width=1\textwidth}
+	\begin{tabular}{|c |c | c|}
+	\hline
+	System Calls & \texttt{libc} calls & Pthread calls \\ \hline \hline
+	close & free& pthread\_cond\_init\\ 
+	creat & kmalloc& pthread\_create\\
+	dup & malloc&pthread\_mutex\_init\\
+	fork & memccpy&\\
+	ioctl & printf&\\
+	mkdir & strto*&\\
+	mmap & &\\
+ 	open & &\\
+	pipe & &\\
+	read & &\\
+	write & &\\ \hline
+	\end{tabular}
+	%\end{adjustbox}
+	\end{allintypewriter}
+\end{center}
 \end{document}
