@@ -39,7 +39,10 @@
 Nearly every function from commonly used C libraries returns some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, most functions can return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions. In our work, we plan to analysis a suite of commonly used Linux applications and see if any do not correctly handle errors returned by commonly used system/library calls.
 
 \section{Motivation and Goals}
-In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicting that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if they correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. We plan to expand on this idea and test significantly more system/library calls in a similar way.
+In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicting that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if they correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. We plan to expand on this idea and test significantly more system/library calls in a similar way on more applications.
+
+Furthermore, we hope to design and implement a tool that will allow for others to easily test their programs for poorly handled return values. In this end, we plan to design a way to automatically generate function wrappers (see Section 3) for a system/library call specified by the user.  
+
 
 \section{Method}
 We do not expect our process to be terribly difficult to implement. Our main challenge is designing a way to wrap the system/library calls of interest. We need to be intercept calls in a way that is invisible and non-distributive to the application being tested. To solve this problem, Miller et al. extracted the binary of the call of interest (in their case \texttt{malloc}) and used a binary rewriter to rename \texttt{malloc} to \texttt{\_malloc}. They then wrote a new function called \texttt{malloc} which was called by the applications. This new version returned an error value with some probability or just passed the call along to \texttt{\_malloc}. We have come up with a similar solution that we believe is slightly more elegant.
@@ -112,7 +115,7 @@ ssize_t open(const char *pathname, int flags) {
 	fork & memccpy&\\
 	ioctl & printf&\\
 	mkdir & strto*&\\
-	mmap & &\\
+	mmap & fopen&\\
  	open & &\\
 	pipe & &\\
 	read & &\\
