@@ -26,3 +26,8 @@ careful with man page types
 return real errors
 return a closed file
 clean code
+
+links:
+https://www.gnu.org/software/libc/manual/html_node/Function-Index.html
+https://filippo.io/linux-syscall-table/
+https://sourceware.org/pthreads-win32/manual/index.html
