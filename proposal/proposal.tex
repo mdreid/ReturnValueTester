@@ -73,7 +73,12 @@ We do not expect our process to be terribly difficult to implement. Our main cha
 Linux systems have a built in environment variable named \texttt{LD\_PRELOAD} which allows users to load a shared library before starting an application. Most importantly, these preloaded libraries take precedence over any other libraries loaded by the application. Therefore if this preloaded library contains a function named, for example, \texttt{open}, any calls to \texttt{open} by the application will invoke the preloaded \texttt{open} and not the version found in the system library. This allows us to intercept any call and return an error message with some probability. In order to call the real version of \texttt{open}, the \texttt{dlsym} function is used. This function searches through dynamically loaded libraries and returns a function handle to a function whose name is given as a argument. This handle can then be used to call the original version of \texttt{open}. The code used to wrap \texttt{open} is given in code listing 1. This code is compiled into a position independent shared library file to be used with \texttt{LD\_PRELOAD}. This implementation is based on a tutorial found at \cite{preload}.
 
 There are some uncertainties that arise when using \texttt{LD\_PRELOAD}. Firstly, if a function from another library calls \texttt{open} it may bypass our wrapped version. Similarly, if the library containing \texttt{open} (\texttt{stdio}) is statically linked to a program, the original version may be called. We are currently investigating ways to handle these problems, and we feel that we can design an implementation using \texttt{LD\_PRELOAD} that is robust to these situations. If not, we will use a method similar to the one found in Miller et al.
-\pagebreak
+
+\subsection{Auto-Generating Wrappers}
+Due to the large number of calls we are interested in testing, it is in our best interest to automate the process of generating ``wrapper'' files as quickly and easily as possible. One possible technique for doing this is to traverse the AST of e.g. header files, and dynamically generate the \texttt{.c} code for each method signature of interest.
+
+Listing 2 shows a trivial example for the \texttt{open} call. However, it may be the case that this approach only covers some subset of the calls to be tested, and manual work is still required. Issues such as variadic functions and custom \texttt{typedef}s in the method signature will have to be dealt with. However, this preliminary work suggests that this technique may have potential to reduce the amount of manual work required.
+
 \begin{lstlisting}[caption=\texttt{open} wrapper]
 #define _GNU_SOURCE	//needed to compile as PIC
 #include <dlfcn.h>	//dlsym
@@ -88,6 +93,31 @@ ssize_t open(const char *pathname, int flags) {
 	real_open = dlsym(RTLD_NEXT, "open"); 	//get addr of real opean
 	real_open(pathnae, flags);					//call real open
 }
+\end{lstlisting}
+\begin{lstlisting}[caption=\texttt{gen\_open\_wrapper.py}  generates code identical to Listing 1]
+from pycparser import c_parser, c_generator
+
+# example method signature
+text = "int open(const char *pathname, int flags);"
+
+# parse the AST
+parser = c_parser.CParser()
+ast = parser.parse(text, filename='<none>')
+
+decl_node = ast.ext[-1]
+decl = decl_node.type
+gen = c_generator.CGenerator()
+
+with open('open_wrapper.c', 'w') as f:
+    f.write('#define _GNU_SOURCE\n')
+    f.write('#include <dlfcn.h>\n')
+    f.write('#include <stdio.h>\n\n')
+    f.write('static %s (*real_open) (%s) = NULL;\n\n' % (gen.visit(decl.type), ', '.join([gen.visit(param) for param in decl.args.params])))
+    f.write('%s {\n' % gen.visit(decl))
+    f.write('  printf("wrapped open\\n");\n')
+    f.write('  real_open = dlsym(RTLD_NEXT, "open");\n')
+    f.write('  return real_open(%s);\n' % ', '.join([param.name for param in decl.args.params]))
+    f.write('}\n')
 \end{lstlisting}
 
 %talking about LD_PRELOAD
