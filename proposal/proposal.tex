@@ -36,14 +36,16 @@
 \maketitle
 \setlength{\baselineskip}{18pt}
 \section{Introduction}
-Many commonly used C library functions return some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, many functions that can fail return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions, which can lead to unexpected behaviors. In our work, we plan to analyze a suite of commonly used Linux applications and see how they handle errors returned by commonly used system/library calls.
+Many commonly used C library functions return some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, many functions that can fail return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions, which can lead to unexpected behaviors. In our work, we plan to analyze a suite of standard Linux applications and see how they handle errors returned by commonly used system/library calls.
 
 \section{Motivation and Goals}
-In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicating that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if the programs correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. This motivates us to expand on this idea and test significantly more system/library calls in a similar way.
+In their paper \cite{bart}, Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicating that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if the programs correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. This motivates us to expand on this idea and test significantly more system/library calls in a similar way.
 
-In expanding on this work, we want to not only find crashes, but also investigate and analyze their sources. In doing so, we hope to determine where and why these calls are not being checked and whether there are any patterns. We would also like to provide a tool that others can use to test for return value errors. Likewise, programmers may use this tool as part of their test suite to confirm that their own programs handle error cases in the way expected. The following table displays a subset of calls which we plan to investigate.
+In expanding on this work, we want to not only find crashes, but also investigate and analyze their sources. In doing so, we hope to determine where and why these calls are not being checked and whether there are any patterns. We would also like to develop a tool that others can use to test for return value errors. Likewise, programmers may use this tool as part of their test suite to confirm that their own programs handle error cases in the way expected. Table 1 displays a subset of calls which we plan to investigate.
 
-\begin{center}
+\begin{table}
+	\centering
+	\caption{First round of calls to test}
 	\begin{allintypewriter}
 %	\begin{adjustbox}{width=1\textwidth}
 	\begin{tabular}{|c |c | c|}
@@ -63,12 +65,15 @@ In expanding on this work, we want to not only find crashes, but also investigat
 	\end{tabular}
 	%\end{adjustbox}
 	\end{allintypewriter}
-\end{center}
+\end{table}
 
 \section{Method}
-We do not expect our process to be terribly difficult to implement. Our main challenge is designing a way to wrap the system/library calls of interest. We need to be intercept calls in a way that is invisible and non-disruptive to the application being tested. To solve this problem, Miller et al. extracted the binary of the call of interest (in their case \texttt{malloc}) and used a binary rewriter to rename \texttt{malloc} to \texttt{\_malloc}. They then wrote a new function called \texttt{malloc} which was called by the applications. This new version returned an error value with some probability or just passed the call along to \texttt{\_malloc}. We have come up with a similar solution that we believe is slightly more elegant.
+We do not expect our process to be terribly difficult to implement. Our main challenge is designing a way to wrap the system/library calls of interest. We need to be able to intercept calls in a way that is invisible and non-disruptive to the application being tested. To solve this problem, Miller et al. extracted the binary of the call of interest (in their case \texttt{malloc}) and used a binary rewriter to rename \texttt{malloc} to \texttt{\_malloc}. They then wrote a new function called \texttt{malloc} which was called by the applications being tested. This new version returned an error value with some probability or just passed the call along to \texttt{\_malloc}. We have come up with a similar solution that has a lower startup cost.
 
-Linux systems have a built in environment variable named \texttt{LD\_PRELOAD} which allows users to load a shared library before starting an application. Most importantly, these preloaded libraries take precedence over any other libraries loaded by the application. Therefore if this preloaded library contains a function named, for example, \texttt{open}, any calls to \texttt{open} by the application will invoke the preloaded \texttt{open} and not the version found in the system library(?). This allows us to intercept any call and return an error message with some probability. In order to call the real version of \texttt{open}, the \texttt{dlsym} function is used. This function searches through dynamically loaded libraries and returns a function handle to a function whose name is given as a argument. This handle can then be used to call the original version of \texttt{open}. The code used to wrap \texttt{open} is given in code listing 1. This code is compiled into a position independent shared library file to be used with \texttt{LD\_PRELOAD}. This implementation is based on a tutorial found at (cite).
+Linux systems have a built in environment variable named \texttt{LD\_PRELOAD} which allows users to load a shared library before starting an application. Most importantly, these preloaded libraries take precedence over any other libraries loaded by the application. Therefore if this preloaded library contains a function named, for example, \texttt{open}, any calls to \texttt{open} by the application will invoke the preloaded \texttt{open} and not the version found in the system library(?). This allows us to intercept any call and return an error message with some probability. In order to call the real version of \texttt{open}, the \texttt{dlsym} function is used. This function searches through dynamically loaded libraries and returns a function handle to a function whose name is given as a argument. This handle can then be used to call the original version of \texttt{open}. The code used to wrap \texttt{open} is given in code listing 1. This code is compiled into a position independent shared library file to be used with \texttt{LD\_PRELOAD}. This implementation is based on a tutorial found at \cite{preload}.
+
+There are some uncertainties that arise when using \texttt{LD\_PRELOAD}. Firstly, if a function from another library calls \texttt{open} it may bypass our wrapped version. Similarly, if the library containing \texttt{open} (\texttt{stdio}) is statically linked to a program, the original version may be called. We are currently investigating ways to handle these problems, and we feel that we can design an implementation using \texttt{LD\_PRELOAD} that is robust to these situations. If not, we will use a method similar to the one found in Miller et al.
+\pagebreak
 \begin{lstlisting}[caption=\texttt{open} wrapper]
 #define _GNU_SOURCE	//needed to compile as PIC
 #include <dlfcn.h>	//dlsym
@@ -98,7 +103,7 @@ We found that \texttt{gcc} and \texttt{cat} were more straightforward. We found 
 %open call on some command line apps
 
 \section{Schedule}
-
+\subsection{Important Dates}
 \begin{center}
 	\begin{adjustbox}{width=1\textwidth}
 	\def\arraystretch{1.5}
@@ -121,16 +126,14 @@ We found that \texttt{gcc} and \texttt{cat} were more straightforward. We found 
 		Dec 5th & Dec 6th & Dec 7th & Dec 8th & Dec 9th & Dec 10th & Dec 11th \\ 
 		No class &  & No class&  & \textbf{Paper draft due to referees} &  &  \\ \hline
 		Dec 12th & Dec 13th & Dec 14th & Dec 15th & Dec 16th & Dec 17th & Dec 18th \\ 
-		 &  &  & \textbf{Paper reviews back to author} &  &  &  \\ \hline
+		 &  & \textbf{Paper reviews back to author} &  &  &  &  \\ \hline
 		Dec 19th & Dec 20th & Dec 21st & Dec 22nd & Dec 23rd & Dec 24th & Dec 25th \\
 		\textbf{Final project papers due} &  & \textbf{Project Poster Session} &  &  &  & \\ \hline
 	\end{tabular}
-	
 	\end{adjustbox}
 \end{center}
 
-
-\subsection{Weekly Schedule}
+\subsection{Weekly Work Goals}
 \noindent Week 1 (10/17 - 10/23): Submit project proposal\\
 Week 2 (10/24 - 10/31): Write wrapper code generation code, test one call\\
 Week 3 (10/31 - 11/06): Analyze source code, investigate crashes\\
@@ -139,4 +142,12 @@ Week 7 (11/28 - 12/4): Start writing paper, package project code as tool\\
 Week 8 (12/5 - 12/11): Finish writing paper\\
 Week 9 (12/12 - 12/18): Revise paper, work on poster\\
 
+\begin{thebibliography}{9}
+	\bibitem{bart}
+	B.P. Miller, D. Koski, C.P. Lee, V. Maganty, R. Murthy, A. Natarajan, and J. Steidl, "Fuzz Revisited: A Re-examination of the Reliability of UNIX Utilities and Services", \textit{Computer Sciences Technical Report \#1268}, University of Wisconsin-Madison, April 1995.
+	
+	\bibitem{preload}
+	S. Barghi, "How to wrap a system call (libc function) in Linux", September 2014.\\
+	\texttt{http://samanbarghi.com/blog/2014/09/05/how-to-wrap-a-system-call-libc-function-in-linux/}
+\end{thebibliography}
 \end{document}
