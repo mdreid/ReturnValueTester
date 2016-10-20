@@ -36,16 +36,37 @@
 \maketitle
 \setlength{\baselineskip}{18pt}
 \section{Introduction}
-Nearly every function from commonly used C libraries returns some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, most functions can return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions. In our work, we plan to analysis a suite of commonly used Linux applications and see if any do not correctly handle errors returned by commonly used system/library calls.
+Many commonly used C library functions return some value. In most cases, these values indicate something that is relevant to the  functions operations, such as a file descriptor, number of bytes processed, or a pointer to some data. Additionally, many functions that can fail return some predefined value that indicates that an error occurred during the function's execution. Unfortunately, many programmers have the bad habit of not checking these return values for such error conditions, which can lead to unexpected behaviors. In our work, we plan to analyze a suite of commonly used Linux applications and see how they handle errors returned by commonly used system/library calls.
 
 \section{Motivation and Goals}
-In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicting that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if they correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. We plan to expand on this idea and test significantly more system/library calls in a similar way on more applications.
+In their paper (cite), Miller et al. modified the \texttt{malloc} library function to return \texttt{NULL} with some probability indicating that memory allocation has failed. They then tested a variety of Linux utilities using this version of \texttt{malloc} to test if the programs correctly handled this error case. Surprisingly, the majority of these utilities did not correctly handle this case and crashed in a variety of ways. This motivates us to expand on this idea and test significantly more system/library calls in a similar way.
 
-Furthermore, we hope to design and implement a tool that will allow for others to easily test their programs for poorly handled return values. In this end, we plan to design a way to automatically generate function wrappers (see Section 3) for a system/library call specified by the user.  
+In expanding on this work, we want to not only find crashes, but also investigate and analyze their sources. In doing so, we hope to determine where and why these calls are not being checked and whether there are any patterns. We would also like to provide a tool that others can use to test for return value errors. Likewise, programmers may use this tool as part of their test suite to confirm that their own programs handle error cases in the way expected. The following table displays a subset of calls which we plan to investigate.
 
+\begin{center}
+	\begin{allintypewriter}
+%	\begin{adjustbox}{width=1\textwidth}
+	\begin{tabular}{|c |c | c|}
+	\hline
+	System Calls & \texttt{libc} calls & Pthread calls \\ \hline \hline
+	close & free& pthread\_cond\_init\\ 
+	creat & kmalloc& pthread\_create\\
+	dup & malloc&pthread\_mutex\_init\\
+	fork & memccpy&\\
+	ioctl & printf&\\
+	mkdir & strto*&\\
+	mmap & &\\
+ 	open & &\\
+	pipe & &\\
+	read & &\\
+	write & &\\ \hline
+	\end{tabular}
+	%\end{adjustbox}
+	\end{allintypewriter}
+\end{center}
 
 \section{Method}
-We do not expect our process to be terribly difficult to implement. Our main challenge is designing a way to wrap the system/library calls of interest. We need to be intercept calls in a way that is invisible and non-distributive to the application being tested. To solve this problem, Miller et al. extracted the binary of the call of interest (in their case \texttt{malloc}) and used a binary rewriter to rename \texttt{malloc} to \texttt{\_malloc}. They then wrote a new function called \texttt{malloc} which was called by the applications. This new version returned an error value with some probability or just passed the call along to \texttt{\_malloc}. We have come up with a similar solution that we believe is slightly more elegant.
+We do not expect our process to be terribly difficult to implement. Our main challenge is designing a way to wrap the system/library calls of interest. We need to be intercept calls in a way that is invisible and non-disruptive to the application being tested. To solve this problem, Miller et al. extracted the binary of the call of interest (in their case \texttt{malloc}) and used a binary rewriter to rename \texttt{malloc} to \texttt{\_malloc}. They then wrote a new function called \texttt{malloc} which was called by the applications. This new version returned an error value with some probability or just passed the call along to \texttt{\_malloc}. We have come up with a similar solution that we believe is slightly more elegant.
 
 Linux systems have a built in environment variable named \texttt{LD\_PRELOAD} which allows users to load a shared library before starting an application. Most importantly, these preloaded libraries take precedence over any other libraries loaded by the application. Therefore if this preloaded library contains a function named, for example, \texttt{open}, any calls to \texttt{open} by the application will invoke the preloaded \texttt{open} and not the version found in the system library(?). This allows us to intercept any call and return an error message with some probability. In order to call the real version of \texttt{open}, the \texttt{dlsym} function is used. This function searches through dynamically loaded libraries and returns a function handle to a function whose name is given as a argument. This handle can then be used to call the original version of \texttt{open}. The code used to wrap \texttt{open} is given in code listing 1. This code is compiled into a position independent shared library file to be used with \texttt{LD\_PRELOAD}. This implementation is based on a tutorial found at (cite).
 \begin{lstlisting}[caption=\texttt{open} wrapper]
@@ -70,6 +91,10 @@ ssize_t open(const char *pathname, int flags) {
 	%wont work on windows
 
 \section{A Small Example}
+As a proof of concept, we used a wrapped call to \texttt{open} on a handful of common Unix utilities: \texttt{grep}, \texttt{gcc}, and \texttt{cat}. Our call to \texttt{open} set \texttt{errno} to \texttt{EACCES}, which indicates that permission to the file is denied. Interestingly, \texttt{grep} does not make any calls to \texttt{open}. A brief overview of the source code reveals that it calls \texttt{fopen} and \texttt{fts\_open} instead. Furthermore, within the \texttt{fopen} source code, calls to \texttt{open} have a different function signature from our wrapper and therefore bypassed it. We will have to be cognizant of this overloading in the future.
+
+We found that \texttt{gcc} and \texttt{cat} were more straightforward. We found that \texttt{gcc} made 70 calls to \texttt{open} when compiling a simple one source file C program. When we returned errors probabilistically, we found robust handling of errors in a variety of locations. In some situations when a header file could not be opened, we received the error message "(Permission denied) Bug not reproducible." This suggests that \texttt{gcc} reattempts to compile the source file at least once. This is an example of a behavior that we will need to further investigate. Finally, \texttt{cat} displayed the simplest behavior: it either executed successfully or terminated and reported "Permission denied."
+
 %open call on some command line apps
 
 \section{Schedule}
@@ -94,34 +119,24 @@ ssize_t open(const char *pathname, int flags) {
 		Nov 28th & Nov 29th & Nov 30th & Dec 1st & Dec 2nd & Dec 3rd & Dec 4th \\ 
 		 &  &  &  &  &  &  \\ \hline
 		Dec 5th & Dec 6th & Dec 7th & Dec 8th & Dec 9th & Dec 10th & Dec 11th \\ 
-		No class &  & No class&  & Paper draft due to referees &  &  \\ \hline
+		No class &  & No class&  & \textbf{Paper draft due to referees} &  &  \\ \hline
 		Dec 12th & Dec 13th & Dec 14th & Dec 15th & Dec 16th & Dec 17th & Dec 18th \\ 
-		 &  &  & Paper reviews back to author &  &  &  \\ \hline
+		 &  &  & \textbf{Paper reviews back to author} &  &  &  \\ \hline
 		Dec 19th & Dec 20th & Dec 21st & Dec 22nd & Dec 23rd & Dec 24th & Dec 25th \\
-		Final project papers due &  & Project Poster Session &  &  &  & \\ \hline
+		\textbf{Final project papers due} &  & \textbf{Project Poster Session} &  &  &  & \\ \hline
 	\end{tabular}
+	
 	\end{adjustbox}
 \end{center}
 
-\begin{center}
-	\begin{allintypewriter}
-%	\begin{adjustbox}{width=1\textwidth}
-	\begin{tabular}{|c |c | c|}
-	\hline
-	System Calls & \texttt{libc} calls & Pthread calls \\ \hline \hline
-	close & free& pthread\_cond\_init\\ 
-	creat & kmalloc& pthread\_create\\
-	dup & malloc&pthread\_mutex\_init\\
-	fork & memccpy&\\
-	ioctl & printf&\\
-	mkdir & strto*&\\
-	mmap & fopen&\\
- 	open & &\\
-	pipe & &\\
-	read & &\\
-	write & &\\ \hline
-	\end{tabular}
-	%\end{adjustbox}
-	\end{allintypewriter}
-\end{center}
+
+\subsection{Weekly Schedule}
+\noindent Week 1 (10/17 - 10/23): Submit project proposal\\
+Week 2 (10/24 - 10/31): Write wrapper code generation code, test one call\\
+Week 3 (10/31 - 11/06): Analyze source code, investigate crashes\\
+Weeks 4-6 (11/07 - 11/27): Expand scope - test more calls and more programs\\
+Week 7 (11/28 - 12/4): Start writing paper, package project code as tool\\
+Week 8 (12/5 - 12/11): Finish writing paper\\
+Week 9 (12/12 - 12/18): Revise paper, work on poster\\
+
 \end{document}
