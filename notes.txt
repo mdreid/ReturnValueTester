@@ -31,3 +31,27 @@ links:
 https://www.gnu.org/software/libc/manual/html_node/Function-Index.html
 https://filippo.io/linux-syscall-table/
 https://sourceware.org/pthreads-win32/manual/index.html
+
+
+Worklog:
+-------------------------------------------
+
+10/25 (Colin + Keith):
+  - Investigating variadic functions (e.g. open with 2 or 3 arguments)
+    - Results: can't know how many arguments are passed to a function in C
+    - e.g. can't know whether 'mode' is going to be a garbage value or not when popped off the va_list
+    - Options:
+      - Use another method other than LD_PRELOAD:
+      	- Dyninst
+	- ptrace (unlikely)
+	- valgrind (unlikely but interesting; runs an x86 simulator)
+    - Questions:
+      - What % of system calls are variadic? Are we spending 90% of our time thinking about the 10% case?
+  - Tested read() on different utilities/programs
+    - Got interesting results with w, diff -q, and firefox
+    - TODO: add code to print out the seed value for the RNG, so that we can do deterministic testing for future runs
+  - Looked into codegen from header files
+    - Found pycparserext, which allows for parsing of GNU C code
+    - TODO: do actual codegen for function defs
+  - Dowloaded coreutils git repo
+    - Most memory allocation calls are through xmalloc(), which aborts if NULL
