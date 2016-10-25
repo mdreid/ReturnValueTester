@@ -2,7 +2,9 @@
 
 #include <time.h>
 #include <stdlib.h>
+
 int been_setup = 0;
+
 // should be run before subsequent calls to my_rand(), but only once.
 // if setup() is not called, then the RNG will initialize with a default seed of 1, leading
 // to deterministic behavior.
@@ -14,6 +16,8 @@ int rand_bool(double p) {// returns 1 with probability p, else 0
   		srand((unsigned int) time(NULL));
 		been_setup = 1;	
 	}
+	//srand(time(NULL));
 	int r = rand();    //returns a pseudo-random integer between 0 and RAND_MAX
   	return (double) r / RAND_MAX < p ? 1 : 0;
+	//return (double) r / RAND_MAX < p ? 1 : 0;
 }
