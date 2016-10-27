@@ -13,11 +13,16 @@ int been_setup = 0;
 // setup() should be called before any calls to rand_bool.
 int rand_bool(double p) {// returns 1 with probability p, else 0
   	if (!been_setup) { 
-  		srand((unsigned int) time(NULL));
+        unsigned int seed = time(NULL);
+        printf("seed: %u\n", seed);
+  		srand(seed);
 		been_setup = 1;	
 	}
-	//srand(time(NULL));
-	int r = rand();    //returns a pseudo-random integer between 0 and RAND_MAX
-  	return (double) r / RAND_MAX < p ? 1 : 0;
-	//return (double) r / RAND_MAX < p ? 1 : 0;
+    return seeded_bool(p);
+}
+
+/* Note: If calling into this directly, the caller should have already seeded srand() */
+int seeded_bool(double p) {
+    int r = rand();
+    return (double) r / RAND_MAX < p ? 1 : 0;
 }
