@@ -35,20 +35,18 @@ static %s %s(*%s) (%s) = NULL;
 }
     """
     
-    print header % filename 
-
     for node in ast.ext:
         if isinstance(node, c_ast.FuncDef) or not isinstance(node.type, c_ast.FuncDecl):
             continue
 
         # skip over functions with __noreturn__
         if hasattr(node.type.type, 'attributes') and any([e.name == "__noreturn__" for e in node.type.type.attributes.exprs]):
-            print '// skipped %s because of __noreturn__' % node.name
+            print 'skipped %s because of __noreturn__' % node.name
             continue
 
         # check for variadic args, skip if found
         if any([isinstance(arg, c_ast.EllipsisParam) for arg in node.type.args.params]):
-            print '// skipped %s because of variadic arg' % node.name
+            print 'skipped %s because of variadic arg' % node.name
             continue
 
         new_fn = node.name
@@ -65,24 +63,28 @@ static %s %s(*%s) (%s) = NULL;
             arglist
         )
 
-        print code_template % (
-            gen.visit(node.type.type), # int
-            '*' if isinstance(node.type.type, c_ast.PtrDecl) else '',            
-            real_fn,                   # real_open
-            gen.visit(node.type.args), # (args with types)
-            func_sig,
-            #"%s %s(%s)" % (gen.visit(node.type.type), new_fn, gen.visit(node.type.args)),
-            #gen.visit(node),          # int open( (args with types) )
-            "called %s!" % new_fn,
-            real_fn,                   # real_open
-            new_fn,                    # open
-            "return %s(%s);" % (       # return
+        new_file = './c/%s_wrapper.c' % new_fn
+        with open(new_file, 'w') as f:
+            f.write( header % filename )
+            f.write( code_template % (
+                gen.visit(node.type.type), # int
+                '*' if isinstance(node.type.type, c_ast.PtrDecl) else '',            
                 real_fn,                   # real_open
-                ', '.join([a.name if a.name is not None else '' for a in node.type.args.params]),
-            # (args without types)
-            ) if gen.visit(node.type.type) != "void" else ""
-        )
+                gen.visit(node.type.args), # (args with types)
+                func_sig,
+                #"%s %s(%s)" % (gen.visit(node.type.type), new_fn, gen.visit(node.type.args)),
+                #gen.visit(node),          # int open( (args with types) )
+                "called %s!\\n" % new_fn,
+                real_fn,                   # real_open
+                new_fn,                    # open
+                "%s%s(%s);" % (       # return
+                    "return " if gen.visit(node.type.type) != "void" else "",
+                    real_fn,                   # real_open
+                    ', '.join([a.name if a.name is not None else '' for a in node.type.args.params]),
+                )
+            ))
+        print 'wrote %s' % new_file
 
 if __name__ == "__main__":
-    assert len(sys.argv) == 2, "Must include filename argument for the header file!"
+    assert len(sys.argv) == 2, "Usage: python gen_wrappers.py <file.h>"
     main(sys.argv[1])

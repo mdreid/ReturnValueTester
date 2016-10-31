@@ -1,6 +1,7 @@
-parse:
-	python2.7 test_parsing_header_file.py stdlib.h >| stdlib.c
-compile:
-	gcc -fPIC -shared -o stdlib.so stdlib.c -ldl
+c:
+	python2.7 gen_wrappers.py $(HEADER)
+
 clean:
-	rm -f *.c *.so
+	rm -f c/*.c
+
+.PHONY: c
