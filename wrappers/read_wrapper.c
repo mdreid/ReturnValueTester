@@ -9,7 +9,7 @@ static ssize_t (*real_read) (int fd, void *buf, size_t count) = NULL;
 //read wrapper
 ssize_t read(int fd, void *buf, size_t count) {
 	int rand = rand_bool(.1);
-	printf("rand num is %d\n", rand);
+	//printf("rand num is %d\n", rand);
 	if (rand) {
 		errno = EBADF;
 		return -1;
