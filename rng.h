@@ -2,7 +2,7 @@
 
 #include <time.h>
 #include <stdlib.h>
-
+#include <stdio.h>
 int been_setup = 0;
 
 // should be run before subsequent calls to my_rand(), but only once.
@@ -14,7 +14,7 @@ int been_setup = 0;
 int rand_bool(double p) {// returns 1 with probability p, else 0
   	if (!been_setup) { 
         unsigned int seed = time(NULL);
-        printf("seed: %u\n", seed);
+        //printf("seed: %u\n", seed);
   		srand(seed);
 		been_setup = 1;	
 	}
@@ -24,5 +24,6 @@ int rand_bool(double p) {// returns 1 with probability p, else 0
 /* Note: If calling into this directly, the caller should have already seeded srand() */
 int seeded_bool(double p) {
     int r = rand();
+	//printf("%d", r);
     return (double) r / RAND_MAX < p ? 1 : 0;
 }

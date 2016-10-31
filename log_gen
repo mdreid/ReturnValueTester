@@ -1,0 +1,12 @@
+#!/bin/bash
+TIMESTAMP=$(date +%Y-%m-%d)
+FILENAME=$2_$3_$TIMESTAMP.txt
+LINE="--------------------"
+for i in $(seq 1 $1)
+do	
+	echo $LINE >> $FILENAME
+ 	./seed >> $FILENAME
+	LD_PRELOAD=$PWD/$2_wrapper.so ${@:3} >> $FILENAME
+	echo $LINE >> $FILENAME
+done
+
