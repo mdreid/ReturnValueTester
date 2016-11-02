@@ -1,0 +1,4 @@
+./set_seed $1 &
+SEED_ID=$!
+LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3}
+kill $SEED_ID
