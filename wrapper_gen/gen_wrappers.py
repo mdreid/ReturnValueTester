@@ -1,13 +1,8 @@
 import sys
-
-sys.path.append("pycparser-master")
+import os
 from pycparser import c_generator, preprocess_file, c_ast
-
-# this is a fork of pycparser that can parse GNU extensions
-sys.path.append("pycparserext")
 from pycparserext.ext_c_parser import GnuCParser
 from pycparserext.ext_c_generator import GnuCGenerator
-import os
 
 # header_file: path to header file to read and process
 # out_dir: directory to write files to
