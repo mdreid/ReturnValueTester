@@ -6,6 +6,3 @@
 *.log
 *.pdf
 *.synctex.gz
-wrapper_gen/pycparser-master/*
-wrapper_gen/pycparserext/*
-wrapper_gen/*.h
