@@ -72,11 +72,11 @@ def write_file(out_dir, header_file, node, errno, retval):
 static %s %s(*%s) (%s) = NULL;
 %s {
   int rand = rand_bool(0.1);
-  if(rand) {
+  %s = dlsym(RTLD_NEXT, "%s");
+  if(rand || (%s == NULL)) {
     %s
     return %s;
   } else {
-    %s = dlsym(RTLD_NEXT, "%s");
     %s
   }
 }
@@ -107,10 +107,11 @@ static %s %s(*%s) (%s) = NULL;
             real_fn,                   # real_open
             gen.visit(node.type.args), # (args with types)
             func_sig,
-            ("errno = %s;" % errno) if errno is not None else "",
-            "%s" % retval,
             real_fn,                   # real_open
-            new_fn,                    # open
+            new_fn,
+            real_fn,                   # real_open
+            ("errno = %s;" % errno) if errno is not None else "",
+            retval,
             "%s%s(%s);" % (            # return
                 "return " if gen.visit(node.type.type) != "void" else "",
                 real_fn,               # real_open
