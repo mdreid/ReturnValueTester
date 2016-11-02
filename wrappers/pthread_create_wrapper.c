@@ -1,20 +1,20 @@
+
 #define _GNU_SOURCE
 #include <dlfcn.h>
 #include <stdio.h>
-#include <pthread.h>
 #include <errno.h>
+#include <stddef.h>
 #include "rng.h"
+#include <pthread.h>
 
-static int (*real_pthread_create) (pthread_t *thread, const pthread_attr_t *attr,
-		void *(*start_routine) (void *), void *arg) = NULL;
-
-int pthread_create (pthread_t *thread, const pthread_attr_t *attr,
-		void *(*start_routine) (void *), void *arg) {
-	int rand = rand_bool(.01);
-	if (rand) {
-		return EAGAIN;
-	}
-	//printf("wrapped pthread_create\n");
-	real_pthread_create = dlsym(RTLD_NEXT, "pthread_create");
-	return real_pthread_create(thread, attr, start_routine, arg);
+static int (*real_pthread_create) (pthread_t *__restrict __newthread, const pthread_attr_t *__restrict __attr, void *(*__start_routine)(void *), void *__restrict __arg) = NULL;
+extern int pthread_create(pthread_t *__restrict __newthread, const pthread_attr_t *__restrict __attr, void *(*__start_routine)(void *), void *__restrict __arg) {
+  int rand = rand_bool(0.1);
+  real_pthread_create = dlsym(RTLD_NEXT, "pthread_create");
+  if(rand || (real_pthread_create == NULL)) {
+    
+    return EAGAIN;
+  } else {
+    return real_pthread_create(__newthread, __attr, __start_routine, __arg);
+  }
 }
