@@ -10,8 +10,10 @@ static int (*real_pthread_create) (pthread_t *thread, const pthread_attr_t *attr
 
 int pthread_create (pthread_t *thread, const pthread_attr_t *attr,
 		void *(*start_routine) (void *), void *arg) {
-	int rand = rand_bool(.01);
+	printf("calling pthread_create\n");
+	int rand = rand_bool(.1);
 	if (rand) {
+
 		return EAGAIN;
 	}
 	//printf("wrapped pthread_create\n");
