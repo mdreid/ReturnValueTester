@@ -1,0 +1,64 @@
+--------------------
+seed: 1478111701
+ 13:35:02 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws :0       :0               11:06   ?xdm?  30:20   0.13s init --user
+samplaws pts/0    :0               13:18    4.00s  1.14s  0.00s w
+--------------------
+--------------------
+seed: 1478111702
+ 13:35:03 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws :0       :0               11:06   ?xdm?  27:31   0.13s init --user
+samplaws pts/0    :0               13:18    5.00s  1.12s  0.00s w
+--------------------
+--------------------
+seed: 1478111703
+ 13:35:04 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws :0       :0               11:06   ?xdm?  30:06   0.13s init --user
+samplaws pts/0    :0               13:18    6.00s  1.12s  0.00s w
+--------------------
+--------------------
+seed: 1478111704
+ 13:35:05 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws pts/0    :0               13:18    7.00s  1.12s  0.00s w
+--------------------
+--------------------
+seed: 1478111705
+/proc/loadavg: Bad file descriptor
+--------------------
+--------------------
+seed: 1478111706
+ 13:35:07 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws :0       :0               11:06   ?xdm?  33:47   0.13s init --user
+samplaws pts/0    :0               13:18    9.00s  0.12s  0.00s w
+--------------------
+--------------------
+seed: 1478111707
+ 13:35:08 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws :0       :0               11:06   ?xdm?  33:23   0.13s init --user
+samplaws pts/0    :0               13:18   10.00s  0.12s  0.00s w
+--------------------
+--------------------
+seed: 1478111708
+ 13:35:09 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws pts/0    :0               13:18   11.00s  1.12s  0.00s w
+--------------------
+--------------------
+seed: 1478111709
+ 13:35:10 up 2 days,  7:10,  2 users,  load average: 0.01, 0.11, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws pts/0    :0               13:18   12.00s  1.13s  0.00s w
+--------------------
+--------------------
+seed: 1478111710
+ 13:35:11 up 2 days,  7:10,  2 users,  load average: 0.08, 0.12, 0.20
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+samplaws :0       :0               11:06   ?xdm?  23:26   0.13s init --user
+samplaws pts/0    :0               13:18   13.00s  1.11s  0.00s w
+--------------------

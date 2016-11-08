@@ -84,11 +84,14 @@ static %s %s(*%s) (%s) = NULL;
 
     arglist = gen.visit(node.type.args)
 
+    is_ptr_result = isinstance(node.type.type, c_ast.PtrDecl)
+    is_void_result = gen.visit(node.type.type) == "void" and not is_ptr_result
+
     # eliminate __extension__ and stuff like it from the function signature
     func_sig = "%s %s %s%s(%s)" % (
         ' '.join(node.storage), 
         gen.visit(node.type.type), 
-        '*' if isinstance(node.type.type, c_ast.PtrDecl) else '',
+        '*' if is_ptr_result else '',
         new_fn, 
         arglist
     )
@@ -108,7 +111,7 @@ static %s %s(*%s) (%s) = NULL;
             ("errno = %s;" % errno) if errno is not None else "",
             retval,
             "%s%s(%s);" % (            # return
-                "return " if gen.visit(node.type.type) != "void" else "",
+                "return " if not is_void_result else "",
                 real_fn,               # real_open
                 ', '.join([a.name if a.name is not None else '' for a in node.type.args.params]),
             )

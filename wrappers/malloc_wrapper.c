@@ -15,6 +15,6 @@ extern void *malloc(size_t __size) {
     
     return NULL;
   } else {
-    real_malloc(__size);
+    return real_malloc(__size);
   }
 }
