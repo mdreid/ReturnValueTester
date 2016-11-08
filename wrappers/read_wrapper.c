@@ -1,20 +1,20 @@
-#define _GNU_SOURCE	//needed to compile as PIC
+
+#define _GNU_SOURCE
 #include <dlfcn.h>
 #include <stdio.h>
 #include <errno.h>
+#include <stddef.h>
 #include "rng.h"
-//function pointer for real read
-static ssize_t (*real_read) (int fd, void *buf, size_t count) = NULL;
+#include <unistd.h>
 
-//read wrapper
-ssize_t read(int fd, void *buf, size_t count) {
-	int rand = rand_bool(.1);
-	//printf("rand num is %d\n", rand);
-	real_read = dlsym(RTLD_NEXT, "read");
-	if (rand || (real_read == NULL)) {
-		errno = EBADF;
-		return -1;
-	} else {
-		return real_read(fd, buf, count); 		//call real read
-	}
+static ssize_t (*real_read) (int __fd, void *__buf, size_t __nbytes) = NULL;
+extern ssize_t read(int __fd, void *__buf, size_t __nbytes) {
+  int rand = rand_bool(0.1);
+  real_read = dlsym(RTLD_NEXT, "read");
+  if(rand || (real_read == NULL)) {
+    errno = EBADF;
+    return -1;
+  } else {
+    return real_read(__fd, __buf, __nbytes);
+  }
 }

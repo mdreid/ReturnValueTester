@@ -1,18 +1,20 @@
+
 #define _GNU_SOURCE
 #include <dlfcn.h>
 #include <stdio.h>
 #include <errno.h>
+#include <stddef.h>
 #include "rng.h"
+#include <stdio.h>
 
-static FILE* (*real_fopen) (const char *pathname, const char *mode) = NULL;
-
-FILE* fopen(const char *pathname, const char *mode) {
-	int rand_num = rand_bool(.1);
-	/*if (rand_num) {
-		errno = EACCES;
-		return -1;
-	} else {*/
-		printf("called fopen\n");
-		real_fopen = dlsym(RTLD_NEXT, "fopen");
-		return real_fopen(pathname, mode);
-	}
+static FILE *(*real_fopen) (const char *__restrict __filename, const char *__restrict __modes) = NULL;
+extern FILE *fopen(const char *__restrict __filename, const char *__restrict __modes) {
+  int rand = rand_bool(0.1);
+  real_fopen = dlsym(RTLD_NEXT, "fopen");
+  if(rand || (real_fopen == NULL)) {
+    errno = EINVAL;
+    return NULL;
+  } else {
+    return real_fopen(__filename, __modes);
+  }
+}
