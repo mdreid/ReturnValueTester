@@ -22,7 +22,13 @@ int main(int argc, char* argv[]) {
 	}
 	unsigned int seed;
 	if (argc == 1) {
-		seed = time(NULL);
+ 	        struct timespec t;
+		int res = clock_gettime(CLOCK_MONOTONIC, &t);
+		if(res < 0) {
+		  perror("clock_gettime");
+		  exit(1);
+		}
+		seed = (unsigned int) t.tv_nsec;
 	} else {
 		char *ptr;
 		seed = (unsigned int) strtoul(argv[1], &ptr, 10);

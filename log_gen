@@ -8,7 +8,6 @@ do
 	echo $LINE >> logs/$FILENAME
 	./set_seed &
 	SEED_ID=$!
-	sleep 1
 	LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3} >> logs/$FILENAME 2>&1
 	echo $LINE >> logs/$FILENAME
 	kill $SEED_ID
