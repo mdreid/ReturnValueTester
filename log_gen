@@ -5,11 +5,12 @@ FILENAME=$2_$3_$TIMESTAMP.txt
 LINE="--------------------------------------------------------------------------------------------"
 for i in $(seq 1 $1)
 do	
-	echo $LINE >> logs/$FILENAME
+	mkdir -p logs/$3
+	echo $LINE >> logs/$3/$FILENAME
 	./set_seed &
 	SEED_ID=$!
-	LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3} >> logs/$FILENAME 2>&1
-	echo $LINE >> logs/$FILENAME
+	LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3} >> logs/$3/$FILENAME 2>&1
+	echo $LINE >> logs/$3/$FILENAME
 	kill $SEED_ID
 done
 
