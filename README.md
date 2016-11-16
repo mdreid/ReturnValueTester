@@ -12,3 +12,9 @@ Notes:
   - [GNU](https://www.gnu.org/software/libc/manual/html_node/Backtraces.html)
   - Every time we intercept a system call, we should dump out the most recent version of the stack
   - Then, between this and the core dump, we should be able to infer where the program crashed
+- Working with core files:
+  - [Stack Overflow](http://stackoverflow.com/a/8806534): `gdb /path/to/binary /path/to/core`
+- To get core files working in VM:
+  - Make sure that you have run `ulimit -c unlimited` (and check with `ulimit -a`) to enable core files
+  - Set `core_pattern` to point to a directory that you can write, and with a useful file pattern (see `core(5)`)
+  - e.g. `sudo sysctl -w kernel.core_pattern='/home/keith/core/%e_%p_%i_%t.core'`
