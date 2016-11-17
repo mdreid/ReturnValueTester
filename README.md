@@ -18,3 +18,8 @@ Notes:
   - Make sure that you have run `ulimit -c unlimited` (and check with `ulimit -a`) to enable core files
   - Set `core_pattern` to point to a directory that you can write, and with a useful file pattern (see `core(5)`)
   - e.g. `sudo sysctl -w kernel.core_pattern='/home/keith/core/%e_%p_%i_%t.core'`
+- Debugging coreutils with gdb:
+  - Download and build [coreutils](http://stackoverflow.com/questions/22005048/compile-specific-source-file-in-linux-coreutils-package)
+  - `gdb <util>`
+  - `set env set environment LD_PRELOAD=./wrappers/malloc_wrapper.so`
+  - `break /u/w/f/wfunkhouser/private/cs736/final/ReturnValueTester/wrappers/malloc_wrapper.c:malloc`
