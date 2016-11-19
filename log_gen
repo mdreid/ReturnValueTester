@@ -9,7 +9,10 @@ do
 	echo $LINE >> logs/$3/$FILENAME
 	./set_seed &
 	SEED_ID=$!
-	LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3} >> logs/$3/$FILENAME 2>&1
+    OLD_LD_PRELOAD=$LD_PRELOAD
+    export LD_PRELOAD=$PWD/wrappers/$2_wrapper.so 
+	${@:3} >> logs/$3/$FILENAME 2>&1
+    export LD_PRELOAD=$OLD_LD_PRELOAD
 	echo $LINE >> logs/$3/$FILENAME
 	kill $SEED_ID
 done
