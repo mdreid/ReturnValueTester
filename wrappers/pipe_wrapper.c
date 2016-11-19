@@ -9,7 +9,9 @@
 
 static int (*real_pipe) (int __pipedes[2]) = NULL;
 extern int pipe(int __pipedes[2]) {
-  int rand = rand_bool(0.1);
+  char* var = getenv("PROB");
+  float p = atof(var);
+  int rand = rand_bool((double) p);
   real_pipe = dlsym(RTLD_NEXT, "pipe");
   if(rand || (real_pipe == NULL)) {
     errno = EFAULT;

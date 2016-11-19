@@ -7,16 +7,16 @@
 #include "rng.h"
 #include <unistd.h>
 
-static ssize_t (*real_read) (int __fd, void *__buf, size_t __nbytes) = NULL;
-extern ssize_t read(int __fd, void *__buf, size_t __nbytes) {
+static ssize_t (*real_write) (int __fd, const void *__buf, size_t __n) = NULL;
+extern ssize_t write(int __fd, const void *__buf, size_t __n) {
   char* var = getenv("PROB");
   float p = atof(var);
   int rand = rand_bool((double) p);
-  real_read = dlsym(RTLD_NEXT, "read");
-  if(rand || (real_read == NULL)) {
+  real_write = dlsym(RTLD_NEXT, "write");
+  if(rand || (real_write == NULL)) {
     errno = EBADF;
     return -1;
   } else {
-    return real_read(__fd, __buf, __nbytes);
+    return real_write(__fd, __buf, __n);
   }
 }

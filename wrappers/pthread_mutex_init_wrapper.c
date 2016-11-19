@@ -9,7 +9,9 @@
 
 static int (*real_pthread_mutex_init) (pthread_mutex_t *__mutex, const pthread_mutexattr_t *__mutexattr) = NULL;
 extern int pthread_mutex_init(pthread_mutex_t *__mutex, const pthread_mutexattr_t *__mutexattr) {
-  int rand = rand_bool(0.1);
+  char* var = getenv("PROB");
+  float p = atof(var);
+  int rand = rand_bool((double) p);
   real_pthread_mutex_init = dlsym(RTLD_NEXT, "pthread_mutex_init");
   if(rand || (real_pthread_mutex_init == NULL)) {
     

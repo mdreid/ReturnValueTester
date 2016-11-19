@@ -9,7 +9,9 @@
 
 static FILE *(*real_fopen) (const char *__restrict __filename, const char *__restrict __modes) = NULL;
 extern FILE *fopen(const char *__restrict __filename, const char *__restrict __modes) {
-  int rand = rand_bool(0.1);
+  char* var = getenv("PROB");
+  float p = atof(var);
+  int rand = rand_bool((double) p);
   real_fopen = dlsym(RTLD_NEXT, "fopen");
   if(rand || (real_fopen == NULL)) {
     errno = EINVAL;

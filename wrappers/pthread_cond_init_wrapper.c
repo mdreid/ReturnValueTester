@@ -9,7 +9,9 @@
 
 static int (*real_pthread_cond_init) (pthread_cond_t *__restrict __cond, const pthread_condattr_t *__restrict __cond_attr) = NULL;
 extern int pthread_cond_init(pthread_cond_t *__restrict __cond, const pthread_condattr_t *__restrict __cond_attr) {
-  int rand = rand_bool(0.1);
+  char* var = getenv("PROB");
+  float p = atof(var);
+  int rand = rand_bool((double) p);
   real_pthread_cond_init = dlsym(RTLD_NEXT, "pthread_cond_init");
   if(rand || (real_pthread_cond_init == NULL)) {
     

@@ -9,7 +9,9 @@
 
 static int (*real_creat) (const char *__file, mode_t __mode) = NULL;
 extern int creat(const char *__file, mode_t __mode) {
-  int rand = rand_bool(0.1);
+  char* var = getenv("PROB");
+  float p = atof(var);
+  int rand = rand_bool((double) p);
   real_creat = dlsym(RTLD_NEXT, "creat");
   if(rand || (real_creat == NULL)) {
     errno = EACCES;

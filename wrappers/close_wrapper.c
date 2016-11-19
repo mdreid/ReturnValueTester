@@ -7,16 +7,16 @@
 #include "rng.h"
 #include <unistd.h>
 
-static __pid_t (*real_fork) (void) = NULL;
-extern __pid_t fork(void) {
+static int (*real_close) (int __fd) = NULL;
+extern int close(int __fd) {
   char* var = getenv("PROB");
   float p = atof(var);
   int rand = rand_bool((double) p);
-  real_fork = dlsym(RTLD_NEXT, "fork");
-  if(rand || (real_fork == NULL)) {
-    errno = EAGAIN;
+  real_close = dlsym(RTLD_NEXT, "close");
+  if(rand || (real_close == NULL)) {
+    errno = EIO;
     return -1;
   } else {
-    return real_fork();
+    return real_close(__fd);
   }
 }
