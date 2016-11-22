@@ -15,9 +15,12 @@ Notes:
 - Working with core files:
   - [Stack Overflow](http://stackoverflow.com/a/8806534): `gdb /path/to/binary /path/to/core`
 - To get core files working in VM:
-  - Make sure that you have run `ulimit -c unlimited` (and check with `ulimit -a`) to enable core files
+  - Set rules for `ulimit`:
+    - Add a line to `/etc/security/limits.conf`:
+    - `*	-	core	unlimited`
   - Set `core_pattern` to point to a directory that you can write, and with a useful file pattern (see `core(5)`)
-  - e.g. `sudo sysctl -w kernel.core_pattern='/home/keith/core/%e_%p_%i_%t.core'`
+    - e.g. `sudo sysctl -w kernel.core_pattern=$HOME'/core/%e_%p_%i_%t.core'`
+    - Make sure that the directory exists: `mkdir ~/core`
 - Debugging coreutils with gdb:
   - Download and build [coreutils](http://stackoverflow.com/questions/22005048/compile-specific-source-file-in-linux-coreutils-package)
   - `gdb <util>`
