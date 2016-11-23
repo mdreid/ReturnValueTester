@@ -1,4 +1,3 @@
-#!/bin/bash
 #usage: log_gen <num_iters> <call to wrap> <program + args>
 TIMESTAMP=$(date +%Y-%m-%d-%T)
 FILENAME=$2_$3_$TIMESTAMP.txt
@@ -7,13 +6,18 @@ for i in $(seq 1 $1)
 do	
 	mkdir -p logs/$3
 	echo $LINE >> logs/$3/$FILENAME
-	./set_seed &
-	SEED_ID=$!
-    OLD_LD_PRELOAD=$LD_PRELOAD
-    export LD_PRELOAD=$PWD/wrappers/$2_wrapper.so 
-	${@:3} >> logs/$3/$FILENAME 2>&1
-    export LD_PRELOAD=$OLD_LD_PRELOAD
+	export SEED=$RANDOM
+	#./set_seed &
+	#SEED_ID=$!
+	#echo $PRE
+	eval "$PRE"
+	export LD_PRELOAD=$PWD/wrappers/$2_wrapper.so
+	{ ${@:3}; } >> logs/$3/$FILENAME 2>&1
+	export LD_PRELOAD=
+	#{ LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3}; } >> logs/$3/$FILENAME 2>&1
+	#echo $AFTER
+	eval "$AFTER"
 	echo $LINE >> logs/$3/$FILENAME
-	kill $SEED_ID
+	#kill $SEED_ID
 done
 

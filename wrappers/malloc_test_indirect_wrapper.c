@@ -6,12 +6,15 @@
 #include <stddef.h>
 #include "rng.h"
 #include <stdlib.h>
+#include "testindirect.h"
 
 static void *(*real_malloc) (size_t __size) = NULL;
 extern void *malloc(size_t __size) {
-  char* var = getenv("PROB");
-  float p = atof(var);
-  int rand = rand_bool((double) p);
+  printf("calling malloc\n");
+  int rand = rand_bool(1);
+  printf("Rand: %d\n", rand);
+  void *p = getPtr(5);
+  free(p);
   real_malloc = dlsym(RTLD_NEXT, "malloc");
   if(rand || (real_malloc == NULL)) {
     
