@@ -11,3 +11,9 @@ pipe,-1,EFAULT,unistd.h,EFAULT = pipefd is not valid
 fork,-1,EAGAIN,unistd.h,"EAGAIN = ""fork() cannot allocate sufficient memory"" or ""caller's RLIMIT_NPROC resource limit was encountered"""
 pthread_cond_init,EAGAIN,,pthread.h,"EAGAIN = ""The system lacked the necessary resources (other than memory) to initialise another condition variable."""
 pthread_mutex_init,EAGAIN,,pthread.h,"EAGAIN = ""The system lacked the necessary resources (other than memory) to initialise another mutex."""
+close,-1,EIO,unistd.h,EIO = An I/O error occured
+ioctl,-1,EBADF,sys/ioctl.h,fd is not a valid file descriptor
+write,-1,EBADF,unistd.h,fd is not a valid file descriptor
+fstat,-1,EBADF,sys/stat.h,fd is not a valid file descriptor
+poll,-1,EFAULT,poll.h,the array given as arg is not in the addr space
+mmap,-1,EACCES,sys/mman.h,see above
