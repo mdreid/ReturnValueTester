@@ -12,7 +12,7 @@ while read -r line; do
 	#echo $line
 	export PRE=
 	export AFTER=
-	for prob in {0..50..5}; do
+	for prob in {0..50..10}; do
 		percent=$(echo print $prob / 100. | python)
 		export PROB=$percent
 		echo [$line $percent]
