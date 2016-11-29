@@ -37,3 +37,29 @@ true|||
 touch||rm -f test.txt|test.txt
 sum|echo "testing sum" >> test_sum.txt|rm -f test_sum.txt|test_sum.txt
 stat|touch test_stat.txt|rm -f test_stat.txt|test_stat.txt
+shred|cp test_sort.txt test_shred.txt||test_shred.txt -n 5
+sort|||test_sort.txt test_sort2.txt
+tr|||a-z A-Z < test_tr.txt
+printenv|||
+pwd|||
+mv|cp test_sort.txt tmp.txt|rm -f test_mv.txt|tmp.txt test_mv.txt
+mktemp|||
+nproc|||
+comm|||test_comm1.txt test_comm2.txt
+cut||| -c 9-12 test_cut.txt
+du|||
+dircolors|||
+seq|||1 10
+stat|||test_comm1.txt
+ifconfig|||
+netstat|||
+grep||| -Ri seed .
+# To be executed in test_dir
+make||rm -f blaster blastee|
+gcc||rm -f blaster shared.o| -o blaster blaster.c shared.c
+zip||rm -f foo.zip|foo *
+unzip|zip foo *|rm -f foo.zip|foo.zip
+zipinfo|zip foo *|rm -f foo.zip|foo.zip
+tar||rm -f test.tar| -cvf test.tar *
+gzip||gunzip blaster2.gz| blaster2.c 
+gunzip|gzip blaster2.c||blaster2.c.gz
