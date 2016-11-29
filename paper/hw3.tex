@@ -1,0 +1,68 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{indentfirst}
+\usepackage{adjustbox}
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{frame=tb,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+\title{736Paper}
+\author{Keith Funkhouser, Malcolm Reid, Colin Samplawski}
+\date{Fall 2016}
+
+\begin{document}
+\setlength{\baselineskip}{18pt}
+\maketitle
+
+\section{Introduction}
+
+\section{Related Work and Motivation}
+
+\section{Mechanisms}
+The main mechanism that we needed was a way of intercepting system and library calls that an application makes in order to control the value returned. We needed a method that would be invisible and non-disruptive to the application being tested. Furthermore, it needed to be fine grained enough so that only calls from the  application being tested would be intercepted.
+
+\subsection{LD\_PRELOAD}
+We intercepted system and library calls via the \texttt{LD\_PREOLAD} environment variable. Using \texttt{LD\_PREOLAD} a user can specify a shared library object that is loaded before any others at dynamic linking time. Importantly, functions within this shared library take precedence over any other functions of the same name, even ones found in \texttt{libc} and other standard libraries. For each call we wanted to test, we created a shared library object that contained a single wrapper function with the name of the call of interest. This wrapper would return an error value with probability $p$ or call the real version of the function to allow the application to continue as usual. 
+
+Calling the original function from within the wrapper is slightly trickier than one might expect. We couldn't simply call the function normally from the wrapper since it would lead to infinite recursion. To break this recursion, we used the \texttt{dlsym} function. \texttt{dlsym} scans through dynamically loaded libraries looking for the function handle (that is, the address) of a function named as an argument. We can use the function handle that is returned in order to call the original version of the function. An example of such a wrapper is given in code listing 1.
+
+\begin{minipage}{\linewidth} %minipage so the code is split between two pages
+	\lstinputlisting[caption=\texttt{open} wrapper, language=C]{sample_wrapper.c}
+\end{minipage}
+
+\subsubsection{Limitations of LD\_PRELOAD}
+We chose \texttt{LD\_PRELOAD} primarily because of its simplicity, which allowed us to test a greater number of calls. However there are several limitations to this method. Most significantly, applications that use statically linked libraries bypass our wrappers completely. Fortunately, we never encountered any applications that used static linking. If we wanted to expand coverage to programs that did use static linking we would need to use a binary rewriting tool as used by Miller et al in [?] or a dynamic instrumentation tool such as DynInst [?].
+
+Another limitation to our method is that it is Linux (UNIX?) specific. \texttt{LD\_PRELOAD} is found on nearly all (is this true?) Linux distributions and many UNIX versions, but not all. %windows, macos, BSD
+
+
+
+\section{coreutils}
+
+\section{Large scale Programs}
+
+\section{Anecdotes}
+
+\section{Related Work}
+
+\section{Conclusion}
+
+\section*{Appendix}
+
+
+\end{document}
