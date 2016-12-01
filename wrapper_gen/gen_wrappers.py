@@ -66,7 +66,9 @@ def write_file(out_dir, header_file, node, errno, retval):
     code_template = """
 static %s %s(*%s) (%s) = NULL;
 %s {
-  int rand = rand_bool(0.1);
+  char* var = getenv("PROB");
+  float p = atof(var);
+  int rand = rand_bool((double) p);
   %s = dlsym(RTLD_NEXT, "%s");
   if(rand || (%s == NULL)) {
     %s
@@ -98,7 +100,15 @@ static %s %s(*%s) (%s) = NULL;
 
     new_file = out_dir + '%s_wrapper.c' % new_fn
     with open(new_file, 'w') as f:
-        f.write( header % header_file )
+        tokens = header_file.split('/')
+        name = ''
+        for i in range(3,len(tokens)):
+            if i == len(tokens) - 1:
+                name += tokens[i]
+            else:
+                name += tokens[i] + '/'
+
+        f.write(header % name)
         f.write( code_template % (
             gen.visit(node.type.type), # int
             '*' if isinstance(node.type.type, c_ast.PtrDecl) else '',            
@@ -144,4 +154,4 @@ if __name__ == "__main__":
     wrappers_to_gen = get_wrapper_info(sys.argv[1])
 
     for header_file in wrappers_to_gen:
-        write_files(header_file, sys.argv[2], wrappers_to_gen[header_file])
+        write_files('/usr/include/' + header_file, sys.argv[2], wrappers_to_gen[header_file])
