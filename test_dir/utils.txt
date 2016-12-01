@@ -54,8 +54,7 @@ stat|||test_comm1.txt
 ifconfig|||
 netstat|||
 grep||| -Ri seed .
-# To be executed in test_dir
-make||rm -f blaster blastee|
+make||make clean|
 gcc||rm -f blaster shared.o| -o blaster blaster.c shared.c
 zip||rm -f foo.zip|foo *
 unzip|zip foo *|rm -f foo.zip|foo.zip

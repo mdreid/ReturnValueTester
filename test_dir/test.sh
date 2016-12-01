@@ -22,7 +22,7 @@ while read -r line; do
 			export PRE=${OPTS[1]}
 			export AFTER=${OPTS[2]}
 			#echo $PRE
-			./log_gen 20 $call ${OPTS[0]} ${ARGS[@]}
+			.././log_gen 20 $call ${OPTS[0]} ${ARGS[@]}
 			#echo $AFTER
 			#echo $PRE
 		done
