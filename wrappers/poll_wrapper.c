@@ -11,9 +11,9 @@ static int (*real_poll) (struct pollfd *__fds, nfds_t __nfds, int __timeout) = N
 extern int poll(struct pollfd *__fds, nfds_t __nfds, int __timeout) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_poll = dlsym(RTLD_NEXT, "poll");
-  if(rand || (real_poll == NULL)) {
+  if(flip || (real_poll == NULL)) {
     errno = EFAULT;
     return -1;
   } else {

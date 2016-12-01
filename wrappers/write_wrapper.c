@@ -11,9 +11,9 @@ static ssize_t (*real_write) (int __fd, const void *__buf, size_t __n) = NULL;
 extern ssize_t write(int __fd, const void *__buf, size_t __n) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_write = dlsym(RTLD_NEXT, "write");
-  if(rand || (real_write == NULL)) {
+  if(flip || (real_write == NULL)) {
     errno = EBADF;
     return -1;
   } else {

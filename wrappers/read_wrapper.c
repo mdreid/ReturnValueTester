@@ -11,9 +11,9 @@ static ssize_t (*real_read) (int __fd, void *__buf, size_t __nbytes) = NULL;
 extern ssize_t read(int __fd, void *__buf, size_t __nbytes) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_read = dlsym(RTLD_NEXT, "read");
-  if(rand || (real_read == NULL)) {
+  if(flip || (real_read == NULL)) {
     errno = EBADF;
     return -1;
   } else {
