@@ -1,4 +1,4 @@
-#usage: log_gen <num_iters> <call to wrap> <program + args>
+#usage: log_gen <num_iters> <call to wrap> <program + args> <probability>
 TIMESTAMP=$(date +%Y-%m-%d-%T)
 FILENAME=$2_$3_$TIMESTAMP.txt
 LINE="--------------------------------------------------------------------------------------------"
@@ -7,12 +7,17 @@ do
 	mkdir -p logs/$3
 	echo $LINE >> logs/$3/$FILENAME
 	export SEED=$RANDOM
+	echo $SEED >> logs/$3/$FILENAME
+	export PROB=$4
+	#echo $PROB >> logs/$3/$FILENAME
 	#./set_seed &
 	#SEED_ID=$!
 	#echo $PRE
 	eval "$PRE"
 	export LD_PRELOAD=$PWD/wrappers/$2_wrapper.so
-	{ ${@:3}; } >> logs/$3/$FILENAME 2>&1
+	# there are 3 non-call args
+	length=$(($#-3))
+	{ ${@:3:$length}; } >> logs/$3/$FILENAME 2>&1
 	export LD_PRELOAD=
 	#{ LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3}; } >> logs/$3/$FILENAME 2>&1
 	#echo $AFTER
