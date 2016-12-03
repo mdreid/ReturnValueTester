@@ -1,0 +1,31 @@
+% time     seconds  usecs/call     calls      function
+------ ----------- ----------- --------- --------------------
+ 39.35    0.002553         510         5 getgrgid
+  7.43    0.000482         160         3 dcgettext
+  6.81    0.000442          63         7 __printf_chk
+  4.25    0.000276          55         5 fputs_unlocked
+  3.90    0.000253          63         4 __overflow
+  3.85    0.000250         250         1 getpwuid
+  3.45    0.000224         112         2 sysconf
+  3.42    0.000222          55         4 __freading
+  2.64    0.000171         171         1 setlocale
+  2.57    0.000167          55         3 __errno_location
+  2.53    0.000164          82         2 fclose
+  2.27    0.000147          73         2 getgroups
+  1.77    0.000115          57         2 fileno
+  1.68    0.000109          54         2 __fpending
+  1.68    0.000109          54         2 fflush
+  1.19    0.000077          77         1 is_selinux_enabled
+  1.14    0.000074          74         1 free
+  1.14    0.000074          74         1 geteuid
+  1.13    0.000073          73         1 getegid
+  1.13    0.000073          73         1 getuid
+  1.13    0.000073          73         1 getgid
+  1.06    0.000069          69         1 strrchr
+  0.96    0.000062          62         1 getopt_long
+  0.92    0.000060          60         1 bindtextdomain
+  0.88    0.000057          57         1 __cxa_atexit
+  0.86    0.000056          56         1 realloc
+  0.86    0.000056          56         1 textdomain
+------ ----------- ----------- --------- --------------------
+100.00    0.006488                    57 total

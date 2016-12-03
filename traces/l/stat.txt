@@ -1,0 +1,41 @@
+% time     seconds  usecs/call     calls      function
+------ ----------- ----------- --------- --------------------
+ 30.45    0.008810          64       137 __overflow
+ 11.17    0.003233          55        58 memcpy
+  9.60    0.002777        2777         1 setpwent
+  8.21    0.002375          60        39 strspn
+  6.20    0.001794          61        29 strlen
+  5.81    0.001681          84        20 strchr
+  4.21    0.001217          64        19 strcpy
+  4.04    0.001170          61        19 __printf_chk
+  3.50    0.001013          92        11 dcgettext
+  2.59    0.000749          57        13 memcmp
+  2.18    0.000632          63        10 malloc
+  1.54    0.000446          55         8 free
+  1.35    0.000392          43         9 memset
+  1.03    0.000298          99         3 localtime
+  0.82    0.000238         238         1 getpwuid
+  0.77    0.000224         224         1 setlocale
+  0.77    0.000224         224         1 getgrgid
+  0.61    0.000176          44         4 __freading
+  0.46    0.000134          67         2 fclose
+  0.41    0.000119          59         2 is_selinux_enabled
+  0.40    0.000117          58         2 nl_langinfo
+  0.31    0.000090          45         2 fflush
+  0.31    0.000089          44         2 __fpending
+  0.30    0.000088          44         2 fileno
+  0.30    0.000086          86         1 __lxstat
+  0.29    0.000084          84         1 strrchr
+  0.27    0.000078          78         1 open
+  0.25    0.000072          72         1 setgrent
+  0.24    0.000068          68         1 bindtextdomain
+  0.22    0.000063          63         1 getopt_long
+  0.20    0.000059          59         1 localeconv
+  0.20    0.000059          59         1 textdomain
+  0.20    0.000059          59         1 __cxa_atexit
+  0.20    0.000059          59         1 getenv
+  0.20    0.000058          58         1 __ctype_get_mb_cur_max
+  0.20    0.000058          58         1 __errno_location
+  0.16    0.000045          45         1 fputs_unlocked
+------ ----------- ----------- --------- --------------------
+100.00    0.028934                   408 total
