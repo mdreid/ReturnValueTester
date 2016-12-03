@@ -26,6 +26,6 @@ while read -r line; do
 			#echo $PRE
 		done
 	done
-done < "utils.txt"
+done < $1
 export PRE=
 export AFTER=
