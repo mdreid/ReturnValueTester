@@ -28,7 +28,7 @@ users|||
 uptime|||
 unlink|echo "testing unlink" >> test.txt|rm -f test.txt|test.txt
 uniq|||test_uniq.txt
-unexpand|cp makefile test_unexpand.txt|rm -f test_unexpand.txt|test_unexpand.txt
+unexpand|cp Makefile test_unexpand.txt|rm -f test_unexpand.txt|test_unexpand.txt
 uname|||-a
 tty|||
 tsort|||test_tsort.txt
@@ -54,11 +54,11 @@ stat|||test_comm1.txt
 ifconfig|||
 netstat|||
 grep||| -Ri seed .
-make||make clean|
+make||make clean -s| -s
 gcc||rm -f blaster shared.o| -o blaster blaster.c shared.c
-zip||rm -f foo.zip|foo *
-unzip|zip foo *|rm -f foo.zip|foo.zip
-zipinfo|zip foo *|rm -f foo.zip|foo.zip
+zip||rm -f foo.zip|foo * > /dev/null
+unzip|zip foo * > /dev/null|rm -f foo.zip|foo.zip
+zipinfo|zip foo * > /dev/null|rm -f foo.zip|foo.zip
 tar||rm -f test.tar| -cvf test.tar *
-gzip||gunzip blaster2.gz| blaster2.c 
-gunzip|gzip blaster2.c||blaster2.c.gz
+gzip|cp blaster.c blaster2.c|gunzip blaster2.c.gz| blaster2.c 
+gunzip|cp blaster.c blaster2.c; gzip blaster2.c||blaster2.c.gz
