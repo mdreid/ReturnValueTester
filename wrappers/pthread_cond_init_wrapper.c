@@ -11,9 +11,9 @@ static int (*real_pthread_cond_init) (pthread_cond_t *__restrict __cond, const p
 extern int pthread_cond_init(pthread_cond_t *__restrict __cond, const pthread_condattr_t *__restrict __cond_attr) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_pthread_cond_init = dlsym(RTLD_NEXT, "pthread_cond_init");
-  if(rand || (real_pthread_cond_init == NULL)) {
+  if(flip || (real_pthread_cond_init == NULL)) {
     
     return EAGAIN;
   } else {

@@ -1,23 +1,23 @@
 #usage: log_gen <num_iters> <call to wrap> <program + args>
-TIMESTAMP=$(date +%Y-%m-%d-%T)
+TIMESTAMP=$(date +%Y-%m-%d-%H:%M)
 FILENAME=$2_$3_$TIMESTAMP.txt
+OUTFILE=logs/$3/0$PROB/$FILENAME
 LINE="--------------------------------------------------------------------------------------------"
 for i in $(seq 1 $1)
 do	
-	mkdir -p logs/$3
-	echo $LINE >> logs/$3/$FILENAME
+	mkdir -p logs/$3/0$PROB
+	echo $LINE >> $OUTFILE
 	export SEED=$RANDOM
-	#./set_seed &
-	#SEED_ID=$!
-	#echo $PRE
-	eval "$PRE"
-	export LD_PRELOAD=$PWD/wrappers/$2_wrapper.so
-	{ ${@:3}; } >> logs/$3/$FILENAME 2>&1
-	export LD_PRELOAD=
-	#{ LD_PRELOAD=$PWD/wrappers/$2_wrapper.so ${@:3}; } >> logs/$3/$FILENAME 2>&1
-	#echo $AFTER
-	eval "$AFTER"
-	echo $LINE >> logs/$3/$FILENAME
-	#kill $SEED_ID
-done
 
+	echo -e "Seed:\t$SEED" >> $OUTFILE
+	echo -e "p:\t$PROB" >> $OUTFILE
+	echo -e "Time:\t$(date +%s)" >> $OUTFILE
+
+	eval "$PRE"
+	export LD_PRELOAD=~/ReturnValueTester/wrappers/$2_wrapper.so
+	{ ${@:3}; } 2>> $OUTFILE 1>/dev/null
+	export LD_PRELOAD=
+	eval "$AFTER"
+
+	echo $LINE >> $OUTFILE
+done

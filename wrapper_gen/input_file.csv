@@ -17,3 +17,8 @@ write,-1,EBADF,unistd.h,fd is not a valid file descriptor
 fstat,-1,EBADF,sys/stat.h,fd is not a valid file descriptor
 poll,-1,EFAULT,poll.h,the array given as arg is not in the addr space
 mmap,-1,EACCES,sys/mman.h,see above
+execvp,-1,EACCES,unistd.h,
+execvpe,-1,EACCES,unistd.h,
+execv,-1,EACCES,unistd.h,
+realloc,NULL,,stdlib.h,
+calloc,NULL,,stdlib.h,

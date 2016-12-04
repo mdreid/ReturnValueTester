@@ -1,0 +1,64 @@
+base64|echo "testing base64" >> tmp.txt|rm -f tmp.txt|tmp.txt
+basename|touch tmp.txt|rm -f tmp.txt|tmp.txt
+cat|echo "testing cat" >> tmp.txt|rm -f tmp.txt|tmp.txt
+chmod|echo "testing chmod" >> tmp.txt|rm -f tmp.txt|777 tmp.txt
+cksum|echo "testing cksum" >> tmp.txt|rm -f tmp.txt|tmp.txt
+cp|echo "testing cp" >> tmp.txt|rm -f tmp*.txt|tmp.txt tmp2.txt
+cut|echo "cut;1;2;3;4" >> tmp.txt|rm -f tmp.txt| -d ; tmp.txt -f 2
+date||| 
+df|echo "testing df" >> tmp.txt|rm -f tmp.txt|tmp.txt
+dirname|||/usr/bin/
+echo|||testing echo
+expr|||1 = 0
+factor|||123456
+fold|echo "testing fold" >> tmp.txt|rm -f tmp.txt| -w4 tmp.txt
+groups|||samplawski
+head|echo "testing head" >> tmp.txt|rm -f tmp.txt| -n 1 tmp.txt
+hostid||| 
+id|||
+link|echo "testing link" >> tmp1.txt|rm -f tmp*.txt|tmp1.txt tmp2.txt
+logname|||
+ls|||
+md5sum|echo "testing md5sum" >> tmp.txt|rm -f tmp.txt|tmp.txt
+mkdir|rm -rf dir|rm -rf dir|dir
+who|||
+whoami|||
+wc|echo "testing wc" >> test.txt|rm -f test.txt|test.txt
+users|||
+uptime|||
+unlink|echo "testing unlink" >> test.txt|rm -f test.txt|test.txt
+uniq|||test_uniq.txt
+unexpand|cp Makefile test_unexpand.txt|rm -f test_unexpand.txt|test_unexpand.txt
+uname|||-a
+tty|||
+tsort|||test_tsort.txt
+truncate|touch test_truncate.txt|rm -f test_truncate.txt| -s 1000 test_truncate.txt
+true|||
+touch||rm -f test.txt|test.txt
+sum|echo "testing sum" >> test_sum.txt|rm -f test_sum.txt|test_sum.txt
+stat|touch test_stat.txt|rm -f test_stat.txt|test_stat.txt
+shred|cp test_sort.txt test_shred.txt||test_shred.txt -n 5
+sort|||test_sort.txt test_sort2.txt
+tr|||a-z A-Z < test_tr.txt
+printenv|||
+pwd|||
+mv|cp test_sort.txt tmp.txt|rm -f test_mv.txt|tmp.txt test_mv.txt
+mktemp|||
+nproc|||
+comm|||test_comm1.txt test_comm2.txt
+cut||| -c 9-12 test_cut.txt
+du|||
+dircolors|||
+seq|||1 10
+stat|||test_comm1.txt
+ifconfig|||
+netstat|||
+grep||| -Ri seed .
+make||make clean -s| -s
+gcc||rm -f blaster shared.o| -o blaster blaster.c shared.c
+zip||rm -f foo.zip|foo * > /dev/null
+unzip|zip foo * > /dev/null|rm -f foo.zip|foo.zip
+zipinfo|zip foo * > /dev/null|rm -f foo.zip|foo.zip
+tar||rm -f test.tar| -cvf test.tar *
+gzip|cp blaster.c blaster2.c|gunzip blaster2.c.gz| blaster2.c 
+gunzip|cp blaster.c blaster2.c; gzip blaster2.c||blaster2.c.gz

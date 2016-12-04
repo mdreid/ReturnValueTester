@@ -11,9 +11,9 @@ static DIR *(*real_opendir) (const char *__name) = NULL;
 extern DIR *opendir(const char *__name) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_opendir = dlsym(RTLD_NEXT, "opendir");
-  if(rand || (real_opendir == NULL)) {
+  if(flip || (real_opendir == NULL)) {
     errno = EBADF;
     return NULL;
   } else {

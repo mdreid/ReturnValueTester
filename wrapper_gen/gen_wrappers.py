@@ -12,10 +12,16 @@ from pycparserext.ext_c_generator import GnuCGenerator
 #      - errno, and 
 #      - return value
 # just_list: only list functions declared in this header, don't write wrappers to file
-def write_files(header_file, out_dir, fn_names="*"):
-    if not os.path.isfile(header_file):
-        print "Skipped all functions in %s because it could not be found." % header_file
+def write_files(dir_list, header_include, out_dir, fn_names="*"):
+    header_file = header_include.split('/')[-1]
+
+    is_valid_file = [os.path.isfile(dir_name + header_file) for dir_name in dir_list]
+    
+    if not any(is_valid_file):
+        print "Skipped all functions in %s because it could not be found in %s." % (header_file, dir_list)
         return
+    else:
+        header_file = dir_list[is_valid_file.index(True)] + header_file
     
     # pycparser utility function for preprocessing the file and
     # getting all of the file as a string
@@ -45,14 +51,14 @@ def write_files(header_file, out_dir, fn_names="*"):
         if fn_names != "*" and idx is None:
             continue
 
-        write_file(out_dir, header_file, node, fn_names[idx][1], fn_names[idx][2])
+        write_file(out_dir, header_include, node, fn_names[idx][1], fn_names[idx][2])
 
 # out_dir: directory to write out to
 # header_file: name of header file to #include at the top
 # node: ast node with fn decl
 # errno: value to return for errno, as a string
 # retval: what to return, as a string
-def write_file(out_dir, header_file, node, errno, retval):
+def write_file(out_dir, header_include, node, errno, retval):
     header = """
 #define _GNU_SOURCE
 #include <dlfcn.h>
@@ -68,9 +74,9 @@ static %s %s(*%s) (%s) = NULL;
 %s {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   %s = dlsym(RTLD_NEXT, "%s");
-  if(rand || (%s == NULL)) {
+  if(flip || (%s == NULL)) {
     %s
     return %s;
   } else {
@@ -100,15 +106,7 @@ static %s %s(*%s) (%s) = NULL;
 
     new_file = out_dir + '%s_wrapper.c' % new_fn
     with open(new_file, 'w') as f:
-        tokens = header_file.split('/')
-        name = ''
-        for i in range(3,len(tokens)):
-            if i == len(tokens) - 1:
-                name += tokens[i]
-            else:
-                name += tokens[i] + '/'
-
-        f.write(header % name)
+        f.write(header % header_include)
         f.write( code_template % (
             gen.visit(node.type.type), # int
             '*' if isinstance(node.type.type, c_ast.PtrDecl) else '',            
@@ -154,4 +152,4 @@ if __name__ == "__main__":
     wrappers_to_gen = get_wrapper_info(sys.argv[1])
 
     for header_file in wrappers_to_gen:
-        write_files('/usr/include/' + header_file, sys.argv[2], wrappers_to_gen[header_file])
+        write_files(['/usr/include/', '/usr/include/linux/'], header_file, sys.argv[2], wrappers_to_gen[header_file])

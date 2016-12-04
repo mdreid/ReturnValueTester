@@ -21,6 +21,8 @@ Notes:
   - Set `core_pattern` to point to a directory that you can write, and with a useful file pattern (see `core(5)`)
     - e.g. `sudo sysctl -w kernel.core_pattern=$HOME'/core/%e_%p_%i_%t.core'`
     - Make sure that the directory exists: `mkdir ~/core`
+  - Write a file to `/etc/sysctl.d/` for permanence: [link](http://askubuntu.com/questions/420410/how-to-permanently-edit-the-core-pattern-file)
+  - Disable apport in `/etc/default/apport`
 - Debugging coreutils with gdb:
   - Download and build [coreutils](http://stackoverflow.com/questions/22005048/compile-specific-source-file-in-linux-coreutils-package)
   - `gdb <util>`
