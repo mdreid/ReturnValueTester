@@ -8,6 +8,9 @@ do
 done
 
 while read -r line; do
+        # skip comment lines
+        case "$line" in \#*) continue ;; esac
+
 	export PRE=
 	export AFTER=
 	for prob in {0..50..10}; do
