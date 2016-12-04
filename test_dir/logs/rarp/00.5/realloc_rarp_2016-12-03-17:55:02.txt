@@ -1,0 +1,300 @@
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 16930
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 19487
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 17535
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 31315
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 24712
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 16107
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 21486
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 16545
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 11694
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 12996
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 26086
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 26449
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 11106
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 16112
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 3486
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 2099
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 26445
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 31819
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 24048
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+seed: 23467
+--------------------------------------------------------------------------------------------

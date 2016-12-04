@@ -1,0 +1,238 @@
+--------------------------------------------------------------------------------------------
+seed: 1542
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 1542
+seed: 1542
+seed: 1542
+seed: 1542
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 4404
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 4404
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 4404
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 4404
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 3254
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 3254
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 3254
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 3254
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 14866
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 14866
+seed: 14866
+seed: 14866
+seed: 14866
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 1039
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 1039
+seed: 1039
+seed: 1039
+seed: 1039
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 9896
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 9896
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 9896
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 9896
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 25831
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 25831
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 25831
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 25831
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11814
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 11814
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 11814
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 11814
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 23987
+cc1: fatal error: /usr/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 23987
+seed: 23987
+seed: 23987
+seed: 23987
+cc1: fatal error: /usr/include/stdc-predef.h: Permission denied
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 10996
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 10996
+seed: 10996
+seed: 10996
+seed: 10996
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdc-predef.h: Permission denied
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11158
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 11158
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 11158
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 11158
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 16814
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 16814
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 16814
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 16814
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 1709
+cc1: fatal error: /usr/include/x86_64-linux-gnu/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 1709
+seed: 1709
+seed: 1709
+seed: 1709
+cc1: fatal error: /usr/include/x86_64-linux-gnu/stdc-predef.h: Permission denied
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 2187
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 2187
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 2187
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 2187
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 24783
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 24783
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 24783
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 24783
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 17306
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 17306
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 17306
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 17306
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 27791
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 27791
+seed: 27791
+seed: 27791
+seed: 27791
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 17125
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 17125
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 17125
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 17125
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 30621
+cc1: fatal error: /usr/include/x86_64-linux-gnu/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 30621
+seed: 30621
+seed: 30621
+seed: 30621
+cc1: fatal error: /usr/include/x86_64-linux-gnu/stdc-predef.h: Permission denied
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 56
+cc1: fatal error: blaster.c: Permission denied
+compilation terminated.
+seed: 56
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 56
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 56
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------

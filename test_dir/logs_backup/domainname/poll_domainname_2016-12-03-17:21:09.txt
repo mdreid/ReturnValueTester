@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------------------
+5586
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12498
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27234
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23121
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6244
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26322
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+32726
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17689
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10067
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25650
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3935
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23567
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4042
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6683
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29541
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6455
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3402
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13597
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6746
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8553
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/poll_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------

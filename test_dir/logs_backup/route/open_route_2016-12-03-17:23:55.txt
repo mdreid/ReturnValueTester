@@ -1,0 +1,160 @@
+--------------------------------------------------------------------------------------------
+86
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13626
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6702
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18568
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4285
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3881
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3346
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14479
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26653
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23421
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4167
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11438
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29543
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10087
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1682
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+392
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5603
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3658
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12853
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28313
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/open_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+--------------------------------------------------------------------------------------------

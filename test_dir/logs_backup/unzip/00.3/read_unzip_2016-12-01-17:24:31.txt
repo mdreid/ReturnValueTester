@@ -1,0 +1,155 @@
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 21131
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 20791
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 6225
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 740
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 21182
+error [foo.zip]:  reported length of central directory is
+  0 bytes too long (Atari STZip zipfile?  J.H.Holm ZIPSPLIT 1.1
+  zipfile?).  Compensating...
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 16431
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 24037
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 5668
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 6469
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 16312
+error [foo.zip]:  reported length of central directory is
+  0 bytes too long (Atari STZip zipfile?  J.H.Holm ZIPSPLIT 1.1
+  zipfile?).  Compensating...
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 24258
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 10945
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 31888
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 1597
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 7558
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 1649
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 802
+error [foo.zip]:  reported length of central directory is
+  0 bytes too long (Atari STZip zipfile?  J.H.Holm ZIPSPLIT 1.1
+  zipfile?).  Compensating...
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 20125
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 16816
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 3287
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------

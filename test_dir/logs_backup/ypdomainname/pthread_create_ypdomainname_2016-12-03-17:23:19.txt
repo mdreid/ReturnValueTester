@@ -1,0 +1,200 @@
+--------------------------------------------------------------------------------------------
+9296
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10706
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20660
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24372
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31520
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+9107
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14159
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10126
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27871
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+16130
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10339
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11247
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24391
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25698
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29003
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8795
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2188
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21332
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13171
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20517
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13372
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21038
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+30717
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+16537
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13545
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17384
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21402
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18175
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5952
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+32564
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13313
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24481
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31849
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23551
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28101
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24669
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4618
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+32375
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25590
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21002
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+ypdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------

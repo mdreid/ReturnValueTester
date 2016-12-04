@@ -1,0 +1,800 @@
+--------------------------------------------------------------------------------------------
+9073
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29286
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15236
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31834
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3629
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25001
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11559
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3264
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5018
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28497
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27911
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4580
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14410
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1961
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+32147
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27615
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+7518
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13826
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21027
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3544
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2144
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25501
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26087
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13968
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20829
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21322
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20482
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20197
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18791
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14268
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10726
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31346
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17839
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15579
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2692
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13627
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12343
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+7844
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26460
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6382
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fopen_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------

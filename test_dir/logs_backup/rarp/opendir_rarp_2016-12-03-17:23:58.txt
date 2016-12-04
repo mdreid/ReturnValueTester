@@ -1,0 +1,640 @@
+--------------------------------------------------------------------------------------------
+14853
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11982
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5727
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24759
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+7816
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1064
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26845
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+16779
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19671
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14817
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26373
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10267
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10092
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19440
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1266
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15335
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20622
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10831
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13081
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18529
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18177
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19794
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23714
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5321
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+16099
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11528
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3700
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4014
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1881
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29626
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18103
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+16926
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17293
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24497
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26608
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31492
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14411
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25774
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25914
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/opendir_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Usage: rarp -a                               list entries in cache.
+       rarp -d <hostname>                    delete entry from cache.
+       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.
+       rarp -f                               add entries from /etc/ethers.
+       rarp -V                               display program version.
+
+  <HW>=Use '-H <hw>' to specify hardware address type. Default: ether
+  List of possible hardware types (which support ARP):
+    ash (Ash) ether (Ethernet) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) rose (AMPR ROSE) arcnet (ARCnet) 
+    dlci (Frame Relay DLCI) fddi (Fiber Distributed Data Interface) hippi (HIPPI) 
+    irda (IrLAP) x25 (generic X.25) eui64 (Generic EUI-64) 
+--------------------------------------------------------------------------------------------

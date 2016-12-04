@@ -1,0 +1,260 @@
+--------------------------------------------------------------------------------------------
+7667
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20980
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10028
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22269
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12118
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21037
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+7008
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27400
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6541
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17107
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25765
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18307
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13886
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+9978
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8889
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17004
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26605
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13654
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20365
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31353
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/realloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+SIOCGMIIPHY on 'eth0' failed: Operation not permitted
+SIOCGMIIPHY on 'eth1' failed: Operation not permitted
+SIOCGMIIPHY on 'eth2' failed: Operation not permitted
+SIOCGMIIPHY on 'eth3' failed: Operation not permitted
+SIOCGMIIPHY on 'eth4' failed: Operation not permitted
+SIOCGMIIPHY on 'eth5' failed: Operation not permitted
+SIOCGMIIPHY on 'eth6' failed: Operation not permitted
+SIOCGMIIPHY on 'eth7' failed: Operation not permitted
+no MII interfaces found
+--------------------------------------------------------------------------------------------

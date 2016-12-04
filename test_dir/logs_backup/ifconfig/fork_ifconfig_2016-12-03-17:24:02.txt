@@ -1,0 +1,440 @@
+--------------------------------------------------------------------------------------------
+15796
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5996
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28284
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14774
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1202
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22539
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23989
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20320
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20896
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+480
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+9775
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5027
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17287
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31490
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29953
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14474
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2605
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6477
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19242
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19735
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/fork_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+eth0      Link encap:Ethernet  HWaddr 08:00:27:cf:04:7f  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fecf:47f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7830 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7169586 (7.1 MB)  TX bytes:306963 (306.9 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4982 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4982 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:525261 (525.2 KB)  TX bytes:525261 (525.2 KB)
+
+--------------------------------------------------------------------------------------------

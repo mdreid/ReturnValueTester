@@ -1,0 +1,850 @@
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 30297
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 83%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c
+	zip warning:  file size changed while zipping test_crash.c
+ (stored 0%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c
+	zip warning:  file size changed while zipping test_rng.c
+ (stored 0%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt
+	zip warning:  file size changed while zipping test_tsort.txt
+ (stored 0%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 1617
+ (deflated 64%)
+  adding: blaster2.c
+	zip warning:  file size changed while zipping blaster2.c
+ (stored 0%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt
+	zip warning:  file size changed while zipping utils.txt
+ (stored 0%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 27676
+ (deflated 64%)
+  adding: blaster2.c
+	zip warning:  file size changed while zipping blaster2.c
+ (stored 0%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c
+	zip warning:  file size changed while zipping test_open_varargs.c
+ (stored 0%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt
+	zip warning:  file size changed while zipping test_tsort.txt
+ (stored 0%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt
+	zip warning:  file size changed while zipping utils.txt
+ (stored 0%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 18784
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c
+	zip warning:  file size changed while zipping test_rng.c
+ (stored 0%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt
+	zip warning:  file size changed while zipping test_tsort.txt
+ (stored 0%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 19121
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c
+	zip warning:  file size changed while zipping test_open_varargs.c
+ (stored 0%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 12259
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c
+	zip warning:  file size changed while zipping test_rng.c
+ (stored 0%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 6124
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 83%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c
+	zip warning:  file size changed while zipping test_crash.c
+ (stored 0%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 16802
+ (deflated 64%)
+  adding: blaster2.c
+	zip warning:  file size changed while zipping blaster2.c
+ (stored 0%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 89%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 31456
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c
+	zip warning:  file size changed while zipping test_open_varargs.c
+ (stored 0%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt
+	zip warning:  file size changed while zipping utils.txt
+ (stored 0%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 5197
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 82%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt
+	zip warning:  file size changed while zipping test_tsort.txt
+ (stored 0%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 31136
+ (deflated 64%)
+  adding: blaster2.c
+	zip warning:  file size changed while zipping blaster2.c
+ (stored 0%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 5740
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 83%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 3592
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c
+	zip warning:  file size changed while zipping test_crash.c
+ (stored 0%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c
+	zip warning:  file size changed while zipping test_open_varargs.c
+ (stored 0%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 28668
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c
+	zip warning:  file size changed while zipping test_rng.c
+ (stored 0%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 12132
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 82%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 25266
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c
+	zip warning:  file size changed while zipping blaster2.c
+ (stored 0%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h
+	zip warning:  file size changed while zipping shared.h
+ (stored 0%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c
+	zip warning:  file size changed while zipping test_crash.c
+ (stored 0%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 16752
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (stored 0%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c
+	zip warning:  file size changed while zipping test_rng.c
+ (stored 0%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt
+	zip warning:  file size changed while zipping test_tsort.txt
+ (stored 0%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt
+	zip warning:  file size changed while zipping utils.txt
+ (stored 0%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 24464
+ (deflated 64%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c
+	zip warning:  file size changed while zipping blaster.c
+ (stored 0%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 93%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c
+	zip warning:  file size changed while zipping test_open_varargs.c
+ (stored 0%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh
+	zip warning:  file size changed while zipping test.sh
+ (stored 0%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt
+	zip warning:  file size changed while zipping test_uniq.txt
+ (stored 0%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt
+	zip warning:  file size changed while zipping utils.txt
+ (stored 0%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 30838
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c (deflated 68%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 93%)
+  adding: logs/ (stored 0%)
+  adding: Makefile
+	zip warning:  file size changed while zipping Makefile
+ (stored 0%)
+  adding: shared.c
+	zip warning:  file size changed while zipping shared.c
+ (stored 0%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt (deflated 21%)
+  adding: test_comm2.txt
+	zip warning:  file size changed while zipping test_comm2.txt
+ (stored 0%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt (deflated 21%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c (deflated 44%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt (deflated 21%)
+  adding: test.tar (deflated 91%)
+  adding: test_tsort.txt
+	zip warning:  file size changed while zipping test_tsort.txt
+ (stored 0%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt (stored 0%)
+  adding: utils_part.txt
+	zip warning:  file size changed while zipping utils_part.txt
+ (stored 0%)
+  adding: utils.txt (deflated 69%)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+  adding: blastee.cseed: 4373
+
+	zip warning:  file size changed while zipping blastee.c
+ (stored 0%)
+  adding: blaster2.c
+	zip warning:  file size changed while zipping blaster2.c
+ (stored 0%)
+  adding: blaster.c (deflated 68%)
+  adding: core
+	zip warning:  file size changed while zipping core
+ (deflated 83%)
+  adding: logs/ (stored 0%)
+  adding: Makefile (deflated 65%)
+  adding: shared.c (deflated 60%)
+  adding: shared.h (deflated 57%)
+  adding: test_comm1.txt
+	zip warning:  file size changed while zipping test_comm1.txt
+ (stored 0%)
+  adding: test_comm2.txt (deflated 41%)
+  adding: test_crash.c (deflated 44%)
+  adding: test_cut.txt
+	zip warning:  file size changed while zipping test_cut.txt
+ (stored 0%)
+  adding: test_open_varargs.c (deflated 46%)
+  adding: test_rng.c
+	zip warning:  file size changed while zipping test_rng.c
+ (stored 0%)
+  adding: test.sh (deflated 44%)
+  adding: test_sort.txt
+	zip warning:  file size changed while zipping test_sort.txt
+ (stored 0%)
+  adding: test.tar
+	zip warning:  file size changed while zipping test.tar
+ (stored 0%)
+  adding: test_tsort.txt (deflated 19%)
+  adding: test_uniq.txt (deflated 29%)
+  adding: tmp.txt
+	zip warning:  file size changed while zipping tmp.txt
+ (stored 0%)
+  adding: utils_part.txt (deflated 55%)
+  adding: utils.txt
+	zip warning:  file size changed while zipping utils.txt
+ (stored 0%)
+--------------------------------------------------------------------------------------------

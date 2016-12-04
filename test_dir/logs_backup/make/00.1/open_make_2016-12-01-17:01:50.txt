@@ -1,0 +1,240 @@
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 17428
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 17428
+seed: 17428
+seed: 17428
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 12212
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/local/include/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 12212
+The bug is not reproducible, so it is likely a hardware or OS problem.
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 29939
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 29939
+The bug is not reproducible, so it is likely a hardware or OS problem.
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 4604
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 4604
+seed: 4604
+seed: 4604
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 15628
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 15628
+The bug is not reproducible, so it is likely a hardware or OS problem.
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 32526
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/local/include/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 32526
+seed: 32526
+seed: 32526
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 28808
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:22,
+                 from shared.h:1,
+                 from shared.c:11:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:385:27: fatal error: /usr/local/include/bits/wordsize.h: Permission denied
+ #include <bits/wordsize.h>
+                           ^
+compilation terminated.
+seed: 28808
+seed: 28808
+seed: 28808
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 1524
+cc1: fatal error: /usr/include/x86_64-linux-gnu/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 1524
+seed: 1524
+seed: 1524
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 22637
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/include/x86_64-linux-gnu/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 22637
+seed: 22637
+seed: 22637
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 10
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 10
+seed: 10
+seed: 10
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 20504
+In file included from /usr/include/x86_64-linux-gnu/sys/socket.h:22:0,
+                 from shared.h:1,
+                 from shared.c:11:
+/usr/include/features.h:374:25: fatal error: /usr/local/include/sys/cdefs.h: Permission denied
+ #  include <sys/cdefs.h>
+                         ^
+compilation terminated.
+seed: 20504
+seed: 20504
+seed: 20504
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 23914
+cc1: fatal error: /usr/local/include/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 23914
+seed: 23914
+seed: 23914
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 23150
+cc1: fatal error: /usr/include/x86_64-linux-gnu/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 23150
+seed: 23150
+seed: 23150
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 31802
+In file included from shared.h:1:0,
+                 from shared.c:11:
+/usr/include/x86_64-linux-gnu/sys/socket.h:22:22: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/features.h: Permission denied
+ #include <features.h>
+                      ^
+compilation terminated.
+seed: 31802
+seed: 31802
+seed: 31802
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 22284
+In file included from /usr/include/x86_64-linux-gnu/sys/socket.h:22:0,
+                 from shared.h:1,
+                 from shared.c:11:
+/usr/include/features.h:374:25: fatal error: /usr/local/include/sys/cdefs.h: Permission denied
+ #  include <sys/cdefs.h>
+                         ^
+compilation terminated.
+seed: 22284
+seed: 22284
+seed: 22284
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 26358
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 26358
+seed: 26358
+seed: 26358
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 16939
+cc1: fatal error: shared.c: Permission denied
+compilation terminated.
+seed: 16939
+The bug is not reproducible, so it is likely a hardware or OS problem.
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 5834
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 5834
+seed: 5834
+seed: 5834
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 15854
+cc1: fatal error: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/stdc-predef.h: Permission denied
+compilation terminated.
+seed: 15854
+seed: 15854
+seed: 15854
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 2558
+In file included from shared.c:11:0:
+shared.h:1:24: fatal error: /usr/local/include/sys/socket.h: Permission denied
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+seed: 2558
+seed: 2558
+seed: 2558
+make: *** [shared.o] Error 1
+--------------------------------------------------------------------------------------------

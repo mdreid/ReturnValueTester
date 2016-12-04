@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------------------
+2905
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3231
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19129
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14946
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31341
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10283
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24029
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31730
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27398
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3097
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17807
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15184
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11138
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26185
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31135
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+27828
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20089
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31394
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24895
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15532
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------

@@ -1,0 +1,400 @@
+--------------------------------------------------------------------------------------------
+22359
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15621
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20022
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22588
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28735
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+30585
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25967
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+9815
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23201
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24604
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10806
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2121
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8988
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+9667
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18601
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8170
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1235
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31476
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26680
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4844
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_create_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	eth0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:cf:04:7f
+	link  01:00:5e:00:00:fb
+	link  33:33:00:00:00:fb
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::fb
+	inet6 ff02::1:ffcf:47f
+	inet6 ff02::1
+	inet6 ff01::1
+--------------------------------------------------------------------------------------------

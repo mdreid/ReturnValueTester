@@ -1,0 +1,200 @@
+--------------------------------------------------------------------------------------------
+4840
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26971
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23676
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22211
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+11673
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18470
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14786
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4732
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5646
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12857
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18318
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25824
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13780
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1899
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+7047
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15747
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+3312
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2814
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17587
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+30425
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+16535
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1895
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+14703
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10569
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8818
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31511
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22958
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12218
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+24113
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6326
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25511
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2122
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28706
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19822
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5492
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10901
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20541
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23817
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+2937
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+19397
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/calloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+(none)
+--------------------------------------------------------------------------------------------

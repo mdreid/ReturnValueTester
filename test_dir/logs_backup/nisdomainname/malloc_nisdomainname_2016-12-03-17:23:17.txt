@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------------------
+4809
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1811
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+4789
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12071
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18334
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26612
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23647
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+7044
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+12801
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29020
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+32031
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+67
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22855
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22356
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22290
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+5376
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+17448
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13380
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+32043
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8738
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/malloc_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+nisdomainname: Local domain name not set
+--------------------------------------------------------------------------------------------

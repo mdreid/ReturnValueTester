@@ -1,0 +1,348 @@
+--------------------------------------------------------------------------------------------
+seed: 29262
+gcc -c shared.c
+seed: 29262
+seed: 29262
+gcc -o blaster blaster.c shared.o
+seed: 29262
+seed: 29262
+seed: 29262
+seed: 29262
+gcc -o blastee blastee.c shared.o
+seed: 29262
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 29262
+seed: 29262
+seed: 29262
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 31683
+gcc -c shared.c
+seed: 31683
+seed: 31683
+gcc -o blaster blaster.c shared.o
+seed: 31683
+seed: 31683
+seed: 31683
+seed: 31683
+gcc -o blastee blastee.c shared.o
+seed: 31683
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 31683
+seed: 31683
+seed: 31683
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 21196
+make: Makefile: Invalid argument
+make: *** No targets.  Stop.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 28169
+make: Makefile: Invalid argument
+make: *** No targets.  Stop.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 6367
+gcc -c shared.c
+seed: 6367
+seed: 6367
+gcc -o blaster blaster.c shared.o
+seed: 6367
+seed: 6367
+seed: 6367
+seed: 6367
+gcc -o blastee blastee.c shared.o
+seed: 6367
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 6367
+seed: 6367
+seed: 6367
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 22806
+gcc -c shared.c
+seed: 22806
+seed: 22806
+gcc -o blaster blaster.c shared.o
+seed: 22806
+seed: 22806
+seed: 22806
+seed: 22806collect2: error: ld returned 1 exit status
+
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 26076
+make: Makefile: Invalid argument
+make: *** No targets.  Stop.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 21778
+gcc -c shared.c
+seed: 21778
+seed: 21778
+gcc -o blaster blaster.c shared.o
+seed: 21778
+seed: 21778
+seed: 21778
+seed: 21778
+gcc -o blastee blastee.c shared.o
+seed: 21778
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 21778
+seed: 21778
+seed: 21778
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 7406
+gcc -c shared.c
+seed: 7406
+seed: 7406
+gcc -o blaster blaster.c shared.o
+seed: 7406
+seed: 7406
+seed: 7406
+seed: 7406
+gcc -o blastee blastee.c shared.o
+seed: 7406
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 7406
+seed: 7406
+seed: 7406
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 27373
+gcc -c shared.c
+seed: 27373
+seed: 27373
+gcc -o blaster blaster.c shared.o
+seed: 27373
+seed: 27373
+seed: 27373
+seed: 27373
+gcc -o blastee blastee.c shared.o
+seed: 27373
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 27373
+seed: 27373
+seed: 27373
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11809
+gcc -c shared.c
+seed: 11809
+seed: 11809
+gcc -o blaster blaster.c shared.o
+seed: 11809
+seed: 11809
+seed: 11809
+seed: 11809
+gcc -o blastee blastee.c shared.o
+seed: 11809
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 11809
+seed: 11809
+seed: 11809
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 9901
+gcc -c shared.c
+seed: 9901
+seed: 9901
+gcc -o blaster blaster.c shared.o
+seed: 9901
+seed: 9901
+seed: 9901
+seed: 9901
+gcc -o blastee blastee.c shared.o
+seed: 9901
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 9901
+seed: 9901
+seed: 9901
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 21855
+gcc -c shared.c
+seed: 21855
+seed: 21855
+gcc -o blaster blaster.c shared.o
+seed: 21855
+seed: 21855
+seed: 21855
+seed: 21855
+gcc -o blastee blastee.c shared.o
+seed: 21855
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 21855
+seed: 21855
+seed: 21855
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 26232
+gcc -c shared.c
+seed: 26232
+seed: 26232
+gcc -o blaster blaster.c shared.o
+seed: 26232
+seed: 26232
+seed: 26232
+seed: 26232
+gcc -o blastee blastee.c shared.o
+seed: 26232
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 26232
+seed: 26232
+seed: 26232
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 31064
+gcc -c shared.c
+seed: 31064
+seed: 31064
+gcc -o blaster blaster.c shared.o
+seed: 31064
+seed: 31064
+seed: 31064
+seed: 31064
+gcc -o blastee blastee.c shared.o
+seed: 31064
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 31064
+seed: 31064
+seed: 31064
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 9018
+gcc -c shared.c
+seed: 9018
+seed: 9018
+gcc -o blaster blaster.c shared.o
+seed: 9018
+seed: 9018
+seed: 9018
+seed: 9018
+gcc -o blastee blastee.c shared.o
+seed: 9018
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 9018
+seed: 9018
+seed: 9018
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 19307
+gcc -c shared.c
+seed: 19307
+seed: 19307
+gcc -o blaster blaster.c shared.o
+seed: 19307
+seed: 19307
+seed: 19307
+seed: 19307
+gcc -o blastee blastee.c shared.o
+seed: 19307
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 19307
+seed: 19307
+seed: 19307
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 25142
+gcc -c shared.c
+seed: 25142
+seed: 25142
+gcc -o blaster blaster.c shared.o
+seed: 25142
+seed: 25142
+seed: 25142
+seed: 25142
+gcc -o blastee blastee.c shared.o
+seed: 25142
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 25142
+seed: 25142
+seed: 25142
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 23614
+gcc -c shared.c
+seed: 23614
+seed: 23614
+gcc -o blaster blaster.c shared.o
+seed: 23614
+seed: 23614
+seed: 23614
+seed: 23614
+gcc -o blastee blastee.c shared.o
+seed: 23614
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 23614
+seed: 23614
+seed: 23614
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 449
+gcc -c shared.c
+seed: 449
+seed: 449
+gcc -o blaster blaster.c shared.o
+seed: 449
+seed: 449
+seed: 449
+seed: 449
+gcc -o blastee blastee.c shared.o
+seed: 449
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 449
+seed: 449
+seed: 449
+--------------------------------------------------------------------------------------------

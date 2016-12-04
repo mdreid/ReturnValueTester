@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 3615
+error [foo.zip]:  reported length of central directory is
+  0 bytes too long (Atari STZip zipfile?  J.H.Holm ZIPSPLIT 1.1
+  zipfile?).  Compensating...
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 6016
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 942
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 14319
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 15664
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 9799
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 7744
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 9788
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 12196
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 30404
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 30396
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 15543
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 5161
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 5672
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 21677
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 25421
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 26515
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 31198
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 4573
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 22665
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------

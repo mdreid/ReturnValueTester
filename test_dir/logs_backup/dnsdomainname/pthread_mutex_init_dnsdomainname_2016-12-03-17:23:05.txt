@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------------------
+15750
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+15261
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26340
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+13577
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+30061
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+28461
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+8031
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+6678
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+20767
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+26460
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+29677
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31219
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18716
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+21207
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+18127
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+22906
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+23678
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+31775
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+25322
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+10216
+ERROR: ld.so: object '/home/colin/ReturnValueTester/test_dir/wrappers/pthread_mutex_init_wrapper.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+--------------------------------------------------------------------------------------------

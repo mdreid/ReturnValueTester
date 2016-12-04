@@ -1,0 +1,176 @@
+--------------------------------------------------------------------------------------------
+seed: 22450
+unexpand: test_unexpand.txt: No such file or directory
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 5844
+unexpand: memory exhausted
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 20002
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 19359
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 29707
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 660
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 22916
+unexpand: memory exhausted
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 2646
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 9534
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 18930
+unexpand: test_unexpand.txt
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 18862
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 27176
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 8915
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 29617
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 31899
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 23030
+unexpand: test_unexpand.txt
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 17101
+unexpand: test_unexpand.txt: No such file or directory
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 10318
+unexpand: test_unexpand.txt: No such file or directory
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 22427
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 16709
+unexpand: test_unexpand.txt
+--------------------------------------------------------------------------------------------

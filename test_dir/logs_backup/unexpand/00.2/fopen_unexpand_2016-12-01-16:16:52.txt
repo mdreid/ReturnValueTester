@@ -1,0 +1,168 @@
+--------------------------------------------------------------------------------------------
+seed: 27778
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 1327
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 22355
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 5991
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 552
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 17203
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 32175
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 29182
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 28759
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 3451
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11717
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 4479
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 13856
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 5624
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 23757
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 18874
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 25398
+unexpand: test_unexpand.txt: Invalid argument
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 6141
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 1479
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 25296
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------

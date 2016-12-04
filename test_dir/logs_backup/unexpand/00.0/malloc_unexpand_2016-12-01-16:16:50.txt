@@ -1,0 +1,240 @@
+--------------------------------------------------------------------------------------------
+seed: 21364
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 4654
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 4651
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 23911
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 21516
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 31636
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 24894
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 21007
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 32395
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 3832
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 23948
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 14729
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 21603
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 12907
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11320
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 15254
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 5576
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 12857
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 22950
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 16124
+all: blaster blastee
+blaster: blaster.c shared.o shared.h
+	gcc -o blaster blaster.c shared.o
+shared.o: shared.c shared.h
+	gcc -c shared.c
+blastee: blastee.c shared.o shared.h
+	gcc -o blastee blastee.c shared.o
+clean:
+	rm blaster blastee shared.o
+--------------------------------------------------------------------------------------------

@@ -1,0 +1,187 @@
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 4329
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 14680
+file #1:  bad zipfile offset (lseek):  0
+error:  zipfile read error
+file #2:  bad zipfile offset (EOF):  2063
+blaster.c:  mismatching "local" filename (blastee.c),
+         continuing with "central" filename version
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 17647
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 10509
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 12600
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 29862
+error:  zipfile read error
+error [foo.zip]:  start of central directory not found;
+  zipfile corrupt.
+  (please check that you have transferred or created the zipfile in the
+  appropriate BINARY mode and that you have compiled UnZip properly)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 28379
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 1614
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 271
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 2385
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 12227
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 17753
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+file #6:  bad zipfile offset (lseek):  32768
+file #7:  bad zipfile offset (local header sig):  34683
+file #8:  bad zipfile offset (local header sig):  34839
+file #9:  bad zipfile offset (local header sig):  35979
+file #10:  bad zipfile offset (local header sig):  36334
+file #11:  bad zipfile offset (local header sig):  39076
+file #12:  bad zipfile offset (local header sig):  39258
+file #13:  bad zipfile offset (local header sig):  39746
+error:  zipfile read error
+file #14:  bad zipfile offset (EOF):  40216
+file #15:  bad zipfile offset (local header sig):  40396
+file #16:  bad zipfile offset (lseek):  32768
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 26653
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 26382
+error:  zipfile read error
+file #1:  bad zipfile offset (lseek):  0
+file #2:  bad zipfile offset (local header sig):  2063
+file #3:  bad zipfile offset (local header sig):  4805
+file #4:  bad zipfile offset (local header sig):  7546
+replace est.tar *? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 19641
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 1864
+error:  zipfile read error
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+file #5:  bad zipfile offset (lseek):  24576
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 18308
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 18770
+file #1:  bad zipfile offset (lseek):  0
+blaster2.c:  mismatching "local" filename (blastee.c),
+         continuing with "central" filename version
+replace blaster2.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+file #5:  bad zipfile offset (lseek):  24576
+file #6:  bad zipfile offset (lseek):  32768
+file #7:  bad zipfile offset (local header sig):  34683
+file #8:  bad zipfile offset (local header sig):  34839
+file #9:  bad zipfile offset (local header sig):  35979
+file #10:  bad zipfile offset (local header sig):  36334
+file #11:  bad zipfile offset (local header sig):  39076
+file #12:  bad zipfile offset (local header sig):  39258
+file #13:  bad zipfile offset (local header sig):  39746
+file #14:  bad zipfile offset (local header sig):  40216
+file #15:  bad zipfile offset (local header sig):  40396
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 23468
+fatal error: read failure while seeking for End-of-centdir-64 signature.
+  This zipfile is corrupt.
+unzip:  cannot find zipfile directory in one of foo.zip or
+        foo.zip.zip, and cannot find foo.zip.ZIP, period.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+seed: 3113
+error [foo.zip]:  start of central directory not found;
+  zipfile corrupt.
+  (please check that you have transferred or created the zipfile in the
+  appropriate BINARY mode and that you have compiled UnZip properly)
+--------------------------------------------------------------------------------------------

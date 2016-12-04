@@ -1,0 +1,133 @@
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [zipinfo|z]
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [ip foo bl]
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [aster.c b]
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [lastee.c|]
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: new name: replace .zip|foo.zip? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [tar||rm -]
+replace .zip|foo.zip? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [f test.ta]
+replace .zip|foo.zip? [y]es, [n]o, [A]ll, [N]one, [r]ename: new name:   inflating: est.tar blaster.c blastee.c  
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [gzip||gun]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [zip blast]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [er2.gz| b]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [laster2.c]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [ ]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [gunzip|gz]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: error:  invalid response [ip blaste]
+replace blastee.c? [y]es, [n]o, [A]ll, [N]one, [r]ename: new name:   inflating: ster2.c.gz              
+seed: 23756
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 32585
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 6621
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 5109
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 24701
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 27478
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 25552
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 822
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 29752
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 2892
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 11692
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 14216
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 22120
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 605
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 16153
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 4259
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 27593
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 28528
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 24975
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Archive:  foo.zip
+replace blaster.c? [y]es, [n]o, [A]ll, [N]one, [r]ename:  NULL
+(EOF or read error, treating as "[N]one" ...)
+seed: 17037
+--------------------------------------------------------------------------------------------

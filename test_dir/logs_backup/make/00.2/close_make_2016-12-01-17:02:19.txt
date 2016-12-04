@@ -1,0 +1,277 @@
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 20499
+seed: 20499
+seed: 20499
+gcc -o blaster blaster.c shared.o
+seed: 20499
+seed: 20499
+seed: 20499
+collect2: fatal error: close: Input/output error
+compilation terminated.
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 16529
+seed: 16529
+seed: 16529
+gcc -o blaster blaster.c shared.o
+seed: 16529
+seed: 16529
+seed: 16529
+gcc -o blastee blastee.c shared.o
+seed: 16529
+seed: 16529
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 16529
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 32398
+seed: 32398
+seed: 32398
+gcc -o blaster blaster.c shared.o
+seed: 32398
+seed: 32398
+seed: 32398
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 21037
+seed: 21037
+seed: 21037
+gcc -o blaster blaster.c shared.o
+seed: 21037
+seed: 21037
+seed: 21037
+gcc -o blastee blastee.c shared.o
+seed: 21037
+seed: 21037
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 21037
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 6037
+seed: 6037
+seed: 6037
+gcc -o blaster blaster.c shared.o
+seed: 6037
+seed: 6037
+seed: 6037
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: error: ld returned 255 exit status
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 23022
+seed: 23022
+seed: 23022
+gcc -o blaster blaster.c shared.o
+seed: 23022
+seed: 23022
+seed: 23022
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 7339
+seed: 7339
+seed: 7339
+gcc -o blaster blaster.c shared.o
+seed: 7339
+seed: 7339
+seed: 7339
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 13690
+seed: 13690
+seed: 13690
+gcc -o blaster blaster.c shared.o
+seed: 13690
+seed: 13690
+seed: 13690
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: error: ld returned 255 exit status
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 24003
+seed: 24003
+seed: 24003
+gcc -o blaster blaster.c shared.o
+seed: 24003
+seed: 24003
+seed: 24003
+gcc -o blastee blastee.c shared.o
+seed: 24003
+seed: 24003
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 24003
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 18987
+seed: 18987
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 24540
+seed: 24540
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 2949
+seed: 2949
+seed: 2949
+gcc -o blaster blaster.c shared.o
+seed: 2949
+seed: 2949
+seed: 2949
+gcc -o blastee blastee.c shared.o
+seed: 2949
+seed: 2949
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 2949
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 31394
+seed: 31394
+seed: 31394
+gcc -o blaster blaster.c shared.o
+seed: 31394
+seed: 31394
+make: *** [blaster] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 23163
+seed: 23163
+seed: 23163
+gcc -o blaster blaster.c shared.o
+seed: 23163
+seed: 23163
+seed: 23163
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+close: Input/output error
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 28918
+seed: 28918
+seed: 28918
+gcc -o blaster blaster.c shared.o
+seed: 28918
+seed: 28918
+seed: 28918
+gcc -o blastee blastee.c shared.o
+seed: 28918
+seed: 28918
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 28918
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 21146
+seed: 21146
+seed: 21146
+gcc -o blaster blaster.c shared.o
+seed: 21146
+seed: 21146
+seed: 21146
+collect2: fatal error: close: Input/output error
+compilation terminated.
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 8047
+seed: 8047
+seed: 8047
+gcc -o blaster blaster.c shared.o
+seed: 8047
+seed: 8047
+seed: 8047
+collect2: fatal error: close: Input/output error
+compilation terminated.
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 20861
+seed: 20861
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 5032
+seed: 5032
+seed: 5032
+gcc -o blaster blaster.c shared.o
+seed: 5032
+seed: 5032
+seed: 5032
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: fatal error: close: Input/output error
+compilation terminated.
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 7553
+seed: 7553
+seed: 7553
+gcc -o blaster blaster.c shared.o
+seed: 7553
+seed: 7553
+seed: 7553
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: error: ld returned 255 exit status
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------

@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 26955
+seed: 26955
+gcc -o blaster blaster.c shared.o
+seed: 26955
+seed: 26955
+gcc -o blastee blastee.c shared.o
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 26955
+seed: 26955
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 27122
+seed: 27122
+gcc -o blaster blaster.c shared.o
+seed: 27122
+seed: 27122
+gcc -o blastee blastee.c shared.o
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 27122
+seed: 27122
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 10769
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 24717
+seed: 24717
+gcc -o blaster blaster.c shared.o
+seed: 24717
+seed: 24717
+gcc -o blastee blastee.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blastee] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 20284
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 3237
+seed: 3237
+gcc -o blaster blaster.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blaster] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 23661
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 1863
+seed: 1863
+gcc -o blaster blaster.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blaster] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 21162
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 11388
+seed: 11388
+gcc -o blaster blaster.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blaster] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 4370
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 27865
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 11497
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 13600
+seed: 13600
+gcc -o blaster blaster.c shared.o
+seed: 13600
+seed: 13600
+gcc -o blastee blastee.c shared.o
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 13600
+seed: 13600
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 31712
+seed: 31712
+gcc -o blaster blaster.c shared.o
+seed: 31712
+seed: 31712
+gcc -o blastee blastee.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blastee] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 27431
+seed: 27431
+gcc -o blaster blaster.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blaster] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 3383
+seed: 3383
+gcc -o blaster blaster.c shared.o
+seed: 3383
+seed: 3383
+gcc -o blastee blastee.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blastee] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 26385
+make: execvp: gcc: Permission denied
+make: *** [shared.o] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 28524
+seed: 28524
+gcc -o blaster blaster.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blaster] Error 127
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 25225
+seed: 25225
+gcc -o blaster blaster.c shared.o
+seed: 25225
+seed: 25225
+gcc -o blastee blastee.c shared.o
+make: execvp: gcc: Permission denied
+make: *** [blastee] Error 127
+--------------------------------------------------------------------------------------------

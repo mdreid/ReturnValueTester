@@ -1,0 +1,198 @@
+--------------------------------------------------------------------------------------------
+seed: 17499
+blaster.c:1:0: fatal error: can’t open /tmp/ccWdq6Qv.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 17499
+shared.c:1:0: fatal error: can’t open /tmp/ccWdq6Qv.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 26036
+blaster.c:1:0: fatal error: can’t open /tmp/ccwhwWRw.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 26036
+shared.c:1:0: fatal error: can’t open /tmp/ccwhwWRw.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 10380
+seed: 10380
+seed: 10380
+seed: 10380
+seed: 10380
+seed: 10380
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11187
+blaster.c:1:0: fatal error: can’t open /tmp/ccBpoBZI.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 11187
+shared.c:1:0: fatal error: can’t open /tmp/ccBpoBZI.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 805
+blaster.c:1:0: fatal error: can’t open /tmp/ccZ7exMJ.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 805
+shared.c:1:0: fatal error: can’t open /tmp/ccZ7exMJ.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 4276
+blaster.c:1:0: fatal error: can’t open /tmp/ccefLdjR.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 4276
+shared.c:1:0: fatal error: can’t open /tmp/ccefLdjR.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 18514
+seed: 18514
+seed: 18514
+seed: 18514
+seed: 18514
+seed: 18514collect2: error: ld returned 1 exit status
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 11949
+blaster.c:1:0: fatal error: can’t open /tmp/ccFWzLg2.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 11949
+shared.c:1:0: fatal error: can’t open /tmp/ccFWzLg2.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 7228
+blaster.c:1:0: fatal error: can’t open /tmp/cc8RPJv3.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 7228
+shared.c:1:0: fatal error: can’t open /tmp/cc8RPJv3.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 16300
+seed: 16300
+seed: 16300
+seed: 16300
+seed: 16300
+seed: 16300collect2: error: ld returned 1 exit status
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 15528
+seed: 15528
+seed: 15528
+seed: 15528
+seed: 15528
+seed: 15528
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 30175
+blaster.c:1:0: fatal error: can’t open /tmp/ccHt0z16.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 30175
+shared.c:1:0: fatal error: can’t open /tmp/ccHt0z16.s for writing: Invalid argument
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 13598
+seed: 13598
+seed: 13598
+seed: 13598
+seed: 13598
+seed: 13598
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 32060
+seed: 32060
+seed: 32060
+seed: 32060
+seed: 32060
+seed: 32060
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 7358
+seed: 7358
+seed: 7358
+seed: 7358
+seed: 7358
+seed: 7358
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 8091
+seed: 8091
+seed: 8091
+seed: 8091
+seed: 8091
+seed: 8091collect2: error: ld returned 1 exit status
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 14262
+seed: 14262
+seed: 14262
+seed: 14262
+seed: 14262
+seed: 14262
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 18691
+seed: 18691
+seed: 18691
+seed: 18691
+seed: 18691
+seed: 18691
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 27051
+seed: 27051
+seed: 27051
+seed: 27051
+seed: 27051
+seed: 27051collect2: error: ld returned 1 exit status
+
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+seed: 2024
+blaster.c:1:0: fatal error: can’t open /tmp/ccb7LroK.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+seed: 2024
+shared.c:1:0: fatal error: can’t open /tmp/ccb7LroK.s for writing: Invalid argument
+ /*
+ ^
+compilation terminated.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+--------------------------------------------------------------------------------------------

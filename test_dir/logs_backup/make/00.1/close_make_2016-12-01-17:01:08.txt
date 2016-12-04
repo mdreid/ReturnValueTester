@@ -1,0 +1,291 @@
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 10821
+seed: 10821
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 17890
+seed: 17890
+seed: 17890
+gcc -o blaster blaster.c shared.o
+seed: 17890
+seed: 17890
+seed: 17890
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: error: ld returned 255 exit status
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 8947
+seed: 8947
+seed: 8947
+gcc -o blaster blaster.c shared.o
+seed: 8947
+seed: 8947
+seed: 8947
+gcc -o blastee blastee.c shared.o
+seed: 8947
+seed: 8947
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 8947
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 10068
+seed: 10068
+seed: 10068
+gcc -o blaster blaster.c shared.o
+seed: 10068
+seed: 10068
+seed: 10068
+gcc -o blastee blastee.c shared.o
+seed: 10068
+seed: 10068
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 10068
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 32661
+seed: 32661
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 7592
+seed: 7592
+seed: 7592
+gcc -o blaster blaster.c shared.o
+seed: 7592
+seed: 7592
+seed: 7592
+gcc -o blastee blastee.c shared.o
+seed: 7592
+seed: 7592
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 7592
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 6984
+seed: 6984
+seed: 6984
+gcc -o blaster blaster.c shared.o
+seed: 6984
+seed: 6984
+seed: 6984
+gcc -o blastee blastee.c shared.o
+seed: 6984
+seed: 6984
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 6984
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 5220
+seed: 5220
+seed: 5220
+gcc -o blaster blaster.c shared.o
+seed: 5220
+seed: 5220
+seed: 5220
+gcc -o blastee blastee.c shared.o
+seed: 5220
+seed: 5220
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 5220
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 17283
+seed: 17283
+seed: 17283
+gcc -o blaster blaster.c shared.o
+seed: 17283
+seed: 17283
+seed: 17283
+gcc -o blastee blastee.c shared.o
+seed: 17283
+seed: 17283
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 17283
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 876
+seed: 876
+seed: 876
+gcc -o blaster blaster.c shared.o
+seed: 876
+seed: 876
+seed: 876
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 11461
+seed: 11461
+seed: 11461
+gcc -o blaster blaster.c shared.o
+seed: 11461
+seed: 11461
+seed: 11461
+gcc -o blastee blastee.c shared.o
+seed: 11461
+seed: 11461
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 11461
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 19213
+seed: 19213
+seed: 19213
+gcc -o blaster blaster.c shared.o
+seed: 19213
+seed: 19213
+seed: 19213
+gcc -o blastee blastee.c shared.o
+seed: 19213
+seed: 19213
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 19213
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 22917
+seed: 22917
+seed: 22917
+gcc -o blaster blaster.c shared.o
+seed: 22917
+seed: 22917
+seed: 22917
+gcc -o blastee blastee.c shared.o
+seed: 22917
+seed: 22917
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 22917
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 25394
+seed: 25394
+seed: 25394
+gcc -o blaster blaster.c shared.o
+seed: 25394
+seed: 25394
+seed: 25394
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: error: ld returned 255 exit status
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 27011
+seed: 27011
+seed: 27011
+gcc -o blaster blaster.c shared.o
+seed: 27011
+seed: 27011
+make: *** [blaster] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 17216
+seed: 17216
+seed: 17216
+gcc -o blaster blaster.c shared.o
+seed: 17216
+seed: 17216
+seed: 17216
+gcc -o blastee blastee.c shared.o
+seed: 17216
+seed: 17216
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 17216
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 9862
+seed: 9862
+seed: 9862
+gcc -o blaster blaster.c shared.o
+seed: 9862
+seed: 9862
+seed: 9862
+gcc -o blastee blastee.c shared.o
+seed: 9862
+seed: 9862
+blastee.c: In function ‘main’:
+blastee.c:142:9: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 3 has type ‘__suseconds_t’ [-Wformat=]
+         printf("Time Packet Received: %s ,milliseconds: %lld \n",ctime(&current_time), time_recv.tv_usec/1000);
+         ^
+seed: 9862
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 26741
+seed: 26741
+seed: 26741
+gcc -o blaster blaster.c shared.o
+seed: 26741
+seed: 26741
+seed: 26741
+collect2: fatal error: close: Input/output error
+compilation terminated.
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 5599
+seed: 5599
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 26488
+seed: 26488
+seed: 26488
+gcc -o blaster blaster.c shared.o
+seed: 26488
+seed: 26488
+make: *** [blaster] Aborted (core dumped)
+--------------------------------------------------------------------------------------------

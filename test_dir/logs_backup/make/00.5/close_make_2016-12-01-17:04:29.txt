@@ -1,0 +1,201 @@
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 30681
+seed: 30681
+seed: 30681
+gcc -o blaster blaster.c shared.o
+seed: 30681
+seed: 30681
+seed: 30681
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 1386
+seed: 1386
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 29578
+seed: 29578
+seed: 29578
+gcc -o blaster blaster.c shared.o
+seed: 29578
+seed: 29578
+seed: 29578
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+collect2: fatal error: close: Input/output error
+compilation terminated.
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 10848
+seed: 10848
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 14765
+seed: 14765
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 5713
+seed: 5713
+seed: 5713
+gcc -o blaster blaster.c shared.o
+seed: 5713
+seed: 5713
+seed: 5713
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 22284
+seed: 22284
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 25925
+seed: 25925
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 7145
+seed: 7145
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 6719
+seed: 6719
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 11964
+seed: 11964
+seed: 11964
+gcc -o blaster blaster.c shared.o
+seed: 11964
+seed: 11964
+seed: 11964
+collect2: fatal error: close: Input/output error
+compilation terminated.
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 22984
+seed: 22984
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 5089
+seed: 5089
+seed: 5089
+gcc -o blaster blaster.c shared.o
+seed: 5089
+seed: 5089
+make: *** [blaster] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 10889
+seed: 10889
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 18572
+seed: 18572
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 1455
+seed: 1455
+seed: 1455
+gcc -o blaster blaster.c shared.o
+seed: 1455
+seed: 1455
+make: *** [blaster] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 18172
+seed: 18172
+seed: 18172
+gcc -o blaster blaster.c shared.o
+seed: 18172
+seed: 18172
+seed: 18172
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+close: Input/output error
+close: Input/output error
+close: Input/output error
+close: Input/output error
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 29984
+seed: 29984
+seed: 29984
+gcc -o blaster blaster.c shared.o
+seed: 29984
+seed: 29984
+seed: 29984
+gcc: internal compiler error: Aborted (program collect2)
+close: Input/output error
+close: Input/output error
+close: Input/output error
+close: Input/output error
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+make: *** [blaster] Error 4
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 14558
+seed: 14558
+seed: 14558
+gcc -o blaster blaster.c shared.o
+seed: 14558
+seed: 14558
+seed: 14558
+collect2: fatal error: close: Input/output error
+compilation terminated.
+collect2: error trying to exec '/usr/bin/ld': close: Input/output error
+make: *** [blaster] Error 1
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+gcc -c shared.c
+seed: 8630
+seed: 8630
+make: *** [shared.o] Aborted (core dumped)
+--------------------------------------------------------------------------------------------
