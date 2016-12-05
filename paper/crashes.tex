@@ -12,3 +12,25 @@
 +	}
 \end{lstlisting}
 \end{itemize}
+
+\subsection{\texttt{hostid/malloc}}
+\begin{itemize}
+\item In our version of \texttt{libc}, the return value from \texttt{malloc} is not checked, but a counter is set assuming that the return value was valid. This later causes a null pointer dereference.
+\item \href{https://github.com/lattera/glibc/blob/master/resolv/res\_send.c\#L453}{https://github.com/lattera/glibc/blob/master/resolv/res\_send.c\#453}
+\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 11589}
+\item Fix:
+\begin{lstlisting}
+	for (ns = 0; ns < statp->nscount; ns++) {
+			...
+			
+	        if (EXT(statp).nsaddrs[ns] == NULL)
+	                EXT(statp).nsaddrs[ns] =
+	                    malloc(sizeof (struct sockaddr_in6));
++	                if(EXT(statp).nsaddrs[ns] != NULL) {
++	                	EXT(statp).nscount++;
++	                }
+			...
+	}
+-	EXT(statp).nscount = statp->nscount;
+\end{lstlisting}
+\end{itemize}
