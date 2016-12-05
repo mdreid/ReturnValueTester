@@ -1,0 +1,14 @@
+\subsection{\texttt{du/malloc}}
+\begin{itemize}
+\item Return value from \texttt{setup\_dir} is not checked, which allocates memory and returns \texttt{false} in many scenarios, including if \texttt{malloc} fails
+\item \href{https://github.com/coreutils/gnulib/blob/master/lib/fts.c\#L986}{https://github.com/coreutils/gnulib/blob/master/lib/fts.c\#L986}
+\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 10178}
+\item Fix:
+\begin{lstlisting}
+-	setup_dir(sp);
+
++	if (!setup_dir(sp)) {
++		return NULL;
++	}
+\end{lstlisting}
+\end{itemize}
