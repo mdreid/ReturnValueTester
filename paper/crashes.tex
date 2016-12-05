@@ -1,7 +1,9 @@
-\subsection{\texttt{du/malloc}}
+\begin{itemize}
+
+\item \texttt{du/malloc}
 \begin{itemize}
 \item Return value from \texttt{setup\_dir} is not checked, which allocates memory and returns \texttt{false} in many scenarios, including if \texttt{malloc} fails
-\item \href{https://github.com/coreutils/gnulib/blob/master/lib/fts.c\#L986}{https://github.com/coreutils/gnulib/blob/master/lib/fts.c\#L986}
+\item \url{https://github.com/coreutils/gnulib/blob/master/lib/fts.c#L986}
 \item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 10178}
 \item Fix:
 \begin{lstlisting}
@@ -13,10 +15,10 @@
 \end{lstlisting}
 \end{itemize}
 
-\subsection{\texttt{hostid/malloc}}
+\item \texttt{hostid/malloc}
 \begin{itemize}
 \item In our version of \texttt{libc}, the return value from \texttt{malloc} is not checked, but a counter is set assuming that the return value was valid. This later causes a null pointer dereference.
-\item \href{https://github.com/lattera/glibc/blob/master/resolv/res\_send.c\#L453}{https://github.com/lattera/glibc/blob/master/resolv/res\_send.c\#453}
+\item \url{https://github.com/lattera/glibc/blob/master/resolv/res_send.c#L453}
 \item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 11589}
 \item Fix:
 \begin{lstlisting}
@@ -33,4 +35,31 @@
 	}
 -	EXT(statp).nscount = statp->nscount;
 \end{lstlisting}
+\end{itemize}
+
+\item \texttt{netstat/malloc}
+\begin{itemize}
+\item Return value from \texttt{malloc} not checked and then passed to \texttt{strcpy}
+\url{https://github.com/giftnuss/net-tools/blob/master/lib/inet.c#L213}
+\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 26886}
+\item Fix:
+\begin{lstlisting}
+    pn = (struct add	r *) malloc(sizeof(struct addr));
++   if (pn == NULL) {
++   	perror("netstat");
++		return (-1);
++   }
+    pn->addr = *sin;
+    pn->next = INET_nn;
+    pn->host = host;
+    pn->name = (char *) malloc(strlen(name) + 1);
++   if (pn->name == NULL) {
++   	perror("netstat");
++		return (-1);
++   }
+    strcpy(pn->name, name);
+
+\end{lstlisting}
+\end{itemize}
+
 \end{itemize}
