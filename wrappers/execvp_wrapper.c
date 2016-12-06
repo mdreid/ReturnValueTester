@@ -11,9 +11,9 @@ static int (*real_execvp) (const char *__file, char *const __argv[]) = NULL;
 extern int execvp(const char *__file, char *const __argv[]) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_execvp = dlsym(RTLD_NEXT, "execvp");
-  if(rand || (real_execvp == NULL)) {
+  if(flip || (real_execvp == NULL)) {
     errno = EACCES;
     return -1;
   } else {

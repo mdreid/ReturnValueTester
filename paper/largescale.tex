@@ -1,0 +1,33 @@
+In addition to the smaller utilities discussed above, we tested a collection of large-scale open source applications. Admittedly, we do not offer a well defined distinction between small and large-scale, but we loosely define large-scale as applications that are composed of substantial code bases and represent long term projects from major vendors. We believe that these applications are an important portion of our testing suite because they demonstrate the scale that modern applications can achieve today and could not in 1995 for Miller et al. Furthermore, we expected to find more crashes in applications of these types, following the common wisdom that larger programs are generally more difficult to get correct.
+
+
+One difficulty in testing large-scale applications is determining the set of behaviors to test. Applications of this size offer a large set of features and many of these features do not have analogs on the others. For example, Firefox and Chrome offer the behavior of opening and rendering a web page, while gvim and LibreOffice offer no behaviors that are analogous. We therefore restricted our testing to behaviors that are exhibited by all of these applications. Most of our testing of large-scale applications consisted of invoking the application from the command line (using LD\_PRELOAD of course) and then exiting the application shortly after it started (if it did). This tests a somewhat narrow portion of the features offered by each application, but it offers behavior that is semantically equivalent across the applications, which allows for more meaningful comparability. Table 1 shows the results of our tests.
+
+\begin{table}
+\centering
+\caption{Results for Testing of Large-scale Applications}
+		\begin{adjustbox}{width=\textwidth}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			& Chrome & gvim & Thunderbird & Firefox & VLC & LibreOffice & VirtualBox & gcc & javac & Eclipse\\
+			\hline
+			\texttt{malloc} & H & & & & C &  & & C & C & C \\ \hline
+			\texttt{open} & & & & & & & & & & \\ \hline
+			\texttt{read} & H & & & & & & & & & \\ \hline
+			\texttt{write} & H & H & H & H & H & & N/A& & & H \\ \hline
+			\texttt{close} & H & & H & & & H & & & & \\ \hline
+			\texttt{mmap} & & C & CH & C & H & C & & & &\\ \hline
+			\texttt{pthread\_create}& H & &  & C & CH & H & N/A& N/A& & C \\ \hline
+			\texttt{pthread\_mutex\_init} & H & & H & H & H & C & N/A& N/A & H &  \\ \hline
+			\texttt{fork} & & & & & & & & N/A & & \\ \hline
+			\texttt{pipe} & H & & & & & &  & N/A & &\\ \hline
+			\texttt{fopen} & & C & C & & C & & & & & \\ \hline
+		\end{tabular} 
+		\end{adjustbox}
+		Key: H = hang, C = core dump, CH = hang and core dump (in separate runs), N/A = wasn't called by the application, empty space = called by application but didn't result in a crash 
+\end{table}
+
+The results of our tests display a variety of behaviors across the applications that we tested. For the calls tested, every application (with the exception of VirtualBox) crashed for at least one call. Of the applications that crashed, every one (with the exception of gcc) crashed for more than one call. Of the 37 distinct crashes we encountered for these applications, 15 were caused by core dumps and 22 by hangs. This suggests that these applications are slightly more resilient to errors that would lead to core dumps. 
+
+When we first started testing large-scale applications we encountered core dumps for nearly every application for many calls. There was no obvious signs that these core dumps were caused by aborts, but with some investigation we determined that this was the case. Many of these aborts were caused by the GLib library on the application's behalf. GLib is collection of low-level system libraries developed mainly for the GNOME project. These libraries implement a variety of commonly used data structures, string manipulation functions, and a thread package (built on \texttt{pthread}) [?]. We found that for applications that are window-based, nearly all of them used GLib to aid in window management. An investigation of the GLib source [?] reveals that after being passed through a number of internal functions, an erroneous return value was eventually passed to \texttt{g\_error}, which prints an error message and aborts the program. 
+
