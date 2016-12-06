@@ -11,9 +11,9 @@ static void *(*real_realloc) (void *__ptr, size_t __size) = NULL;
 extern void *realloc(void *__ptr, size_t __size) {
   char* var = getenv("PROB");
   float p = atof(var);
-  int rand = rand_bool((double) p);
+  int flip = rand_bool((double) p);
   real_realloc = dlsym(RTLD_NEXT, "realloc");
-  if(rand || (real_realloc == NULL)) {
+  if(flip || (real_realloc == NULL)) {
     
     return NULL;
   } else {
