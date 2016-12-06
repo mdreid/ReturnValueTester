@@ -12,7 +12,7 @@ from pycparserext.ext_c_generator import GnuCGenerator
 #      - errno, and 
 #      - return value
 # just_list: only list functions declared in this header, don't write wrappers to file
-def write_files(dir_list, header_include, out_dir, fn_names="*"):
+def write_files(dir_list, header_include, out_dir, fn_names):
     header_file = header_include.split('/')[-1]
 
     is_valid_file = [os.path.isfile(dir_name + header_file) for dir_name in dir_list]
@@ -22,36 +22,42 @@ def write_files(dir_list, header_include, out_dir, fn_names="*"):
         return
     else:
         header_file = dir_list[is_valid_file.index(True)] + header_file
-    
+
     # pycparser utility function for preprocessing the file and
     # getting all of the file as a string
     text = preprocess_file(header_file)
-    
+
     # use pycparserext to parse the GNU C header file
     p = GnuCParser()
     ast = p.parse(text)
 
-    for node in ast.ext:
-        if isinstance(node, c_ast.FuncDef) or not isinstance(node.type, c_ast.FuncDecl):
-            continue
+    # loop over all functions requested
+    for fn in fn_names:
+        found = False
+        
+        # loop over the ast
+        for node in ast.ext:
+            if isinstance(node, c_ast.FuncDef) or not isinstance(node.type, c_ast.FuncDecl):
+                continue
 
-        # skip over functions with __noreturn__
-        if hasattr(node.type.type, 'attributes') and any([e.name == "__noreturn__" for e in node.type.type.attributes.exprs]):
-            continue
+            # skip over functions with __noreturn__
+            if hasattr(node.type.type, 'attributes') and any([e.name == "__noreturn__" for e in node.type.type.attributes.exprs]):
+                continue
 
-        # check for variadic args, skip if found
-        if any([isinstance(arg, c_ast.EllipsisParam) for arg in node.type.args.params]):
-            continue
-
-        try:
-            idx = [fn[0] for fn in fn_names].index(node.name)
-        except ValueError:
-            idx = None
+            if node.name != fn[0]:
+                continue
             
-        if fn_names != "*" and idx is None:
-            continue
+            found = True
 
-        write_file(out_dir, header_include, node, fn_names[idx][1], fn_names[idx][2])
+            # check for variadic args, skip if found
+            if any([isinstance(arg, c_ast.EllipsisParam) for arg in node.type.args.params]):
+                print "Skipped function %s because of variadic args." % fn[0]
+                continue
+
+            write_file(out_dir, header_include, node, fn[1], fn[2])
+
+        if not found:
+            print "The header file %s does not contain a method signature for %s" % (header_file, fn[0])
 
 # out_dir: directory to write out to
 # header_file: name of header file to #include at the top
@@ -152,4 +158,4 @@ if __name__ == "__main__":
     wrappers_to_gen = get_wrapper_info(sys.argv[1])
 
     for header_file in wrappers_to_gen:
-        write_files(['/usr/include/', '/usr/include/linux/'], header_file, sys.argv[2], wrappers_to_gen[header_file])
+        write_files(['/usr/include/','/usr/include/x86_64-linux-gnu/sys/', '/usr/include/linux/'], header_file, sys.argv[2], wrappers_to_gen[header_file])
