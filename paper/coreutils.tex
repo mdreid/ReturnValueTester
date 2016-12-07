@@ -1,71 +1,38 @@
-\begin{itemize}
+The GNU Core Utilities project (henceforth ``coreutils'') comprises over 100 programs (many of them reimplementations of the original utilities found in UNIX) which provide basic file, shell, and text manipulation. Per their documentation, these are tools which are ``expected to exist on every [GNU] operating system'' \cite{coreutils}. As such, the robustness of these programs is of great importance, as they will be used by many users on a variety of systems.
 
-\item \texttt{du/malloc}
-\begin{itemize}
-\item Return value from \texttt{setup\_dir} is not checked, which allocates memory and returns \texttt{false} in many scenarios, including if \texttt{malloc} fails
-\item \url{https://github.com/coreutils/gnulib/blob/master/lib/fts.c#L986}
-\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 10178}
-\item Fix:
-\begin{lstlisting}
--	setup_dir(sp);
+In order to assess the robustness of the coreutils programs when given error return values from a variety of calls, we selected 62 of the coreutils programs to test (listing \ref{lst:coreutils_progs}).
 
-+	if (!setup_dir(sp)) {
-+		return NULL;
-+	}
+% table:
+
+\iffalse
+cat ~/ReturnValueTester/test\_dir/utils.txt.bak | egrep -v '^#|^$' | cut -d "|" -f 1 | sort > utils_used.txt
+ls -f -a -1 ~/Downloads/coreutils-8.25/src/*.c | rev | cut -d "/" -f 1 | rev | cut -d "." -f 1 | sort > coreutils.txt 
+comm utils_used.txt coreutils.txt -12 | column -c 80
+\fi
+
+\begin{lstlisting}[label={lst:coreutils_progs},caption={GNU Core Utilities tested}]
+base64          dirname         logname         sort            uniq
+basename        du              ls              stat            unlink
+cat             echo            md5sum          sum             uptime
+chmod           expr            mkdir           touch           users
+cksum           factor          mktemp          tr              wc
+comm            fold            mv              true            who
+cp              groups          nproc           truncate        whoami
+cut             head            printenv        tsort
+date            hostid          pwd             tty
+df              id              seq             uname
+dircolors       link            shred           unexpand
 \end{lstlisting}
-\end{itemize}
 
-\item \texttt{hostid/malloc}
-\begin{itemize}
-\item In our version of \texttt{libc}, the return value from \texttt{malloc} is not checked, but a counter is set assuming that the return value was valid. This later causes a null pointer dereference.
-\item \url{https://github.com/lattera/glibc/blob/master/resolv/res_send.c#L453}
-\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 11589}
-\item Fix:
-\begin{lstlisting}
-	for (ns = 0; ns < statp->nscount; ns++) {
-			...
-			
-	        if (EXT(statp).nsaddrs[ns] == NULL)
-	                EXT(statp).nsaddrs[ns] =
-	                    malloc(sizeof (struct sockaddr_in6));
-+	                if(EXT(statp).nsaddrs[ns] != NULL) {
-+	                	EXT(statp).nscount++;
-+	                }
-			...
-	}
--	EXT(statp).nscount = statp->nscount;
+For each of these utilities, we tested with a variety of wrapped calls (listing \ref{lst:coreutils_wrappers}).
+
+% ls -f -a -1 ~/ReturnValueTester/wrappers/*_wrapper.c | rev | cut -d "/" -f 1 | rev | cut -d "_" -f 1 | uniq | column -c 80
+\begin{lstlisting}[label={lst:coreutils_wrappers},caption={Wrapped calls for testing GNU Core Utilities}]
+calloc  creat   execv   fork    malloc  opendir pipe    pthread realloc
+close   execvp  fopen   fstat   mmap    open    poll    read    write
 \end{lstlisting}
-\end{itemize}
 
-\item \texttt{netstat/malloc}
-\begin{itemize}
-\item Return value from \texttt{malloc} not checked and then passed to \texttt{strcpy}
-\url{https://github.com/giftnuss/net-tools/blob/master/lib/inet.c#L213}
-\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 26886}
-\item Fix:
-\begin{lstlisting}
-    pn = (struct add	r *) malloc(sizeof(struct addr));
-+   if (pn == NULL) {
-+   	perror("netstat");
-+		return (-1);
-+   }
-    pn->addr = *sin;
-    pn->next = INET_nn;
-    pn->host = host;
-    pn->name = (char *) malloc(strlen(name) + 1);
-+   if (pn->name == NULL) {
-+   	perror("netstat");
-+		return (-1);
-+   }
-    strcpy(pn->name, name);
+We hypothesized that the coreutils project would yield very few crashes. The justification for this is two-fold. Primarily, the project is extremely mature: in 2002, the GNU fileutils, textutils, and sh-utils projects merged into the GNU coreutils project, but each of those three projects had a substantial development history at that point in time. In the same vein, the binaries from the coreutils project are in production all over the world, and therefore are more well-tested than other open source projects. Furthermore, we hypothesized that the most common source of errors would be from the \texttt{malloc} family of calls.
 
-\end{lstlisting}
-\end{itemize}
-
-\item \texttt{ifconfig/malloc}
-\begin{itemize}
-\item (Unable to get source for version of \texttt{ifconfig} running on Ubuntu)\\
-\end{itemize}
-
-
-\end{itemize}
+\subsection{Results}
+Our results suggest that the coreutils project is extremely robust to error values returned from the calls tested. Namely, we were able to achieve crashes in two of the programs, \texttt{du} and \texttt{hostid}. Both of these crashes came through intercepting calls to \texttt{malloc}. See listings \ref{lst:du/malloc} and \ref{lst:hostid/malloc}.

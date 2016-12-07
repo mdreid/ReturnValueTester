@@ -1,0 +1,34 @@
+\section{GNU Core Utilities crashes}
+
+\lstset{numbers=left}
+\begin{lstlisting}[label={lst:du/malloc},firstnumber=986, caption={\texttt{du} crashes when \texttt{malloc} returns an error. The offending code is in the coreutils 8.25 source code, in \texttt{lib/fts.c:986}.}]
+-	setup_dir(sp);
+
++	if (!setup_dir(sp)) {
++		return NULL;
++	}
+\end{lstlisting}
+
+\begin{lstlisting}[label={lst:hostid/malloc},firstnumber=425, caption={\texttt{hostid} crashes when \texttt{malloc} returns an error. The offending code is in the GLibC 2.23 source code, in \texttt{resolv/res\_send.c:453}.}]
+
+    for (ns = 0; ns < statp->nscount; ns++) {
+            EXT(statp).nssocks[ns] = -1;
+            if (statp->nsaddr_list[ns].sin_family == 0)
+                    continue;
+            if (EXT(statp).nsaddrs[ns] == NULL)
+                    EXT(statp).nsaddrs[ns] =
+                        malloc(sizeof (struct sockaddr_in6));
++	        if(EXT(statp).nsaddrs[ns] != NULL) {
++	                EXT(statp).nscount++;
++	        }
+            if (EXT(statp).nsaddrs[ns] != NULL)
+                    memset (mempcpy(EXT(statp).nsaddrs[ns],
+                                    &statp->nsaddr_list[ns],
+                                    sizeof (struct sockaddr_in)),
+                            '\0',
+                            sizeof (struct sockaddr_in6)
+                            - sizeof (struct sockaddr_in));
+    }
+-    EXT(statp).nscount = statp->nscount;
+}
+\end{lstlisting}
