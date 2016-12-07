@@ -16,6 +16,15 @@ do
 	eval "$PRE"
 	export LD_PRELOAD=~/ReturnValueTester/wrappers/$2_wrapper.so
 	{ ${@:3}; } 2>> $OUTFILE 1>/dev/null
+
+	# check if it seg faulted; if so, then quit right away so we don't thrash the vm with
+	# more seg faults
+	#
+	# this means that we will generate a maximum of one core dump per run of log_gen
+	if [ $? -eq 139 ]; then
+	   exit 0
+	fi			
+
 	export LD_PRELOAD=
 	eval "$AFTER"
 
