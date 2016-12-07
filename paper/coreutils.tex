@@ -1,6 +1,8 @@
-The GNU Core Utilities project (henceforth ``coreutils'') comprises over 100 programs (many of them reimplementations of the original utilities found in UNIX) which provide basic file, shell, and text manipulation. Per their documentation, these are tools which are ``expected to exist on every [GNU] operating system'' \cite{coreutils}. As such, the robustness of these programs is of great importance, as they will be used by many users on a variety of systems.
+The main group of applications that we tested was comprised of small command-line utilities. Most of these are from the GNU Core Utilities project. As described by the Free Software Foundation, ``the GNU core utilities are the basic file, shell and text manipulation utilities of the GNU operating system." [?] These utilities were chosen because they represent some of the most commonly used applications on Linux systems. In addition to the GNU core utilities we included some other common utilities that are not part of the project. Listing 4 displays the utilities that we tested. For each of these utilities, we tested using each the calls in Listing \ref{lst:coreutils_wrappers}.
 
-In order to assess the robustness of the coreutils programs when given error return values from a variety of calls, we selected 62 of the coreutils programs to test (listing \ref{lst:coreutils_progs}).
+%The GNU Core Utilities project (henceforth ``coreutils'') is comprised of over 100 programs (many of them reimplementations of the original utilities found in UNIX) which provide basic file, shell, and text manipulation. Per their documentation, these are tools which are ``expected to exist on every [GNU] operating system'' \cite{coreutils}. As such, the robustness of these programs is of great importance, as they will be used by many users on a variety of systems.
+
+%In order to assess the robustness of the coreutils programs when given error return values from a variety of calls, we selected 62 of the coreutils programs to test (listing \ref{lst:coreutils_progs}).
 
 % table:
 
@@ -21,18 +23,20 @@ cp              groups          nproc           truncate        whoami
 cut             head            printenv        tsort
 date            hostid          pwd             tty
 df              id              seq             uname
-dircolors       link            shred           unexpand
+dircolors       link            shred           unexpand NOT TRUST THIS TABLE!
 \end{lstlisting}
 
-For each of these utilities, we tested with a variety of wrapped calls (listing \ref{lst:coreutils_wrappers}).
+
 
 % ls -f -a -1 ~/ReturnValueTester/wrappers/*_wrapper.c | rev | cut -d "/" -f 1 | rev | cut -d "_" -f 1 | uniq | column -c 80
-\begin{lstlisting}[label={lst:coreutils_wrappers},caption={Wrapped calls for testing GNU Core Utilities}]
-calloc  creat   execv   fork    malloc  opendir pipe    pthread realloc
-close   execvp  fopen   fstat   mmap    open    poll    read    write
+\begin{lstlisting}[label={lst:coreutils_wrappers},caption={Wrapped calls for testing Command-line Utilities}]
+calloc  creat   execv   fork    malloc  opendir pipe    pthread_create 	realloc
+close   execvp  fopen   fstat   mmap    open    poll    pthread_mutex	read    
+write
 \end{lstlisting}
 
-We hypothesized that the coreutils project would yield very few crashes. The justification for this is two-fold. Primarily, the project is extremely mature: in 2002, the GNU fileutils, textutils, and sh-utils projects merged into the GNU coreutils project, but each of those three projects had a substantial development history at that point in time. In the same vein, the binaries from the coreutils project are in production all over the world, and therefore are more well-tested than other open source projects. Furthermore, we hypothesized that the most common source of errors would be from the \texttt{malloc} family of calls.
+We hypothesized that utilities of this type would yield very few crashes. The justification for this is two-fold. Primarily, the project is extremely mature: in 2002, the GNU fileutils, textutils, and sh-utils projects merged into the GNU coreutils project, but each of those three projects had a substantial development history at that point in time. In the same vein, the binaries from the coreutils project are used in production all over the world, and therefore are more well-tested than other open source projects. Additionally, these utilities have relatively few lines of code and total calls and are therefore easier to get correct.
+ %Furthermore, we hypothesized that the most common source of errors would be from the \texttt{malloc} family of calls.
 
 \subsection{Results}
 Our results suggest that the coreutils project is extremely robust to error values returned from the calls tested. Namely, we were able to achieve crashes in two of the programs, \texttt{du} and \texttt{hostid}. Both of these crashes came through intercepting calls to \texttt{malloc}. See listings \ref{lst:du/malloc} and \ref{lst:hostid/malloc}.

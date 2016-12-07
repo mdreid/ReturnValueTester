@@ -4,7 +4,7 @@ cat|echo "testing cat" >> tmp.txt|rm -f tmp.txt|tmp.txt
 chmod|echo "testing chmod" >> tmp.txt|rm -f tmp.txt|777 tmp.txt
 cksum|echo "testing cksum" >> tmp.txt|rm -f tmp.txt|tmp.txt
 cp|echo "testing cp" >> tmp.txt|rm -f tmp*.txt|tmp.txt tmp2.txt
-cut|echo "cut;1;2;3;4" >> tmp.txt|rm -f tmp.txt| -d ; tmp.txt -f 2
+cut|echo "cut;1;2;3;4" >> tmp.txt|rm -f tmp.txt| -d ";" tmp.txt -f 2
 date||| 
 df|echo "testing df" >> tmp.txt|rm -f tmp.txt|tmp.txt
 dirname|||/usr/bin/
@@ -37,7 +37,7 @@ true|||
 touch||rm -f test.txt|test.txt
 sum|echo "testing sum" >> test_sum.txt|rm -f test_sum.txt|test_sum.txt
 stat|touch test_stat.txt|rm -f test_stat.txt|test_stat.txt
-shred|cp test_sort.txt test_shred.txt||test_shred.txt -n 5
+#shred|cp test_sort.txt test_shred.txt||test_shred.txt -n 1
 sort|||test_sort.txt test_sort2.txt
 tr|||a-z A-Z < test_tr.txt
 printenv|||
@@ -51,14 +51,14 @@ du|||
 dircolors|||
 seq|||1 10
 stat|||test_comm1.txt
-ifconfig|||
-netstat|||
-grep||| -Ri seed .
-make||make clean -s| -s
-gcc||rm -f blaster shared.o| -o blaster blaster.c shared.c
-zip||rm -f foo.zip|foo * > /dev/null
-unzip|zip foo * > /dev/null|rm -f foo.zip|foo.zip
-zipinfo|zip foo * > /dev/null|rm -f foo.zip|foo.zip
-tar||rm -f test.tar| -cvf test.tar *
-gzip|cp blaster.c blaster2.c|gunzip blaster2.c.gz| blaster2.c 
-gunzip|cp blaster.c blaster2.c; gzip blaster2.c||blaster2.c.gz
+#ifconfig|||
+#netstat|||
+#grep||| -Ri seed .
+#make||make clean -s| -s
+#gcc||rm -f blaster shared.o| -o blaster blaster.c shared.c
+#zip||rm -f foo.zip|foo * > /dev/null
+#unzip|zip foo * > /dev/null|rm -f foo.zip|foo.zip
+#zipinfo|zip foo * > /dev/null|rm -f foo.zip|foo.zip
+#tar||rm -f test.tar| -cvf test.tar *
+#gzip|cp blaster.c blaster2.c|gunzip blaster2.c.gz| blaster2.c 
+#gunzip|cp blaster.c blaster2.c; gzip blaster2.c||blaster2.c.gz
