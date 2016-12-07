@@ -1,0 +1,19 @@
+\section{\texttt{net-tools} crashes}
+
+\lstset{numbers=left}
+\begin{lstlisting}[label={lst:netstat/malloc},firstnumber=213, caption={\texttt{netstat} crashes when \texttt{malloc} returns an error. The offending code is in the \texttt{net-tools} 1.60 source code, in \texttt{lib/inet.c:213}.}]
+    pn = (struct add	r *) malloc(sizeof(struct addr));
++   if (pn == NULL) {
++   	perror("netstat");
++		return (-1);
++   }
+    pn->addr = *sin;
+    pn->next = INET_nn;
+    pn->host = host;
+    pn->name = (char *) malloc(strlen(name) + 1);
++   if (pn->name == NULL) {
++   	perror("netstat");
++		return (-1);
++   }
+    strcpy(pn->name, name);
+\end{lstlisting}
