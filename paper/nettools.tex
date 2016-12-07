@@ -1,0 +1,33 @@
+\begin{itemize}
+\item \texttt{netstat/malloc}
+\begin{itemize}
+\item Return value from \texttt{malloc} not checked and then passed to \texttt{strcpy}
+\url{https://github.com/giftnuss/net-tools/blob/master/lib/inet.c#L213}
+\item e.g. \texttt{PROB = 0.3}, \texttt{SEED = 26886}
+\item Fix:
+\begin{lstlisting}
+    pn = (struct add	r *) malloc(sizeof(struct addr));
++   if (pn == NULL) {
++   	perror("netstat");
++		return (-1);
++   }
+    pn->addr = *sin;
+    pn->next = INET_nn;
+    pn->host = host;
+    pn->name = (char *) malloc(strlen(name) + 1);
++   if (pn->name == NULL) {
++   	perror("netstat");
++		return (-1);
++   }
+    strcpy(pn->name, name);
+
+\end{lstlisting}
+\end{itemize}
+
+\item \texttt{ifconfig/malloc}
+\begin{itemize}
+\item (Unable to get source for version of \texttt{ifconfig} running on Ubuntu)\\
+\end{itemize}
+
+
+\end{itemize}
