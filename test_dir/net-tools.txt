@@ -1,0 +1,11 @@
+ifconfig
+netstat
+dnsdomainname
+hostname
+domainname
+nisdomainname
+ypdomainname
+ipmaddr
+mii-tool
+route
+rarp
