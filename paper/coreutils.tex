@@ -1,8 +1,13 @@
-The main group of applications that we tested was comprised of small command-line utilities. Most of these are from the GNU Core Utilities project. As described by the Free Software Foundation, ``the GNU core utilities are the basic file, shell and text manipulation utilities of the GNU operating system." [?] These utilities were chosen because they represent some of the most commonly used applications on Linux systems. In addition to the GNU core utilities we included some other common utilities that are not part of the project. Listing 4 displays the utilities that we tested. For each of these utilities, we tested using each the calls in Listing \ref{lst:coreutils_wrappers}.
+\subsection{GNU Core Utilities}
+The first and largest group of small utilities that we tested was from the GNU Core Utilities. As described by the Free Software Foundation, ``the GNU core utilities are the basic file, shell and text manipulation utilities of the GNU operating system." [?] These utilities were chosen because they represent some of the most commonly used applications on Linux systems. Of the 51 utilities that we tested, 12 (23.5\%) crashed for at least one call. Listing \ref{lst:coreutils} gives the list of the utilities tested, Listing \ref{lst:coreutils_wrappers} the calls tested, and Listing \ref{lst:coreutils_crashes} the utilities that crash with associated call(s).
+%The main group of applications that we tested was comprised of small command-line utilities. Most of these are from the GNU Core Utilities project. As described by the Free Software Foundation, ``the GNU core utilities are the basic file, shell and text manipulation utilities of the GNU operating system." [?] These utilities were chosen because they represent some of the most commonly used applications on Linux systems. In addition to the GNU core utilities we included some other common utilities that are not part of the project. Listing 4 displays the utilities that we tested. For each of these utilities, we tested using each the calls in Listing \ref{lst:coreutils_wrappers}.
 
 %The GNU Core Utilities project (henceforth ``coreutils'') is comprised of over 100 programs (many of them reimplementations of the original utilities found in UNIX) which provide basic file, shell, and text manipulation. Per their documentation, these are tools which are ``expected to exist on every [GNU] operating system'' \cite{coreutils}. As such, the robustness of these programs is of great importance, as they will be used by many users on a variety of systems.
 
 %In order to assess the robustness of the coreutils programs when given error return values from a variety of calls, we selected 62 of the coreutils programs to test (listing \ref{lst:coreutils_progs}).
+
+\subsection{net-tools}
+The second group of small utilities that we tested was the net-tools suite. We tested 11 utilities and found that 5 (45.5 \%) crashed. Error return codes from \texttt{malloc} caused all crashes. Listing \ref{lst:nettools} shows the programs in the net-tools and Listing \ref{nettools_crashes} the crashes.
 
 % table:
 
@@ -12,23 +17,39 @@ ls -f -a -1 ~/Downloads/coreutils-8.25/src/*.c | rev | cut -d "/" -f 1 | rev | c
 comm utils_used.txt coreutils.txt -12 | column -c 80
 \fi
 
-\begin{lstlisting}[label={lst:coreutils_progs},caption={GNU Core Utilities tested}]
-base64          dirname         logname         sort            uniq
-basename        du              ls              stat            unlink
-cat             echo            md5sum          sum             uptime
-chmod           expr            mkdir           touch           users
-cksum           factor          mktemp          tr              wc
-comm            fold            mv              true            who
-cp              groups          nproc           truncate        whoami
-cut             head            printenv        tsort
-date            hostid          pwd             tty
-df              id              seq             uname
-dircolors       link            shred           unexpand NOT TRUST THIS TABLE!
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[label={lst:coreutils},caption={GNU Core Utilities tested}]
+base64          dirname         logname         sort            unexpand
+basename        du              ls              stat            uniq
+cat             echo            md5sum          stat            unlink
+chmod           expr            mkdir           sum             users
+cksum           factor          mktemp          touch           wc
+comm            fold            mv              tr              who
+cp              groups          nproc           true            whoami
+cut             head            printenv        truncate
+date            hostid          pwd             tsort
+df              id              seq             tty
+dircolors       link            shred           uname
 \end{lstlisting}
-
+\end{minipage}
 
 
 % ls -f -a -1 ~/ReturnValueTester/wrappers/*_wrapper.c | rev | cut -d "/" -f 1 | rev | cut -d "_" -f 1 | uniq | column -c 80
+\begin{lstlisting}[label={lst:coreutils_crashes},caption={Crashes in GNU Core Utilities}]
+cp (calloc)				expr (malloc)					logname (malloc)		who (malloc)
+df (realloc)			factor (malloc/realloc)		mv (calloc)
+du (malloc/calloc)	hostid (malloc)				stat (malloc)
+expr (malloc)			id (malloc)						wc (malloc)
+\end{lstlisting}
+
+\begin{lstlisting}[label={lst:net-tools_crashes},caption={Crashes in net-tools}]
+dnsdomaniname (malloc)	ifconfig (malloc)	ipmaddr (malloc)	netstat (malloc)
+\end{lstlisting}
+
+\begin{lstlisting}[label={lst:other_crashes},caption={Crashes in Other Utilities}]
+finger (malloc)	ip (malloc)	make (close/open/read)	ssh (malloc)	w (malloc)
+\end{lstlisting}
+
 \begin{lstlisting}[label={lst:coreutils_wrappers},caption={Wrapped calls for testing Command-line Utilities}]
 calloc  creat   execv   fork    malloc  opendir pipe    pthread_create 	realloc
 close   execvp  fopen   fstat   mmap    open    poll    pthread_mutex	read    

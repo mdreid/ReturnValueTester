@@ -35,7 +35,7 @@
 
 \begin{abstract}
 \setlength{\baselineskip}{18pt}
-We used fuzz testing methods to investigate the robustness of various Linux applications. We developed a mechanism to intercept system and library calls and return an error return code to the calling application. We defined crashes as unintentional core dumps or hangs. Of the 90 applications tested, we encountered crashes in 18 (20.0 \%) for at least one of the 22 calls we tested. We investigated the source code for some of these crashes and provide analysis in this paper. 
+We used fuzz testing methods to investigate the robustness of various Linux applications. We developed a mechanism to intercept system and library calls and return an error return code to the calling application. We defined crashes as unintentional core dumps or hangs. Of the 88 applications tested, we encountered crashes in 31 (35.2 \%) for at least one of the 22 calls we tested. We investigated the source code for some of these crashes and provide analysis in this paper. 
 \end{abstract}
 
 \section{Introduction}
@@ -49,7 +49,7 @@ We used fuzz testing methods to investigate the robustness of various Linux appl
 
 \input{codegen}
 
-\section{Command-line Utilities}
+\section{Utilities}
 \input{coreutils}
 
 \section{\texttt{net-tools}}
