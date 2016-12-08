@@ -1,4 +1,4 @@
-ctags|||test_crash.c -o tagfile.txt
+#ctags||rm -f tagfile.txt|test_crash.c -o tagfile.txt
 df||| -a
 finger|||
 last|||

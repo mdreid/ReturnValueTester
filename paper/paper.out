@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work and Motivation}{}% 2
+\BOOKMARK [1][-]{section.3}{Mechanisms}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{LD\137PRELOAD}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Limitations of LD\137PRELOAD}{subsection.3.1}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Wrapper Generation}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Command-line Utilities}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Results}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{net-tools}{}% 9
+\BOOKMARK [1][-]{section.6}{Large-scale Programs}{}% 10
+\BOOKMARK [1][-]{section.7}{Anecdotes}{}% 11
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 12
+\BOOKMARK [1][-]{appendix.A}{GNU Core Utilities crashes}{}% 13
+\BOOKMARK [1][-]{appendix.B}{net-tools crashes}{}% 14

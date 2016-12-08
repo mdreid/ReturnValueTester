@@ -1,0 +1,17 @@
+dnsdomainname|||
+hostname|||
+domainname|||
+nisdomainname|||
+ypdomainname|||
+netstat|||
+ipmaddr|||
+iptunnel|||
+mii-tool|||
+route|||
+rarp|||
+# New tests
+ip|||neigh
+ip|||addr
+ip|||maddr
+ip|||tunnel
+ip|||route
