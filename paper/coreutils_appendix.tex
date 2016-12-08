@@ -32,3 +32,16 @@
 -    EXT(statp).nscount = statp->nscount;
 }
 \end{lstlisting}
+
+\begin{lstlisting}[label={lst:make/calloc},firstnumber=278, caption={\texttt{make} crashes when \texttt{calloc} returns an error. The offending code is in the Make 4.2 source code, in \texttt{file.c:278}.}]
+	file_slot = (struct file **) files.ht_vec;
+	file_end = file_slot + files.ht_size;
++	
++	if (!file_slot)
++	  return;
++	
+	for ( ; file_slot < file_end; file_slot++)
+	  if (! HASH_VACANT (*file_slot))
+	    {
+	      struct file *f = *file_slot;                                          
+\end{lstlisting}
