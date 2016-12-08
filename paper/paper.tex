@@ -26,7 +26,14 @@
 	tabsize=3
 }
 \title{Return Value Testing of Linux Applications}
-\author{Keith Funkhouser, Malcolm Reid, Colin Samplawski}
+% Crash Detection and Analysis via Library Interposition in Linux
+
+%\author{Keith Funkhouser, Malcolm Reid, Colin Samplawski}
+\author{Keith Funkhouser \\ \texttt{\href{mailto:wfunkhouser@cs.wisc.edu}{wfunkhouser@cs.wisc.edu}}
+\and Malcolm Reid\\ \texttt{\href{mailto:mreid@cs.wisc.edu}{mreid@cs.wisc.edu}}
+\and Colin Samplawski\\ \texttt{\href{mailto:csamplski@cs.wisc.edu}{samplawski@cs.wisc.edu}}
+}
+
 \date{Fall 2016}
 
 \begin{document}
@@ -49,13 +56,13 @@ We used fuzz testing methods to investigate the robustness of various Linux appl
 
 \input{codegen}
 
-\section{Utilities}
+\section{Testing Small-scale Utilities}
+\input{small_scale}
 \input{coreutils}
-
-\section{\texttt{net-tools}}
 \input{nettools}
+\input{other_gnu}
 
-\section{Large-scale Programs}
+\section{Testing Large-scale Programs}
 \input{largescale}
 
 \section{Anecdotes}

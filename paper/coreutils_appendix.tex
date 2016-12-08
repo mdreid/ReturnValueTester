@@ -1,13 +1,45 @@
 \section{GNU Core Utilities crashes}
+\subsection{\texttt{du}}
+The coreutils program \texttt{du}, which is used to list disk usage, crashed when \texttt{malloc} returned an error. Upon investigation, it was determined to have used a function \texttt{setup\_dir} (listing \ref{lst:fts-cycle.c}) which allocates memory and returns \texttt{true} if it succeeds, and \texttt{false} otherwise.
 
+\begin{lstlisting}[label={lst:fts-cycle.c},firstnumber=47, caption={\texttt{lib/fts-cycle.c}}]
+/* Set up the cycle-detection machinery.  */
+
+static bool
+setup_dir (FTS *fts)
+{
+  if (fts->fts_options & (FTS_TIGHT_CYCLE_CHECK | FTS_LOGICAL))
+    {
+      enum { HT_INITIAL_SIZE = 31 };
+      fts->fts_cycle.ht = hash_initialize (HT_INITIAL_SIZE, NULL, AD_hash,
+                                           AD_compare, free);
+      if (! fts->fts_cycle.ht)
+        return false;
+    }
+  else
+    {
+      fts->fts_cycle.state = malloc (sizeof *fts->fts_cycle.state);
+      if (! fts->fts_cycle.state)
+        return false;
+      cycle_check_init (fts->fts_cycle.state);
+    }
+
+  return true;
+}
+\end{lstlisting}
+
+The code does not check the return value, producing a segmentation fault on \texttt{setup\_dir}'s failure.
+ The fix is given in listing \ref{lst:fts.c}.
 \lstset{numbers=left}
-\begin{lstlisting}[label={lst:du/malloc},firstnumber=986, caption={\texttt{du} crashes when \texttt{malloc} returns an error. The offending code is in the coreutils 8.25 source code, in \texttt{lib/fts.c:986}.}]
+\begin{lstlisting}[label={lst:fts.c},firstnumber=986, caption={\texttt{lib/fts.c:986}}]
 -	setup_dir(sp);
 
 +	if (!setup_dir(sp)) {
 +		return NULL;
 +	}
 \end{lstlisting}
+
+\newpage
 
 \begin{lstlisting}[label={lst:hostid/malloc},firstnumber=425, caption={\texttt{hostid} crashes when \texttt{malloc} returns an error. The offending code is in the GLibC 2.23 source code, in \texttt{resolv/res\_send.c:453}.}]
 
@@ -31,17 +63,4 @@
     }
 -    EXT(statp).nscount = statp->nscount;
 }
-\end{lstlisting}
-
-\begin{lstlisting}[label={lst:make/calloc},firstnumber=278, caption={\texttt{make} crashes when \texttt{calloc} returns an error. The offending code is in the Make 4.2 source code, in \texttt{file.c:278}.}]
-	file_slot = (struct file **) files.ht_vec;
-	file_end = file_slot + files.ht_size;
-+	
-+	if (!file_slot)
-+	  return;
-+	
-	for ( ; file_slot < file_end; file_slot++)
-	  if (! HASH_VACANT (*file_slot))
-	    {
-	      struct file *f = *file_slot;                                          
 \end{lstlisting}

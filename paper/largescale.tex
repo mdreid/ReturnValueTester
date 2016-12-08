@@ -3,7 +3,7 @@ In addition to the smaller utilities discussed above, we tested a collection of 
 
 One difficulty in testing large-scale applications is determining the set of behaviors to test. Applications of this size offer a large set of features and many of these features do not have analogs on other applications. For example, Firefox and Chrome offer the behavior of opening and rendering a web page, while gvim and LibreOffice offer no behaviors that are analogous. We therefore restricted our testing to behaviors that are exhibited by all of these applications. Most of our testing of large-scale applications consisted of invoking the application from the command line (with \texttt{LD\_PRELOAD} of course) and then exiting the application shortly after it started (if it did). This tests a somewhat narrow portion of the features offered by each application, but it offers behavior that is semantically equivalent across the applications, which allows for more meaningful comparability. Table 1 shows the results of our tests.
 
-\begin{table}
+\begin{table}[h!]
 \centering
 \caption{Results for Testing of Large-scale Applications}
 		\begin{adjustbox}{width=\textwidth}
