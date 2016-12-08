@@ -25,7 +25,7 @@
 	breakatwhitespace=true,
 	tabsize=3
 }
-\title{736Paper}
+\title{Return Value Testing of Linux Applications}
 \author{Keith Funkhouser, Malcolm Reid, Colin Samplawski}
 \date{Fall 2016}
 
@@ -34,6 +34,7 @@
 \maketitle
 
 \begin{abstract}
+\setlength{\baselineskip}{18pt}
 We used fuzz testing methods to investigate the robustness of various Linux applications. We developed a mechanism to intercept system and library calls and return an error return code to the calling application. We defined crashes as unintentional core dumps or hangs. Of the 90 applications tested, we encountered crashes in 18 (20.0 \%) for at least one of the 22 calls we tested. We investigated the source code for some of these crashes and provide analysis in this paper. 
 \end{abstract}
 
@@ -42,7 +43,6 @@ We used fuzz testing methods to investigate the robustness of various Linux appl
 
 \section{Related Work and Motivation}
 \input{relatedwork}
-
 
 \section{Mechanisms}
 \input{preload}
