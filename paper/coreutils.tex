@@ -4,38 +4,26 @@ The GNU Core Utilities project (henceforth ``coreutils'') comprises over 100 pro
 We hypothesized that coreutils would yield very few crashes. Primarily, the project is extremely mature: in 2002, the GNU fileutils, textutils, and sh-utils projects merged into the GNU coreutils project, by which point all three projects already had a substantial development history. In the same vein, the binaries from the coreutils project are used in production environments all over the world, and therefore have encountered a significant amount of testing. Additionally, these utilities in general comprise a relatively small number of files and lines of code; therefore, we hypothesized that they would be easier to write correctly compared to larger open source projects.
 
 \subsubsection{Results}
-In order to assess the robustness of coreutils when given error return values from a variety of calls, we selected 51 of the coreutils programs (listing \ref{lst:coreutils}) and tested them on the aforementioned 19 calls (listing \ref{lst:small_scale_wrappers}). Of the 51 utilities that we tested, 12 (23.5\%) crashed for at least one of the wrapped calls (listing \ref{lst:coreutils_crashes}). The crashes seen were isolated to the memory allocation calls \texttt{malloc}, \texttt{calloc}, and \texttt{realloc}. 
+In order to assess the robustness of coreutils when given error return values from a variety of calls, we selected 51 of the coreutils programs (table \ref{lst:coreutils}) and tested them on the aforementioned 19 calls. Of the 51 utilities that we tested, 13 (25.5\%) crashed for at least one of the wrapped calls (table \ref{lst:coreutils}). The crashes seen were isolated to the memory allocation calls \texttt{malloc}, \texttt{calloc}, and \texttt{realloc}. 
 
 Utilities which produced core dumps were analyzed via \texttt{gdb} in order to find the offending code. In all cases analyzed, a null pointer dereference occurred due to a failure to check the return value of either \texttt{malloc}/\texttt{calloc}/\texttt{realloc}, or a helper function which performed the memory allocation (appendix \ref{appendix:coreutils}).
 
 % table:
-\iffalse
-cat ~/ReturnValueTester/test\_dir/utils.txt.bak | egrep -v '^#|^$' | cut -d "|" -f 1 | uniq | sort > utils_used.txt
-ls -f -a -1 ~/Downloads/coreutils-8.25/src/*.c | rev | cut -d "/" -f 1 | rev | cut -d "." -f 1 | sort > coreutils.txt 
-comm utils_used.txt coreutils.txt -12 | column -c 80
-\fi
-
-% TODO: modify to be annotated with which calls crashed each utility
-%  > uniq test_dir/core_utils.txt | column -c  80 | expand
+% see /test_dir/lists/gen.sh
 \begin{minipage}{\linewidth}
-\begin{lstlisting}[label={lst:coreutils},caption={GNU Core Utilities tested}]
-base64          dircolors       id              pwd             tsort
-basename        dirname         link            seq             tty
-cat             du              logname         shred           uname
-chmod           echo            ls              sort            unexpand
-cksum           expr            md5sum          stat            uniq
-comm            factor          mkdir           sum             unlink
-cp              fold            mktemp          touch           users
-cut             groups          mv              tr              wc
-date            head            nproc           true            who
-df              hostid          printenv        truncate        whoami
+\PreTable
+\begin{lstlisting}[label={lst:coreutils},caption={GNU Core Utilities tested; those which crashed are indicated with a letter to their left (\texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{malloc}, \texttt{r} = \texttt{realloc}). A total of 13/51 (25.5\%) crashed for at least one call.}]
+    base64          dirname      m  logname         sort            uniq
+    basename    cm  du              ls           m  stat            unlink
+    cat             echo            md5sum          sum             uptime
+    chmod        m  expr            mkdir           touch           users
+    cksum        mr factor          mktemp          tr           m  wc
+    comm            fold        c   mv              true         m  who
+c   cp              groups          nproc           truncate     m  whoami
+    cut             head            printenv        tsort
+    date         m  hostid          pwd             tty
+  r df           m  id              seq             uname
+    dircolors       link            shred           unexpand
 \end{lstlisting}
+\PostTable
 \end{minipage}
-
-% ls -f -a -1 ~/ReturnValueTester/wrappers/*_wrapper.c | rev | cut -d "/" -f 1 | rev | cut -d "_" -f 1 | uniq | column -c 80
-\begin{lstlisting}[label={lst:coreutils_crashes},caption={Crashes in GNU Core Utilities}]
-cp (calloc)				factor (malloc/realloc)		mv (calloc)       whoami (malloc)
-df (realloc)			hostid (malloc)		    	stat (malloc)      
-du (malloc/calloc)	id (malloc)						wc (malloc)
-expr (malloc)			logname (malloc)				who (malloc)			
-\end{lstlisting}

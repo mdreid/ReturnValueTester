@@ -1,12 +1,10 @@
 \subsection{\texttt{net-tools}}
-The \texttt{net-tools} suite includes a number of small utilities that form the base of the networking distribution for Linux \cite{nettools}. We hypothesized that \texttt{net-tools} would also yield a significant number of crashes, as some of the utilities in it have been deprecated in favor of the \texttt{ip} utility. We tested 11 utilities and found that 5 (45.5\%) crashed (listing \ref{lst:net-tools}. \texttt{malloc} was the source of all  the crashes. A more detailed investigation into the root cause of some of these crashes is given in appendix \ref{appendix:net-tools}.
+The \texttt{net-tools} suite includes a number of small utilities that form the base of the networking distribution for Linux \cite{nettools}. We hypothesized that \texttt{net-tools} would also yield a significant number of crashes, as some of the utilities in it have been deprecated in favor of the \texttt{ip} utility. We tested 11 utilities and found that 4 (36.4\%) crashed (table \ref{lst:net-tools}). \texttt{malloc} was the source of all  the crashes. A more detailed investigation into the root cause of some of these crashes is given in appendix \ref{appendix:net-tools}.
 
-\begin{lstlisting}[label={lst:net-tools_crashes},caption={Crashes in net-tools}]
-dnsdomaniname (malloc)	ifconfig (malloc)	ipmaddr (malloc)	netstat (malloc)
+\PreTable
+\begin{lstlisting}[label={lst:net-tools},caption={\texttt{net-tools} utilities tested; those which crashed with \texttt{malloc} are indicated with a \texttt{m} to their left. A total of 4/11 (36.4\%) crashed.}]
+m dnsdomainname m ifconfig      m netstat         route
+  domainname    m ipmaddr         nisdomainname   ypdomainname
+  hostname        mii-tool        rarp
 \end{lstlisting}
-
-\begin{lstlisting}[label={lst:net-tools},caption={Crashes in net-tools}]
-dnsdomainname   ifconfig        netstat         route
-domainname      ipmaddr         nisdomainname   ypdomainname
-hostname        mii-tool        rarp
-\end{lstlisting}
+\PostTable

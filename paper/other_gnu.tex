@@ -1,15 +1,15 @@
 \subsection{Other Utilities}
-Although the coreutils and \texttt{net-tools} cover a substantial portion of the Linux utilities used regularly by systems programmers, there are many more tools used frequently which do not fall under either of the two projects. We selected a sample of 17 such utilities to test (listing \ref{lst:other_utilities}).
+Although the coreutils and \texttt{net-tools} cover a substantial portion of the Linux utilities used regularly by systems programmers, there are many more tools used frequently which do not fall under either of the two projects. We selected a sample of 17 such utilities to test (table \ref{lst:other_utilities}).
 
 Due to the heterogeneity of the sources of these programs, we struggled to construct a hypothesis about program behavior that would be consistent across all programs. However, due to the ubiquity of many of them (e.g. \texttt{make}, \texttt{grep}), we predicted that they would be fairly hardened against bugs such as memory allocation errors.
 
-Of the 17 utilities tested, 5 (29.4\%) crashed for at least one of the wrapped calls (listing \ref{lst:other_utilities_crashes}). The crashes were primarily caused by \texttt{malloc}. Details of the root cause analysis for example crashes are given in appendix \ref{appendix:other_gnu}.
+Of the 17 utilities tested, 5 (29.4\%) crashed for at least one of the wrapped calls (table \ref{lst:other_utilities}). The crashes were primarily caused by \texttt{malloc}. Details of the root cause analysis for example crashes are given in appendix \ref{appendix:other_gnu}.
 
-\begin{lstlisting}[label={lst:other_utilities},caption={Other small-scale utilities tested}]
-ctags   last    sdiff   make    grep    unzip   tar     gunzip  man
-finger  w       uptime  ip      zip     zipinfo gzip    ssh
+\PreTable
+\begin{lstlisting}[label={lst:other_utilities},caption={Other small-scale utilities tested; those which crashed are indicated with a letter to their left (\texttt{c/o/r} = \texttt{close/open/read}, \texttt{C} = \texttt{calloc}, \texttt{m} = \texttt{realloc}). A total of 5/17 (29.4\%) crashed for at least one call.}]
+      ctags           gzip            man             unzip
+    m finger        m ip              sdiff         m w
+      grep            last          m ssh             zip
+      gunzip    corC  make            tar             zipinfo
 \end{lstlisting}
-
-\begin{lstlisting}[label={lst:other_utilities_crashes},caption={Crashes in other GNU utilities}]
-finger (malloc)	ip (malloc)	make (close/open/read)	ssh (malloc)	w (malloc)
-\end{lstlisting}
+\PostTable
