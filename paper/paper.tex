@@ -5,6 +5,8 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{graphics}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
 \usepackage[hidelinks]{hyperref}
 \usepackage{rotating}
 \usepackage[final]{pdfpages}
@@ -59,10 +61,10 @@ We used fuzz testing methods to investigate the robustness of various Linux appl
 
 \section{Related Work and Motivation}
 \input{relatedwork}
+\input{syscall_freqs}
 
 \section{Mechanisms}
 \input{preload}
-
 \input{codegen}
 
 \section{Testing Small-scale Utilities}
