@@ -44,8 +44,8 @@
 \and Malcolm Reid\\ \texttt{\href{mailto:mreid3@wisc.edu}{mreid3@wisc.edu}}
 \and Colin Samplawski\\ \texttt{\href{mailto:csamplawski@wisc.edu}{csamplawski@wisc.edu}}
 }
+\date{CS736 - Advanced Operating Systems \\ Final Project - Fall 2016}
 
-\date{Fall 2016}
 
 \begin{document}
 \setlength{\baselineskip}{18pt}
@@ -53,7 +53,7 @@
 
 \begin{abstract}
 \setlength{\baselineskip}{18pt}
-We used fuzz testing methods to investigate the robustness of various Linux applications. We developed a mechanism to intercept system and library calls and return an error return code to the calling application. We defined crashes as unintentional core dumps or hangs. Of the 88 applications tested, we encountered crashes in 31 (35.2 \%) for at least one of the 22 calls we tested. We investigated the source code for some of these crashes and provide analysis in this paper. 
+We used fuzz testing methods to investigate the robustness of various Linux applications. The \texttt{LD\_PRELOAD} environment variable was utilized to perform library interposition for interception of system and library calls. Erroneous return values were injected into the calling application probabilistically. In a suite of 88 small-scale utilities and large-scale programs, crashes (unintentional core dumps) were observed for at least one of the intercepted calls in 31 of the 88 applications tested (35.2\%). 
 \end{abstract}
 
 \section{Introduction}
@@ -95,6 +95,6 @@ We used fuzz testing methods to investigate the robustness of various Linux appl
 \input{coreutils_appendix}
 \input{nettools_appendix}
 \input{other_gnu_appendix}
-\includepdf[scale=.8, angle=90, pagecommand=\section{Anecdote Examples}]{an.pdf}
+\includepdf[scale=.8, angle=90, pagecommand=\section{Anecdote Examples}\label{appendix:anecdotes}]{an.pdf}
 
 \end{document}
