@@ -8,6 +8,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{rotating}
 \usepackage[final]{pdfpages}
+\usepackage{array}
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -25,13 +26,21 @@
 	breakatwhitespace=true,
 	tabsize=3
 }
+
+% some listings should actually read "table"
+% save this value for later
+\newcommand{\oldlstname}{Listing}
+\newcommand{\newlstname}{Table}
+\newcommand{\PreTable}{\renewcommand{\lstlistingname}{\newlstname}}
+\newcommand{\PostTable}{\renewcommand{\lstlistingname}{\oldlstname}}
+
 \title{Return Value Testing of Linux Applications}
 % Crash Detection and Analysis via Library Interposition in Linux
 
 %\author{Keith Funkhouser, Malcolm Reid, Colin Samplawski}
 \author{Keith Funkhouser \\ \texttt{\href{mailto:wfunkhouser@cs.wisc.edu}{wfunkhouser@cs.wisc.edu}}
-\and Malcolm Reid\\ \texttt{\href{mailto:mreid@cs.wisc.edu}{mreid@cs.wisc.edu}}
-\and Colin Samplawski\\ \texttt{\href{mailto:csamplski@cs.wisc.edu}{samplawski@cs.wisc.edu}}
+\and Malcolm Reid\\ \texttt{\href{mailto:mreid3@wisc.edu}{mreid3@wisc.edu}}
+\and Colin Samplawski\\ \texttt{\href{mailto:csamplawski@wisc.edu}{csamplawski@wisc.edu}}
 }
 
 \date{Fall 2016}
@@ -76,6 +85,7 @@ We used fuzz testing methods to investigate the robustness of various Linux appl
 \newpage
 \appendix
 \section*{Appendix}
+\lstset{numbers=left}
 \input{coreutils_appendix}
 \input{nettools_appendix}
 \input{other_gnu_appendix}

@@ -1,19 +1,10 @@
-\section{Other GNU Program Crashes}
+\section{Other Utility Crashes}
+\label{appendix:other_gnu}
 
-\begin{lstlisting}[label={lst:make/calloc},firstnumber=278, caption={\texttt{make} crashes when \texttt{calloc} returns an error. The offending code is in the Make 4.2 source code, in \texttt{file.c:278}.}]
-	file_slot = (struct file **) files.ht_vec;
-	file_end = file_slot + files.ht_size;
-+	
-+	if (!file_slot)
-+	  return;
-+	
-	for ( ; file_slot < file_end; file_slot++)
-	  if (! HASH_VACANT (*file_slot))
-	    {
-	      struct file *f = *file_slot;                                          
-\end{lstlisting}
+\subsection{\texttt{grep}}
+\texttt{grep}, which allows for regular expression search, crashed when \texttt{calloc} returned an error. The error was buried deep in the call stack, but was due to a failure to check the return value from \texttt{hash\_initialize}, which initializes a hash table and returns a pointer to it (or \texttt{NULL} in the case that it fails). The fix is given in listing \ref{lst:exclude.c}.
 
-\begin{lstlisting}[label={lst:grep/malloc},firstnumber=265, caption={\texttt{grep} crashes when \texttt{malloc} returns an error. The offending code is in the Grep 2.25 source code, in \texttt{lib/exclude.c:265}.}]
+\begin{lstlisting}[label={lst:exclude.c},firstnumber=265, caption={\texttt{lib/exclude.c}.}]
 	case exclude_hash:
 	  sp->v.table = hash_initialize (0, NULL,
 	                                 (options & FNM_CASEFOLD) ?

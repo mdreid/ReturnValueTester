@@ -1,7 +1,10 @@
 \section{\texttt{net-tools} crashes}
+\label{appendix:net-tools}
 
-\lstset{numbers=left}
-\begin{lstlisting}[label={lst:netstat/malloc},firstnumber=213, caption={\texttt{netstat} crashes when \texttt{malloc} returns an error. The offending code is in the \texttt{net-tools} 1.60 source code, in \texttt{lib/inet.c:213}.}]
+\subsection{netstat}
+\texttt{netstat}, which prints a variety of network information, crashed when \texttt{malloc} returned an error. The error, shown in listing \ref{lst:inet.c}, was among the simplest to fix.
+
+\begin{lstlisting}[label={lst:inet.c},firstnumber=213, caption={\texttt{lib/inet.c}}]
     pn = (struct add	r *) malloc(sizeof(struct addr));
 +   if (pn == NULL) {
 +   	perror("netstat");
@@ -17,6 +20,3 @@
 +   }
     strcpy(pn->name, name);
 \end{lstlisting}
-
-\texttt{ifconfig/malloc}
-(Unable to get source for version of \texttt{ifconfig} running on Ubuntu)\\

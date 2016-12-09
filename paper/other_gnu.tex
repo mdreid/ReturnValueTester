@@ -1,18 +1,15 @@
-\subsection{Other GNU Utilities}
-\begin{lstlisting}[label={lst:other_crashes},caption={Crashes in other GNU utilities}]
-finger (malloc)	ip (malloc)	make (close/open/read)	ssh (malloc)	w (malloc)
+\subsection{Other Utilities}
+Although the coreutils and \texttt{net-tools} cover a substantial portion of the Linux utilities used regularly by systems programmers, there are many more tools used frequently which do not fall under either of the two projects. We selected a sample of 17 such utilities to test (listing \ref{lst:other_utilities}).
+
+Due to the heterogeneity of the sources of these programs, we struggled to construct a hypothesis about program behavior that would be consistent across all programs. However, due to the ubiquity of many of them (e.g. \texttt{make}, \texttt{grep}), we predicted that they would be fairly hardened against bugs such as memory allocation errors.
+
+Of the 17 utilities tested, 5 (29.4\%) crashed for at least one of the wrapped calls (listing \ref{lst:other_utilities_crashes}). The crashes were primarily caused by \texttt{malloc}. Details of the root cause analysis for example crashes are given in appendix \ref{appendix:other_gnu}.
+
+\begin{lstlisting}[label={lst:other_utilities},caption={Other small-scale utilities tested}]
+ctags   last    sdiff   make    grep    unzip   tar     gunzip  man
+finger  w       uptime  ip      zip     zipinfo gzip    ssh
 \end{lstlisting}
 
-
-\begin{lstlisting}[label={lst:make/calloc},firstnumber=278, caption={\texttt{make} crashes when \texttt{calloc} returns an error. The offending code is in the Make 4.2 source code, in \texttt{file.c:278}.}]
-	file_slot = (struct file **) files.ht_vec;
-	file_end = file_slot + files.ht_size;
-+	
-+	if (!file_slot)
-+	  return;
-+	
-	for ( ; file_slot < file_end; file_slot++)
-		if (! HASH_VACANT (*file_slot))
-		{
-			struct file *f = *file_slot;                                          
+\begin{lstlisting}[label={lst:other_utilities_crashes},caption={Crashes in other GNU utilities}]
+finger (malloc)	ip (malloc)	make (close/open/read)	ssh (malloc)	w (malloc)
 \end{lstlisting}

@@ -1,4 +1,5 @@
 \section{GNU Core Utilities crashes}
+\label{appendix:coreutils}
 \subsection{\texttt{du}}
 The coreutils program \texttt{du}, which is used to list disk usage, crashed when \texttt{malloc} returned an error. Upon investigation, it was determined to have used a function \texttt{setup\_dir} (listing \ref{lst:fts-cycle.c}) which allocates memory and returns \texttt{true} if it succeeds, and \texttt{false} otherwise.
 
@@ -30,19 +31,20 @@ setup_dir (FTS *fts)
 
 The code does not check the return value, producing a segmentation fault on \texttt{setup\_dir}'s failure.
  The fix is given in listing \ref{lst:fts.c}.
-\lstset{numbers=left}
-\begin{lstlisting}[label={lst:fts.c},firstnumber=986, caption={\texttt{lib/fts.c:986}}]
+\begin{lstlisting}[label={lst:fts.c},firstnumber=986, caption={\texttt{lib/fts.c}}]
 -	setup_dir(sp);
 
 +	if (!setup_dir(sp)) {
 +		return NULL;
 +	}
+
+// one of sp's members (NULL) is later dereferenced
 \end{lstlisting}
 
-\newpage
+\subsection{\texttt{hostid}}
+\texttt{hostid}, which prints the numeric identifier for the host, crashed when \texttt{malloc} returned an error. The error was determined to be in a loop block. On each iteration, a call to \texttt{malloc} is made, but at the end of the loop, the assumption is made that each one of them succeeded. Later in the code, the \texttt{nscount} variable is out of sync with the other fields in the data structure, and a null pointer dereference can occur. The fix is given in the glibc 2.23 source code shown in listing \ref{lst:res_send.c}.
 
-\begin{lstlisting}[label={lst:hostid/malloc},firstnumber=425, caption={\texttt{hostid} crashes when \texttt{malloc} returns an error. The offending code is in the GLibC 2.23 source code, in \texttt{resolv/res\_send.c:453}.}]
-
+\begin{lstlisting}[firstnumber=426, label={lst:res_send.c}, caption={\texttt{resolv/res\_send.c}}]
     for (ns = 0; ns < statp->nscount; ns++) {
             EXT(statp).nssocks[ns] = -1;
             if (statp->nsaddr_list[ns].sin_family == 0)
@@ -50,9 +52,9 @@ The code does not check the return value, producing a segmentation fault on \tex
             if (EXT(statp).nsaddrs[ns] == NULL)
                     EXT(statp).nsaddrs[ns] =
                         malloc(sizeof (struct sockaddr_in6));
-+	        if(EXT(statp).nsaddrs[ns] != NULL) {
-+	                EXT(statp).nscount++;
-+	        }
++                   if(EXT(statp).nsaddrs[ns] != NULL) {
++                       EXT(statp).nscount++;
++                   }
             if (EXT(statp).nsaddrs[ns] != NULL)
                     memset (mempcpy(EXT(statp).nsaddrs[ns],
                                     &statp->nsaddr_list[ns],
@@ -61,6 +63,6 @@ The code does not check the return value, producing a segmentation fault on \tex
                             sizeof (struct sockaddr_in6)
                             - sizeof (struct sockaddr_in));
     }
--    EXT(statp).nscount = statp->nscount;
+-   EXT(statp).nscount = statp->nscount;
 }
 \end{lstlisting}
