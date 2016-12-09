@@ -3,7 +3,6 @@ finger:Linux NetKit (0.17)
 last
 w:procps-ng
 sdiff:diffutils 3.3
-uptime:procps-ng
 make:GNU
 ip:iproute2
 grep:GNU
