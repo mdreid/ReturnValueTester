@@ -12,13 +12,18 @@ We used a probabilistic approach in order to test all the calls to a given funct
   \label{fig:ld_preload}
 \end{figure}
 
-Calling the original function from within the wrapper is slightly trickier than one might expect. We couldn't simply call the function normally from the wrapper since it would lead to infinite recursion. To break this recursion, we used the \texttt{dlsym} function. \texttt{Dlsym} scans through dynamically loaded libraries looking for the function handle (that is, the address) of a function named as an argument. We can then use the function handle that is returned in order to call the original version of the function. An example of such a wrapper is given in code listing 1.
+Calling the original function from within the wrapper is slightly trickier than one might expect. We couldn't simply call the function normally from the wrapper since it would lead to infinite recursion. To break this recursion, we used the \texttt{dlsym} function. \texttt{Dlsym} scans through dynamically loaded libraries looking for the function handle (that is, the address) of a function named as an argument. We can then use the function handle that is returned in order to call the original version of the function. An example of such a wrapper is given in listing 1.
 
 \begin{minipage}{\linewidth} %minipage so the code is split between two pages
 	\lstinputlisting[caption=\texttt{malloc} wrapper, language=C,label={lst:wrapper_example}]{sample_wrapper.c}
 \end{minipage}
 
-\subsubsection{Limitations of LD\_PRELOAD}
-We chose \texttt{LD\_PRELOAD} primarily because of its simplicity, which allowed us to test a greater number of calls. However there are several limitations to this method. Most significantly, applications that use statically linked libraries bypass our wrappers completely. Fortunately, we never encountered any applications that used static linking. If we wanted to expand coverage to programs that did use static linking we would need to use a binary rewriting tool as used by Miller et al in [?] or a dynamic instrumentation tool such as DynInst [?].
+\subsubsection{Benefits of LD\_PRELOAD}
+\texttt{LD\_PRELOAD} affords a number of benefits to the developer. Primarily, it is extremely simple to work with, and therefore difficult to get wrong: just set an environment variable and run the binary. We took this approach in order to test a greater number of calls and utilities as quickly as possible, but given more time may have opted to use binary rewriting. Furthermore, this method enables the interception of calls many levels deep in the stack, even in other dynamically linked libraries. We perceive this to be a benefit, as programs which depend on shared libraries are taking on the risk that those libraries are written incorrectly.
 
-Another limitation to our method is that it is Linux specific. \texttt{LD\_PRELOAD} is found on many Linux distributions and some other UNIX systems, such as BSD \cite{bsd}. There are equivalents found on other popular systems such as the \texttt{AppInit\_DLLs} registry value on Windows \cite{dll} and the \texttt{DYLD\_INSERT\_LIBRARIES} environment variable on macOS \cite{macos}. We feel confident that our method could be applied to applications on these systems, but our current implementation is not portable.
+\subsubsection{Limitations of LD\_PRELOAD}
+However there are several limitations to this method. Most significantly, applications that use statically linked libraries bypass our wrappers completely. Fortunately, we never encountered any applications that used static linking. If we wanted to expand coverage to programs that did use static linking we would need to use a binary rewriting tool as used by Miller et al. \cite{bart} or a dynamic instrumentation tool such as DynInst \cite{dyninst}.
+
+Another limitation to our method is that it is Linux-specific. \texttt{LD\_PRELOAD} is found on many Linux distributions and some other UNIX systems, such as BSD \cite{bsd}. There are equivalents found on other popular systems such as the \texttt{AppInit\_DLLs} registry value on Windows \cite{dll} and the \texttt{DYLD\_INSERT\_LIBRARIES} environment variable on macOS \cite{macos}. We feel confident that our method could be applied to applications on these systems, but our current implementation is not portable.
+
+
