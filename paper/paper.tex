@@ -38,13 +38,15 @@
 
 \title{Return Value Testing of Linux Applications}
 % Crash Detection and Analysis via Library Interposition in Linux
+% Injection of Erroneous Return Values for the Evaluation of Robustness in Linux Applications
+% Using Library Interposition to Return Value Test Linux Applications
 
 %\author{Keith Funkhouser, Malcolm Reid, Colin Samplawski}
 \author{Keith Funkhouser \\ \texttt{\href{mailto:wfunkhouser@cs.wisc.edu}{wfunkhouser@cs.wisc.edu}}
 \and Malcolm Reid\\ \texttt{\href{mailto:mreid3@wisc.edu}{mreid3@wisc.edu}}
 \and Colin Samplawski\\ \texttt{\href{mailto:csamplawski@wisc.edu}{csamplawski@wisc.edu}}
 }
-\date{CS736 - Advanced Operating Systems \\ Final Project - Fall 2016}
+\date{University of Wisconsin--Madison\\Department of Computer Sciences\\Fall 2016}
 
 
 \begin{document}
@@ -53,7 +55,7 @@
 
 \begin{abstract}
 \setlength{\baselineskip}{18pt}
-We used fuzz testing methods to investigate the robustness of various Linux applications. The \texttt{LD\_PRELOAD} environment variable was utilized to perform library interposition for interception of system and library calls. Erroneous return values were injected into the calling application probabilistically. In a suite of 88 small-scale utilities and large-scale programs, crashes (unintentional core dumps) were observed for at least one of the intercepted calls in 31 of the 88 applications tested (35.2\%). 
+We used fuzz testing methods to investigate the robustness of various Linux applications. We used the \texttt{LD\_PRELOAD} environment variable to perform library interposition for interception of system and library calls. Erroneous return values were injected into the calling applications probabilistically. In a suite of 88 small-scale utilities and large-scale programs, crashes (unintentional core dumps or hangs) were observed for at least one of the 19 intercepted calls in 31 of the 88 applications tested (35.2\%). We found a greater incidence of crashes in large-scale applications as compared to small-scale utilities.
 \end{abstract}
 
 \section{Introduction}
