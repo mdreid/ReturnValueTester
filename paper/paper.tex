@@ -55,7 +55,7 @@
 
 \begin{abstract}
 \setlength{\baselineskip}{18pt}
-We used fuzz testing methods to investigate the robustness of various Linux applications. We used the \texttt{LD\_PRELOAD} environment variable to perform library interposition for interception of system and library calls. Erroneous return values were injected into the calling applications probabilistically. In a suite of 88 small-scale utilities and large-scale programs, crashes (unintentional core dumps or hangs) were observed for at least one of the 19 intercepted calls in 31 of the 88 applications tested (35.2\%). We found a greater incidence of crashes in large-scale applications as compared to small-scale utilities.
+We used fuzz testing methods to investigate the robustness of various Linux applications. We used the \texttt{LD\_PRELOAD} environment variable to perform library interposition for interception of system and library calls. Erroneous return values were injected into the calling applications probabilistically. In a suite of 88 small-scale utilities and large-scale programs, crashes (unintentional core dumps or hangs) were observed for at least one of the 19 intercepted calls in 31 of the 88 applications tested (35.2\%). We found a greater incidence of crashes in large-scale applications as compared to small-scale utilities. Memory allocation library calls accounted for the majority of crashes, and small-scale applications crashed exclusively by core dump. Failure to check return values continues to lead to unexpected program behavior, even in some of the most popular open source projects.
 \end{abstract}
 
 \section{Introduction}
