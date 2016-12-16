@@ -6,10 +6,10 @@ Due to the heterogeneity of the sources of these programs, we struggled to const
 Of the 16 utilities tested, 5 (31.3\%) crashed for at least one of the wrapped calls (table \ref{lst:other_utilities}). The crashes were primarily caused by \texttt{malloc}. Details of the root cause analysis for example crashes are given in appendix \ref{appendix:other_gnu}.
 
 \PreTable
-\begin{lstlisting}[label={lst:other_utilities},caption={Other small-scale utilities tested; those which crashed are indicated with a letter to their left (\texttt{c/o/r} = \texttt{close/open/read}, \texttt{C} = \texttt{calloc}, \texttt{m} = \texttt{realloc}). A total of 5/16 (31.3\%) crashed for at least one call.}]
+\begin{lstlisting}[label={lst:other_utilities},caption={Other small-scale utilities tested; those which crashed are indicated with a letter to their left (\texttt{C/O/R} = \texttt{close/open/read}, \texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{realloc}). A total of 5/16 (31.3\%) crashed for at least one call.}]
       ctags           gzip            man             unzip
     m finger        m ip              sdiff         m w
       grep            last          m ssh             zip
-      gunzip    corC  make            tar             zipinfo
+      gunzip    CORc  make            tar             zipinfo
 \end{lstlisting}
 \PostTable
