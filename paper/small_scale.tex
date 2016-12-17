@@ -1,6 +1,6 @@
-A significant portion of the programs tested were considered to be ``small-scale'', which, although a somewhat arbitrary distinction, helped in reasoning about our results. Although some of the programs in this group are substantial in terms of lines of code, e.g. \texttt{grep}, they are all command line programs, and most if not all of them should be familiar to the average systems programmer.
+A significant portion of the programs tested were considered to be ``small-scale'', which, although a somewhat arbitrary distinction, helped in reasoning about our results. Although some of the programs in this group are substantial in terms of lines of code, e.g. \texttt{grep}, they are all command-line programs, and most, if not all, of them should be familiar to the average systems programmer.
 
-For small-scale utilities, we wrapped the calls listed in table \ref{lst:small_scale_wrappers}. The machine used was running RedHat Enterprise Linux version 6.8 (Santiago). The program versions are given in table \ref{tab:small_scale_versions}. For each wrapped call, all of the utilities were run 1000 times in order to cover many possible call patterns. For each utility tested, we opted for workloads that represent common use cases (see the \texttt{full\_utils.txt} file in \cite{github} for a full list of the arguments passed to each utility).
+For small-scale utilities, we wrapped the calls listed in table \ref{lst:small_scale_wrappers}. The machine used was running RedHat Enterprise Linux version 6.8 (Santiago). The program versions are given in table \ref{tab:small_scale_versions}. For each wrapped call, all of the utilities were run 1,000 times in order to cover many possible call patterns. For each utility tested, we opted for workloads that represent common use cases (see the \texttt{full\_utils.txt} file in \cite{github} for a full list of the arguments passed to each utility).
 
 \begin{table}[h!]
 \begin{center}
@@ -10,9 +10,7 @@ For small-scale utilities, we wrapped the calls listed in table \ref{lst:small_s
 \multicolumn{1}{|c|}{\textbf{Program(s)}} & \multicolumn{1}{c|}{\textbf{Project}} & \multicolumn{1}{c|}{\textbf{Version}} \\
 \hline
 \em{(all)} & coreutils  & 8.25 \\ 
-\hline
 \em{(all)} & net-tools & 1.60 \\
-\hline
 ctags&GNU Emacs & 24.5.1 \\
 finger&Linux NetKit  & 0.17 \\
 grep & GNU grep & 2.25 \\
@@ -27,8 +25,8 @@ ssh&OpenSSH & 7.2 \\
 tar&GNU tar & 1.28 \\
 unzip&Info-Zip  & 6.0 \\
 w&procps-ng & 3.3.10 \\
-zipinfo&Info-Zip & 3.0 \\
 zip&Info-Zip & 3.0 \\
+zipinfo&Info-Zip & 3.0 \\
 \hline
 \end{tabular}
 \caption{Versions of the small-scale utilities tested}

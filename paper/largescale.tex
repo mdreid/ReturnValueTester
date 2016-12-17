@@ -1,4 +1,4 @@
-In addition to the smaller utilities discussed above, we tested a collection of large-scale open source applications (table \ref{tab:large_scale_versions}). Admittedly, we do not offer a well defined distinction between small and large-scale, but we loosely define large-scale as applications that are composed of substantial code bases and represent long term projects from major vendors. We believe that these applications are an important portion of our testing suite because they demonstrate the scale that modern applications can achieve today and could not in 1995 for Miller et al. Furthermore, we expected to find more crashes in applications of these types, following the common wisdom that larger programs are generally more difficult to get correct.
+In addition to the smaller utilities discussed above, we tested a collection of large-scale open-source applications (table \ref{tab:large_scale_versions}). Admittedly, we do not offer a well-defined distinction between small and large-scale, but we loosely define large-scale as applications that are composed of substantial codebases and represent long-term projects from major vendors. We believe that these applications are an important portion of our testing suite because they demonstrate the scale that modern applications can achieve today and could not in 1995 for Miller et al. Furthermore, we expected to find more crashes and hangs in applications of these types, following the common wisdom that larger programs are generally more difficult to get correct.
 
 \begin{table}[h!]
 \begin{center}
@@ -14,7 +14,7 @@ Firefox & Mozilla & 49.0.2 \\
 VLC Media Player &VideoLAN & 2.1.6\\
 LibreOffice & The Document Foundation & 4.2.8.2\\
 VirtualBox & Oracle & 5.0.28\\
-gcc & GNU & 4.8.4\\
+\texttt{gcc} & GNU & 4.8.4\\
 javac & Oracle & 1.8.0\_111\\
 Eclipse & Eclipse Foundation & 4.6 (Neon) \\
 \hline
@@ -25,15 +25,15 @@ Eclipse & Eclipse Foundation & 4.6 (Neon) \\
 \end{table}
 
 
-One difficulty in testing large-scale applications is determining the set of behaviors to test. Applications of this size offer a large set of features and many of these features do not have analogs in other applications. For example, gvim and LibreOffice offer document editing, while Firefox and Chrome offer no such analagous behavior. We therefore restricted our testing to behaviors that are exhibited by all of these applications. Most of our testing of large-scale applications consisted of invoking the application from the command line (with \texttt{LD\_PRELOAD} set) and exiting the application shortly after successfuly startup. This tests a very narrow portion of the features offered by each application, but it offers behavior that is semantically equivalent across the applications, which allows for more meaningful comparison. Table \ref{table:large_scale} shows the results of our tests.
+One difficulty in testing large-scale applications is determining the set of behaviors to test. Applications of this size offer a large set of features and many of these features do not have analogs in other applications. For example, gvim and LibreOffice offer document editing, while Firefox and Chrome offer no such analagous behavior. We therefore restricted our testing to behaviors that are exhibited by all of these applications. Most of our testing of large-scale applications consisted of invoking the application from the command-line (with \texttt{LD\_PRELOAD} set) and exiting the application shortly after successfuly startup. This tests a very narrow portion of the features offered by each application, but it offers behavior that is semantically equivalent across the applications, which allows for more meaningful comparison. Table \ref{table:large_scale} shows the results of our tests.
 
 \begin{table}[h!]
 \centering
-\caption{Results for Testing of Large-scale Applications}
+\caption{Results for testing of large-scale applications}
 		\begin{adjustbox}{width=\textwidth}
 		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
 			\hline
-			& Chrome & gvim & Thunderbird & Firefox & VLC & LibreOffice & VirtualBox & gcc & javac & Eclipse\\
+			& Chrome & gvim & Thunderbird & Firefox & VLC & LibreOffice & VirtualBox & \texttt{gcc} & javac & Eclipse\\
 			\hline
 			\texttt{malloc} & H & & & & C &  & & C & C & C \\ \hline
 			\texttt{open} & & & & & & & & & & \\ \hline
@@ -52,9 +52,9 @@ One difficulty in testing large-scale applications is determining the set of beh
 \label{table:large_scale}
 \end{table}
 
-The results of our tests display a variety of behaviors across the applications that we tested. For the calls tested, every application (with the exception of VirtualBox) crashed for at least one call. Of the applications that crashed, every one (with the exception of gcc) crashed for more than one call. Of the 37 distinct crashes we encountered for these applications, 15 were caused by core dumps and 22 by hangs. This suggests that these applications are slightly more resilient to errors that would lead to core dumps. 
+The results of our tests display a variety of behaviors across the applications that we tested. For the calls tested, every application (with the exception of VirtualBox) crashed or hung for at least one call. Of those, every one (with the exception of \texttt{gcc}) crashed or hung for more than one call. We observed 15 crashes and 22 hangs, which suggests that these applications are slightly more resilient to errors that would lead to core dumps. 
 
-When we first started testing large-scale applications we encountered core dumps for nearly every application for many calls, but determined that they were caused by calls to \texttt{abort}. Many of these aborts were caused by the GLib library on the application's behalf. GLib is collection of low-level system libraries developed mainly for the GNOME project. These libraries implement a variety of commonly used data structures, string manipulation functions, and a thread package (built on \texttt{pthread}) \cite{glibman}. We found that for applications that are window-based, nearly all of them used GLib to aid in window management. An investigation of the current GLib source reveals that after being passed through a number of internal functions, an erroneous return value was eventually passed to the \texttt{g\_error} function, which prints an error message and aborts the program. This use of GLib helps explains why large-scale applications are more resilient to core dumps over hangs. It also displays some of the difficulty that can arise when determining if a application truly crashed during testing. Finally, it shows that one way to avoid crashes in applications is for one group to get the code right once and then share it with other developers.
+When we first started testing large-scale applications we encountered core dumps for nearly every application for many calls, but determined that they were caused by calls to \texttt{abort}. Many of these aborts were caused by the GLib library on the application's behalf. GLib is collection of low-level system libraries developed mainly for the GNOME project. These libraries implement a variety of commonly used data structures, string manipulation functions, and a thread package (built on \texttt{pthread}) \cite{glibman}. We found that nearly all applications that are window-based used GLib to aid in window management. An investigation of the current GLib source reveals that after being passed through a number of internal functions, an erroneous return value was eventually passed to the \texttt{g\_error} function, which prints an error message and aborts the program. This use of GLib helps explain why large-scale applications are more resilient to crashes over hangs. It also displays some of the difficulty that can arise when determining if an application truly crashed during testing. Finally, it shows that one way to avoid crashes and hangs in applications is for one group to get the code right once and then share it with other developers.
 
 
 

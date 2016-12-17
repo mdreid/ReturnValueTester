@@ -1,5 +1,5 @@
 \subsection{\texttt{net-tools}}
-The \texttt{net-tools} suite includes several small utilities that form the base of the networking distribution for Linux \cite{nettools}. We hypothesized that \texttt{net-tools} would also yield a significant number of crashes, as some of the utilities in it have been deprecated in favor of the \texttt{ip} utility. We tested 11 utilities and found that 4 (36.4\%) crashed (table \ref{lst:net-tools}). \texttt{malloc} was the source of all of the crashes. A more detailed investigation into the root cause of some of these crashes is given in appendix \ref{appendix:net-tools}.
+The \texttt{net-tools} suite includes several small utilities that form the base of the networking distribution for Linux \cite{nettools}. We hypothesized that \texttt{net-tools} would yield a significant number of crashes or hangs, as some of the utilities in it have been deprecated in favor of the \texttt{ip} utility. We tested 11 utilities and found that 4 (36.4\%) crashed (table \ref{lst:net-tools}). \texttt{malloc} was the source of all of the crashes. A more detailed investigation into the root cause of some of these crashes is given in Appendix \ref{appendix:net-tools}.
 
 \begin{table}[h]
 \begin{tabular}{l}
@@ -9,6 +9,6 @@ m dnsdomainname m ifconfig      m netstat         route
   hostname        mii-tool        rarp
 \end{lstlisting}
 \end{tabular}
+\caption{\texttt{net-tools} utilities tested; those which crashed with \texttt{malloc} are indicated with \texttt{m} to their left. A total of 4/11 (36.4\%) crashed.}
 \label{lst:net-tools}
-\caption{\texttt{net-tools} utilities tested; those which crashed with \texttt{malloc} are indicated with a \texttt{m} to their left. A total of 4/11 (36.4\%) crashed.}
 \end{table}

@@ -1,12 +1,12 @@
 \subsection{GNU Core Utilities}
-The GNU Core Utilities project (henceforth ``coreutils'') comprises over 100 programs (many of them reimplementations of the original utilities found in UNIX) which provide basic file, shell, and text manipulation. Importantly, these tools are ``expected to exist on every [GNU] operating system'', making them some of the most commonly used applications on Linux systems \cite{coreutils}. As such, the robustness of these programs is of great importance, as they will be used by many users on a variety of systems. They also make good candidates for automated testing via shell script because of their command line interfaces.
+The GNU Core Utilities project (henceforth ``coreutils'') comprises over 100 programs (many of them reimplementations of the original utilities found in UNIX), which provide basic file, shell, and text manipulation. Importantly, these tools are ``expected to exist on every [GNU] operating system,'' making them some of the most commonly used applications on Linux systems \cite{coreutils}. As such, the robustness of these programs is of great importance, as they will be used by many users on a variety of systems. They also make good candidates for automated testing via shell script because of their command-line interfaces.
 
-We hypothesized that coreutils would yield very few crashes. Primarily, the project is extremely mature: in 2002, the GNU fileutils, textutils, and sh-utils projects merged into the GNU coreutils project, by which point all three projects already had a substantial development history. In the same vein, the binaries from the coreutils project are used in production environments all over the world, and therefore have encountered a significant amount of testing. Additionally, these utilities in general comprise a relatively small number of files and lines of code; therefore, we hypothesized that they would be easier to write correctly compared to larger open source projects.
+We hypothesized that coreutils would yield very few crashes or hangs. Primarily, the project is extremely mature: in 2002, the GNU fileutils, textutils, and sh-utils projects merged into the GNU coreutils project, by which point all three projects already had a substantial development history. In the same vein, the binaries from the coreutils project are used in production environments all over the world, and therefore have undergone a significant amount of testing. Additionally, these utilities in general comprise a relatively small number of files and lines of code; therefore, we hypothesized that they would be easier to write correctly compared to larger open-source projects.
 
 \subsubsection{Results}
 In order to assess the robustness of coreutils when given error return values from a variety of calls, we selected 51 of the coreutils programs (table \ref{lst:coreutils}) and tested them on the aforementioned 19 calls. Of the 51 utilities that we tested, 13 (25.5\%) crashed for at least one of the wrapped calls (table \ref{lst:coreutils}). The crashes seen were isolated to the memory allocation calls \texttt{malloc}, \texttt{calloc}, and \texttt{realloc}. 
 
-Utilities which produced core dumps were analyzed via \texttt{gdb} in order to find the offending code. In all cases analyzed, a null pointer dereference occurred due to a failure to check the return value of either \texttt{malloc}/\texttt{calloc}/\texttt{realloc}, or a helper function which performed the memory allocation (appendix \ref{appendix:coreutils}).
+Utilities that produced core dumps were analyzed via \texttt{gdb} in order to find the offending code. In all cases analyzed, a null pointer dereference occurred due to a failure to check the return value of either \texttt{malloc}/\texttt{calloc}/\texttt{realloc}, or a helper function which performed the memory allocation (Appendix \ref{appendix:coreutils}).
 
 % table:
 % see /test_dir/lists/gen.sh
@@ -26,6 +26,6 @@ c   cp              groups          nproc           truncate     m  whoami
     dircolors       link            shred           unexpand
 \end{lstlisting}
 \end{tabular}
-\label{lst:coreutils}
 \caption{GNU Core Utilities tested; those which crashed are indicated with a letter to their left (\texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{malloc}, \texttt{r} = \texttt{realloc}). A total of 13/51 (25.5\%) crashed for at least one call.}
+\label{lst:coreutils}
 \end{table}
