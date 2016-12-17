@@ -22,10 +22,4 @@ This probabilistic approach is used to attempt to test all of the calls to a giv
   \label{fig:ld_preload}
 \end{figure}
 
-Returning the correct value from within a wrapped function is non-trivial: infinite recursion results if one attempts to invoke the same call that is being wrapped. To avoid the recursion, we used the \texttt{dlsym} function, which scans through the dynamically loaded libraries for a function that has the same name as the argument passed to it. Upon finding such a function, a function handle (that is, an address) is returned. This function handle can then be used in order to call the original version of the function. An example of such a wrapper is given in listing 1.
-
-\begin{minipage}{\linewidth} %minipage so the code is split between two pages
-	\lstinputlisting[caption=\texttt{malloc} wrapper, language=C,label={lst:wrapper_example}]{sample_wrapper.c}
-\end{minipage}
-
-
+Returning the correct value from within a wrapped function is non-trivial: infinite recursion results if one attempts to invoke the same call that is being wrapped. To avoid the recursion, we used the \texttt{dlsym} function, which scans through the dynamically loaded libraries for a function that has the same name as the argument passed to it. Upon finding such a function, a function handle (that is, an address) is returned. This function handle can then be used in order to call the original version of the function. An example of such a wrapper is shown in the ``Generated Wrapper'' portion of Figure \ref{fig:codegen}.
