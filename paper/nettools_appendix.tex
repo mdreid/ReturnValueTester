@@ -1,7 +1,7 @@
 \section{\texttt{net-tools} crashes}
 \label{appendix:net-tools}
 
-\texttt{netstat}, which prints a variety of network information, crashed when \texttt{malloc} returned an error. The error, shown in listing \ref{lst:inet.c}, was among the simplest to fix.
+\texttt{netstat}, which prints a variety of network information, crashed when \texttt{malloc} returned an error. The error, shown in Listing \ref{lst:inet.c}, was among the simplest to fix.
 
 \begin{lstlisting}[label={lst:inet.c},firstnumber=213, caption={\texttt{lib/inet.c}}, language=C]
     pn = (struct add	r *) malloc(sizeof(struct addr));

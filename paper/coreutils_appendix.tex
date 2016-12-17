@@ -1,7 +1,7 @@
 \section{GNU Core Utilities crashes}
 \label{appendix:coreutils}
 \subsection{\texttt{du}}
-The coreutils program \texttt{du}, which is used to list disk usage, crashed when \texttt{malloc} returned an error. Upon investigation, it was determined to have used a function \texttt{setup\_dir} (listing \ref{lst:fts-cycle.c}) which allocates memory and returns \texttt{true} if it succeeds, and \texttt{false} otherwise.
+The coreutils program \texttt{du}, which is used to list disk usage, crashed when \texttt{malloc} returned an error. Upon investigation, it was determined to have used a function \texttt{setup\_dir} (Listing \ref{lst:fts-cycle.c}) which allocates memory and returns \texttt{true} if it succeeds, and \texttt{false} otherwise.
 
 \begin{lstlisting}[label={lst:fts-cycle.c},firstnumber=47, caption={\texttt{lib/fts-cycle.c}}, language=C]
 /* Set up the cycle-detection machinery.  */
@@ -30,7 +30,7 @@ setup_dir (FTS *fts)
 \end{lstlisting}
 
 The code does not check the return value, producing a segmentation fault on \texttt{setup\_dir}'s failure.
- The fix is given in listing \ref{lst:fts.c}.
+ The fix is given in Listing \ref{lst:fts.c}.
 \begin{lstlisting}[label={lst:fts.c},firstnumber=986, caption={\texttt{lib/fts.c}}, language=C]
 -	setup_dir(sp);
 

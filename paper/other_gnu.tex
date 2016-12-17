@@ -1,9 +1,9 @@
 \subsection{Other Utilities}
-Although coreutils and \texttt{net-tools} cover a substantial portion of the Linux utilities used regularly by systems programmers, there are many more tools used frequently that do not fall under either of the two projects. We selected a sample of 16 such utilities to test (table \ref{lst:other_utilities}).
+Although coreutils and \texttt{net-tools} cover a substantial portion of the Linux utilities used regularly by systems programmers, there are many more tools used frequently that do not fall under either of the two projects. We selected a sample of 16 such utilities to test (Table \ref{lst:other_utilities}).
 
 Due to the heterogeneity of the sources of these programs, we struggled to construct a hypothesis about program behavior that would be consistent across all programs. However, due to the ubiquity of many of them (e.g. \texttt{make}, \texttt{grep}), we predicted that they would be fairly hardened against bugs.
 
-Of the 16 utilities tested, 5 (31.3\%) crashed for at least one of the wrapped calls (table \ref{lst:other_utilities}). The crashes were primarily caused by \texttt{malloc}. Details of a root cause analysis for an example crash are given in Appendix \ref{appendix:other_gnu}.
+Of the 16 utilities tested, 5 (31.3\%) crashed for at least one of the wrapped calls (Table \ref{lst:other_utilities}). The crashes were primarily caused by \texttt{malloc}. Details of a root cause analysis for an example crash are given in Appendix \ref{appendix:other_gnu}.
 
 \begin{table}[h]
 \begin{tabular}{l}
