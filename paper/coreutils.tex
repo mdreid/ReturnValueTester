@@ -10,9 +10,9 @@ Utilities which produced core dumps were analyzed via \texttt{gdb} in order to f
 
 % table:
 % see /test_dir/lists/gen.sh
-\begin{minipage}{\linewidth}
-\PreTable
-\begin{lstlisting}[label={lst:coreutils},caption={GNU Core Utilities tested; those which crashed are indicated with a letter to their left (\texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{malloc}, \texttt{r} = \texttt{realloc}). A total of 13/51 (25.5\%) crashed for at least one call.}]
+\begin{table}[h]
+\begin{tabular}{l}
+\begin{lstlisting}
     base64          dirname      m  logname         sort            uniq
     basename    cm  du              ls           m  stat            unlink
     cat             echo            md5sum          sum             uptime
@@ -25,5 +25,7 @@ c   cp              groups          nproc           truncate     m  whoami
   r df           m  id              seq             uname
     dircolors       link            shred           unexpand
 \end{lstlisting}
-\PostTable
-\end{minipage}
+\end{tabular}
+\label{lst:coreutils}
+\caption{GNU Core Utilities tested; those which crashed are indicated with a letter to their left (\texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{malloc}, \texttt{r} = \texttt{realloc}). A total of 13/51 (25.5\%) crashed for at least one call.}
+\end{table}
