@@ -6,7 +6,7 @@ We hypothesized that coreutils would yield very few crashes or hangs. Primarily,
 \subsubsection{Results}
 In order to assess the robustness of coreutils when given error return values from a variety of calls, we selected 51 of the coreutils programs (Table \ref{lst:coreutils}) and tested them on the aforementioned 19 calls. Of the 51 utilities that we tested, 13 (25.5\%) crashed for at least one of the wrapped calls (Table \ref{lst:coreutils}). The crashes seen were isolated to the memory allocation calls \texttt{malloc}, \texttt{calloc}, and \texttt{realloc}. 
 
-Utilities that produced core dumps were analyzed via \texttt{gdb} in order to find the offending code. In all cases analyzed, a null pointer dereference occurred due to a failure to check the return value of either \texttt{malloc}/\texttt{calloc}/\texttt{realloc}, or a helper function which performed the memory allocation (Appendix \ref{appendix:coreutils}).
+Utilities that produced core dumps were analyzed via \texttt{gdb} in order to find the offending code. In all cases analyzed, a null pointer dereference occurred due to a failure to check the return value of either \texttt{malloc}/\texttt{calloc}/\texttt{realloc}, or a helper function that performed the memory allocation (Appendix \ref{appendix:coreutils}).
 
 % table:
 % see /test_dir/lists/gen.sh
@@ -26,6 +26,6 @@ c   cp              groups          nproc           truncate     m  whoami
     dircolors       link            shred           unexpand
 \end{lstlisting}
 \end{tabular}
-\caption{GNU Core Utilities tested; those which crashed are indicated with a letter to their left (\texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{malloc}, \texttt{r} = \texttt{realloc}). A total of 13/51 (25.5\%) crashed for at least one call.}
+\caption{GNU Core Utilities tested; those that crashed are indicated with a letter to their left (\texttt{c} = \texttt{calloc}, \texttt{m} = \texttt{malloc}, \texttt{r} = \texttt{realloc}). A total of 13/51 (25.5\%) crashed for at least one call.}
 \label{lst:coreutils}
 \end{table}
