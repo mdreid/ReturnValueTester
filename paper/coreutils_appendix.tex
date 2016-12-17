@@ -1,7 +1,7 @@
 \section{GNU Core Utilities crashes}
 \label{appendix:coreutils}
 \subsection{\texttt{du}}
-The coreutils program \texttt{du}, which is used to list disk usage, crashed when \texttt{malloc} returned an error. Upon investigation, it was determined to have used a function \texttt{setup\_dir} (Listing \ref{lst:fts-cycle.c}) which allocates memory and returns \texttt{true} if it succeeds, and \texttt{false} otherwise.
+The coreutils program \texttt{du}, which is used to list disk usage, crashed when \texttt{malloc} returned \texttt{NULL}. Upon investigation, it was determined to have used a function \texttt{setup\_dir} (Listing \ref{lst:fts-cycle.c}) which allocates memory and returns \texttt{true} if it succeeds, and \texttt{false} otherwise.
 
 \begin{lstlisting}[label={lst:fts-cycle.c},firstnumber=47, caption={\texttt{lib/fts-cycle.c}}, language=C]
 /* Set up the cycle-detection machinery.  */
@@ -29,7 +29,7 @@ setup_dir (FTS *fts)
 }
 \end{lstlisting}
 
-The code does not check the return value, producing a segmentation fault on \texttt{setup\_dir}'s failure.
+The code does not check the return value, causing a segmentation fault on \texttt{setup\_dir}'s failure.
  The fix is given in Listing \ref{lst:fts.c}.
 \begin{lstlisting}[label={lst:fts.c},firstnumber=986, caption={\texttt{lib/fts.c}}, language=C]
 -	setup_dir(sp);
@@ -42,7 +42,7 @@ The code does not check the return value, producing a segmentation fault on \tex
 \end{lstlisting}
 
 \subsection{\texttt{hostid}}
-\texttt{hostid}, which prints the numeric identifier for the host, crashed when \texttt{malloc} returned an error. The error was determined to be in a loop block. On each iteration, a call to \texttt{malloc} is made, but at the end of the loop, the assumption is made that each one of them succeeded. Later in the code, the \texttt{nscount} variable is out of sync with the other fields in the data structure, and a null pointer dereference can occur. The fix is given in the glibc 2.23 source code shown in listing \ref{lst:res_send.c}.
+\texttt{hostid}, which prints the numeric identifier for the host, crashed when \texttt{malloc} returned \texttt{NULL}. The error was determined to be in a loop block. On each iteration, a call to \texttt{malloc} is made, but at the end of the loop, the assumption is made that each one of them succeeded. Later in the code, the \texttt{nscount} variable is out of sync with the other fields in the data structure, and a null pointer dereference can occur. The fix is given in the glibc 2.23 source code shown in listing \ref{lst:res_send.c}.
 
 \begin{lstlisting}[firstnumber=426, label={lst:res_send.c}, caption={\texttt{resolv/res\_send.c}}, language=C]
     for (ns = 0; ns < statp->nscount; ns++) {

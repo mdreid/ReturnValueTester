@@ -1,7 +1,7 @@
 \section{Other Utility Crashes}
 \label{appendix:other_gnu}
 
-\texttt{grep}, which allows for regular expression search, crashed when \texttt{calloc} returned an error. The error was buried deep in the call stack, but was due to a failure to check the return value from \texttt{hash\_initialize}, which initializes a hash table and returns a pointer to it (or \texttt{NULL} in the case that it fails). The fix is given in Listing \ref{lst:exclude.c}.
+\texttt{grep}, which allows for regular expression search, crashed when \texttt{calloc} returned \texttt{NULL}. The error was buried deep in the call stack, but was due to a failure to check the return value from \texttt{hash\_initialize}, which initializes a hash table and returns a pointer to it (or \texttt{NULL} in the case that it fails). The fix is given in Listing \ref{lst:exclude.c}.
 
 \begin{lstlisting}[label={lst:exclude.c},firstnumber=265, caption={\texttt{lib/exclude.c}.}, language=C]
 	case exclude_hash:
