@@ -1,6 +1,0 @@
-zip||rm -f foo.zip|foo blaster.c blastee.c
-unzip|zip foo blaster.c blastee.c|rm -f foo.zip|foo.zip
-zipinfo|zip foo blaster.c blastee.c|rm -f foo.zip|foo.zip
-tar||rm -f test.tar| -cvf test.tar blaster.c blastee.c
-gzip||gunzip blaster2.gz| blaster2.c 
-gunzip|gzip blaster2.c||blaster2.c.gz

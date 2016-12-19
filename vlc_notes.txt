@@ -1,5 +1,0 @@
-- pthread_create is called in src/posix/thread.c in the function vlc_clone_attr
-- in fact, the return value of pthread_create is the return value of vlc_clone_attr
-- the return value of vlc_clone_attr is then the ret val of vlc_clone and vlc_clone_detach
-- calls to vlc_clone as checked as if (vlc_clone(...)), with true (1) invoking the error handling
-- 

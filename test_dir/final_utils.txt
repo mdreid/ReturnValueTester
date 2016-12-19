@@ -1,6 +1,0 @@
-#ctags||rm -f tagfile.txt|test_crash.c -o tagfile.txt
-df||| -a
-finger|||
-last|||
-w|||
-sdiff|||wrappers/malloc_wrapper.c wrappers/pthread_create_wrapper.c
