@@ -51,32 +51,31 @@ egrep|||blaster blaster.c
 > loginctl
 > lsblk
 > lsmod
-> man
-> mandb
-> more
-> mount
-> nm
-> ntfsck
-> ping
-> printf
-> ps
-> pstree
-> rm
-> rmdir
-> sleep
-> ss
-> ssh-keygen
-> stty
-> sudo
-> sync
-> telnet
-> tracepath
-> traceroute
-> vi
-> vim
-> vmstat
-> wget
-> whatis
-> whereis
-> which
-> wish
+#man|||
+mandb|||
+#more|echo "testing more" >> more_test.txt|rm -f more_test.txt
+mount|||
+nm|||nm_test.o
+#ntfsck
+ping|||8.8.8.8 -c 2
+printf|||"hello\n"
+ps|||
+pstree|||
+rm|echo "testing rm" >> test_rm.txt|rm -f test_rm.txt| -f test_rm.txt
+sleep|||.5
+ss|||
+ssh-keygen||rm -rf keys.txt*| -t 'rsa' -f keys.txt -N ''
+stty||| -a
+#sudo|||
+sync|||
+#telnet|||
+tracepath|||127.0.0.1
+#traceroute
+#vi
+#vim
+vmstat|||
+wget|rm -f index.html||google.com
+whatis|||ls
+whereis|||ls
+which|||ls
+#wish
