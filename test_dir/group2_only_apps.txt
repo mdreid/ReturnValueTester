@@ -1,30 +1,30 @@
-> apt-get
-> awk
-> bc
-> bitmap
-> cal
-> cancel
-> catman
-> cc
-> cheese
-> chekbox-gui
-> ciptool
-> clear
-> coreutils
-> cpp
-> curl
-> dc
-> dconf
-> ddate
-> diff
-> dig
-> dir
-> dirsplit
-> dmesg
-> dm-tool
-> ed
-> egrep
-> eog
+apt-get||apt-get remove firefox|install firefox
+awk|echo "Here is some text to fill it up." > awk_test.txt|rm -f awk_test.txt|'{print;}' awk_test.txt 
+# bc
+# bitmap
+cal|||
+cancel|||
+catman|||
+cc||rm -f a.out|test_ctags.c
+# cheese
+# chekbox-gui
+ciptool|||show
+clear|history||
+coreutils||| -v
+cpp|||test_crash.c
+curl|||https://github.com/Sripradha-karkala/FuzzTesting/blob/master/execute.sh
+# dc
+dconf|||list /home/osboxes
+ddate|||
+diff|||test_sort.txt test_sort2.txt
+dig|||
+dir||| -l
+dirsplit|mkdir dirsplit_testdir; touch dirsplit_testdir/test1.txt; touch dirsplit_testdir/test2.txt|
+dmesg|||
+# dm-tool
+# ed
+egrep|||blaster blaster.c
+# eog
 > evince
 > fallocate
 > false
