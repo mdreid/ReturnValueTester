@@ -24,33 +24,33 @@
 > dm-tool
 > ed
 > egrep
-> eog
-> evince
-> fallocate
-> false
-> file
-> find
-> findmnt
-> firefox
-> fmt
-> free
-> ftp
-> gcc
-> gcore
-> gdb
-> gedit
-> git
-> gs
-> hexdump
-> host
-> hostnamectl
-> infocmp
-> ionice
-> lessecho
-> ln
-> loginctl
-> lsblk
-> lsmod
+#> eog
+#> evince
+fallocate|touch abc.txt|rm abc.txt| -l 20 abc.txt
+false|||
+file|touch test.txt|rm test.txt|test.txt
+find|touch test.txt|rm test.txt| . test.txt
+findmnt||| /sys
+#> firefox
+fmt|echo "test \n test \n testabc" > test.txt|rm test.txt|test.txt
+free|||
+#> ftp
+gcc||blaster.c 
+#> gcore
+#> gdb
+#> gedit
+git||sudo rm -r ReturnValueTester| clone https://github.com/mdreid/ReturnValueTester
+#> gs
+hexdump|echo "return value testing project" > test.txt| rm test.txt|test.txt
+host|||8.8.8.8
+hostnamectl|||status
+infocmp|||
+ionice|||
+lessecho|||test return values
+ln||| -s test1.txt test2.txt
+loginctl|||
+lsblk|||
+lsmod|||
 > man
 > mandb
 > more
