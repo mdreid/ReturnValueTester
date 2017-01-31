@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <unistd.h>
 
 static int (*real_pipe) (int __pipedes[2]) = NULL;

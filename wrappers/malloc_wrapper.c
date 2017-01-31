@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <stdlib.h>
 
 static void *(*real_malloc) (size_t __size) = NULL;

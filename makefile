@@ -8,3 +8,6 @@ wrappers/%.so: wrappers/%.c wrappers/rng.h
 
 clean:
 	rm -f wrappers/*.so
+
+combined:
+	gcc -fPIC -shared -o wrappers/combined_wrapper.so wrappers/*_wrapper.c wrappers/rng.h -ldl -g

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <dirent.h>
 
 static DIR *(*real_opendir) (const char *__name) = NULL;

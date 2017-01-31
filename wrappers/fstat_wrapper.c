@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <sys/stat.h>
 
 static int (*real_fstat) (int __fd, struct stat *__buf) = NULL;

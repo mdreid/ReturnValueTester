@@ -71,7 +71,7 @@ def write_file(out_dir, header_include, node, errno, retval):
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <%s>
 """
 

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <stdlib.h>
 
 static void *(*real_calloc) (size_t __nmemb, size_t __size) = NULL;

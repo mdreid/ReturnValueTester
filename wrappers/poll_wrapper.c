@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <poll.h>
 
 static int (*real_poll) (struct pollfd *__fds, nfds_t __nfds, int __timeout) = NULL;

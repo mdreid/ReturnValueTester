@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <sys/mman.h>
 
 static void *(*real_mmap) (void *__addr, size_t __len, int __prot, int __flags, int __fd, __off_t __offset) = NULL;

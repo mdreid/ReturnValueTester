@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <unistd.h>
 
 static ssize_t (*real_read) (int __fd, void *__buf, size_t __nbytes) = NULL;
