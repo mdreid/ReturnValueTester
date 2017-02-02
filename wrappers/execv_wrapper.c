@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <unistd.h>
 
 static int (*real_execv) (const char *__path, char *const __argv[]) = NULL;

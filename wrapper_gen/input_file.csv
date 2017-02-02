@@ -19,7 +19,7 @@ fwrite,-1,,stdio.h,
 ioctl,-1,EBADF,sys/ioctl.h,fd is not a valid file descriptor
 lseek,-1,EBADF,unistd.h,fd is not a valid file descriptor
 malloc,NULL,,stdlib.h,
-mmap,-1,EACCES,sys/mman.h,see above
+mmap,(void *)-1,EACCES,sys/mman.h,see above
 open,-1,EACCES,fcntl.h,EACCES = process doesn't have permission to access the file given as arg
 opendir,NULL,EBADF,dirent.h,EBADF = fd is not a valid file descriptor opened for reading
 pipe,-1,EFAULT,unistd.h,EFAULT = pipefd is not valid

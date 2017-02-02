@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <unistd.h>
 
 static ssize_t (*real_write) (int __fd, const void *__buf, size_t __n) = NULL;

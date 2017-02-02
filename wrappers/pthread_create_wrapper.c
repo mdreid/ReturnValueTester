@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <pthread.h>
 
 static int (*real_pthread_create) (pthread_t *__restrict __newthread, const pthread_attr_t *__restrict __attr, void *(*__start_routine)(void *), void *__restrict __arg) = NULL;

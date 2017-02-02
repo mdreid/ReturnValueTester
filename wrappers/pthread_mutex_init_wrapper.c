@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <pthread.h>
 
 static int (*real_pthread_mutex_init) (pthread_mutex_t *__mutex, const pthread_mutexattr_t *__mutexattr) = NULL;

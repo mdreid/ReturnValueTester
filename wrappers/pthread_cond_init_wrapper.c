@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <stddef.h>
-#include "rng.h"
+#include <stdlib.h>
 #include <pthread.h>
 
 static int (*real_pthread_cond_init) (pthread_cond_t *__restrict __cond, const pthread_condattr_t *__restrict __cond_attr) = NULL;
