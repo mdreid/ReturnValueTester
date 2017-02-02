@@ -14,7 +14,7 @@ do
 	echo -e "Time:\t$(date +%s)" >> $OUTFILE
 
 	eval "$PRE"
-	export LD_PRELOAD=~/ReturnValueTester/wrappers/$2_wrapper.so
+	export LD_PRELOAD=~/private/MSCS/736/ReturnValueTester/wrappers/$2_wrapper.so
 	{ ${@:3}; } 2>> $OUTFILE 1>/dev/null
 
 	# check if it seg faulted; if so, then quit right away so we don't thrash the vm with
