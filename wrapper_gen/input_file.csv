@@ -1,9 +1,9 @@
 Call,Return value,errno,header file,Notes
-accept,-1,EBADF,socket.h,fd is not a valid file descriptor
+accept,-1,EBADF,sys/socket.h,fd is not a valid file descriptor
 brk,-1,ENOMEM,unistd.h,
 calloc,NULL,,stdlib.h,
 close,-1,EIO,unistd.h,EIO = An I/O error occured
-connect,-1,EBADF,socket.h,fd is not a valid file descriptor
+connect,-1,EBADF,sys/socket.h,fd is not a valid file descriptor
 creat,-1,EACCES,fcntl.h,EACCES = process doesn't have permission to access the file given as arg
 dup,-1,EBADF,unistd.h
 dup2,-1,EBUSY,unistd.h
@@ -31,5 +31,5 @@ pthread_mutex_init,EAGAIN,,pthread.h,"EAGAIN = ""The system lacked the necessary
 read,-1,EBADF,unistd.h,EBADF = fd is not a valid file descriptor or is not open for reading
 realloc,NULL,,stdlib.h,
 sbrk,-1,ENOMEM,unistd.h,on error returns (void *)-1
-socket,-1,EACCES,socket.h,fd is not accessible
+socket,-1,EACCES,sys/socket.h,fd is not accessible
 write,-1,EBADF,unistd.h,fd is not a valid file descriptor
