@@ -3,7 +3,7 @@
 #include <dlfcn.h>
 #include <stdio.h>
 #include <errno.h>
-#include <fcntl.h>
+#include <stdlib.h>
 static int (*real_open) (const char *pathname, int flags) = NULL;
 extern int open(const char *pathname, int flags) {
   char* var = getenv("PROB");
