@@ -5,26 +5,26 @@ calloc,NULL,,stdlib.h,
 close,-1,EIO,unistd.h,EIO = An I/O error occured
 connect,-1,EBADF,socket.h,fd is not a valid file descriptor
 creat,-1,EACCES,fcntl.h,EACCES = process doesn't have permission to access the file given as arg
-dup,-1,EBADF,unistd.h
-dup2,-1,EBUSY,unistd.h
-dup3,-1,EBUSY,unistd.h
+dup,-1,EBADF,unistd.h,not working
+dup2,-1,EBUSY,unistd.h,not working
+dup3,-1,EBUSY,unistd.h,not working
 execv,-1,EACCES,unistd.h,
 execvp,-1,EACCES,unistd.h,
-execvpe,-1,EACCES,unistd.h,
+execvpe,-1,EACCES,unistd.h,not working
 fopen,NULL,EINVAL,stdio.h,EINVAL = the mode provided was invalid
 fork,-1,EAGAIN,unistd.h,"EAGAIN = ""fork() cannot allocate sufficient memory"" or ""caller's RLIMIT_NPROC resource limit was encountered"""
 fread,-1,,stdio.h,
 fstat,-1,EBADF,sys/stat.h,fd is not a valid file descriptor
 fwrite,-1,,stdio.h,
-ioctl,-1,EBADF,sys/ioctl.h,fd is not a valid file descriptor
+ioctl,-1,EBADF,sys/ioctl.h,fd is not a valid file descriptor,not working
 lseek,-1,EBADF,unistd.h,fd is not a valid file descriptor
 malloc,NULL,,stdlib.h,
 mmap,(void *)-1,EACCES,sys/mman.h,see above
-open,-1,EACCES,fcntl.h,EACCES = process doesn't have permission to access the file given as arg
+open,-1,EACCES,fcntl.h,EACCES = process doesn't have permission to access the file given as arg, not working
 opendir,NULL,EBADF,dirent.h,EBADF = fd is not a valid file descriptor opened for reading
 pipe,-1,EFAULT,unistd.h,EFAULT = pipefd is not valid
 poll,-1,EFAULT,poll.h,the array given as arg is not in the addr space
-printf,-1,,stdio.h,
+printf,-1,,stdio.h,not working
 pthread_cond_init,EAGAIN,,pthread.h,"EAGAIN = ""The system lacked the necessary resources (other than memory) to initialise another condition variable."""
 pthread_create,EAGAIN,,pthread.h,"EAGAIN = ""insufficient resources to create another thread, or a system-imposed limit on the number of threads was encountered"") in error case, 0 on success"
 pthread_mutex_init,EAGAIN,,pthread.h,"EAGAIN = ""The system lacked the necessary resources (other than memory) to initialise another mutex."""
