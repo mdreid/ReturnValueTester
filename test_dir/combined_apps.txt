@@ -19,16 +19,15 @@
 #sudo|||
 #telnet|||
 #traceroute
+#tr|||a-z A-Z < (test_tr.txt)
 #vi
 #vim
 #wish
-apt-get||apt-get remove firefox|install firefox
 awk|echo "Here is some text to fill it up." > awk_test.txt|rm -f awk_test.txt|{print;} awk_test.txt
 base64|echo "testing base64" >> tmp.txt|rm -f tmp.txt|tmp.txt
 basename|touch tmp.txt|rm -f tmp.txt|tmp.txt
 cal|||
 cancel|||
-catman|||
 cat|echo "testing cat" >> tmp.txt|rm -f tmp.txt|tmp.txt
 cc||rm -f a.out|test_ctags.c
 chmod|echo "testing chmod" >> tmp.txt|rm -f tmp.txt|777 tmp.txt
@@ -36,10 +35,9 @@ ciptool|||show
 cksum|echo "testing cksum" >> tmp.txt|rm -f tmp.txt|tmp.txt
 clear|history||
 comm|||test_comm1.txt test_comm2.txt
-coreutils||| -v
 cpp|||test_crash.c
 cp|echo "testing cp" >> tmp.txt|rm -f tmp*.txt|tmp.txt tmp2.txt
-ctags||rm -f tagfile.txt|test_crash.c -o tagfile.txt
+ctags||rm -f tags|test_crash.c
 curl|||https://github.com/Sripradha-karkala/FuzzTesting/blob/master/execute.sh
 cut||| -c 9-12 test_cut.txt
 date||| 
@@ -69,10 +67,10 @@ finger|||
 fmt|echo "test \n test \n testabc" > test.txt|rm test.txt|test.txt
 fold|echo "testing fold" >> tmp.txt|rm -f tmp.txt| -w4 tmp.txt
 free|||
-gcc|||blaster.c 
+gcc||rm -f hello|hello.c -o hello 
 git||rm -rf ReturnValueTester|clone https://github.com/mdreid/ReturnValueTester
 grep||| -i IFS trace.sh
-groups|||samplawski
+groups|||ubuntu
 gunzip|gzip test_gunzip.c||test_gunzip.c.gz
 gzip||gunzip test_gzip.c.gz|test_gzip.c
 head|echo "testing head" >> tmp.txt|rm -f tmp.txt| -n 1 tmp.txt
@@ -82,7 +80,6 @@ hostnamectl|||status
 hostname|||
 host|||8.8.8.8
 id|||
-ifconfig|||
 ifconfig|||
 infocmp|||
 ionice|||
@@ -95,7 +92,7 @@ ip|||tunnel
 last|||
 lessecho|||test return values
 link|echo "testing link" >> tmp1.txt|rm -f tmp*.txt|tmp1.txt tmp2.txt
-ln||| -s test1.txt test2.txt
+ln||rm -f test2.txt| -s test1.txt test2.txt
 loginctl|||
 logname|||
 lsblk|||
@@ -110,7 +107,6 @@ mktemp|||
 mount|||
 mv|cp test_sort.txt tmp.txt|rm -f test_mv.txt|tmp.txt test_mv.txt
 netstat|||
-netstat|||
 nisdomainname|||
 nm|||nm_test.o
 nproc|||
@@ -123,16 +119,18 @@ pwd|||
 rarp|||
 rm|echo "testing rm" >> test_rm.txt|rm -f test_rm.txt| -f test_rm.txt
 route|||
-sdiff|||wrappers/malloc_wrapper.c wrappers/pthread_create_wrapper.c
+sdiff|||~/ReturnValueTester/wrappers/malloc_wrapper.c ~/ReturnValueTester/wrappers/pthread_create_wrapper.c
 seq|||1 10
 shred|cp test_sort.txt test_shred.txt||test_shred.txt -n 5
 sleep|||.5
 sort|||test_sort.txt test_sort2.txt
-ssh-keygen|rm -rf key.txt*|rm -rf keys.txt*| -t 'rsa' -f keys.txt -N ''
+ssh-keygen|rm -rf key.txt*|rm -rf keys.txt*| -t rsa -f keys.txt -N 'password'
 ss|||
 stat|touch test_stat.txt|rm -f test_stat.txt|test_stat.txt
 stat|||test_comm1.txt
 stty||| -a
+sudo apt-get||apt-get remove firefox|install firefox
+sudo catman|||
 sum|echo "testing sum" >> test_sum.txt|rm -f test_sum.txt|test_sum.txt
 sync|||
 tar||rm -f test.tar| -cvf test.tar test_sort2.txt test_cut.txt
@@ -140,7 +138,6 @@ touch||rm -f test.txt|test.txt
 tracepath|||127.0.0.1
 true|||
 truncate|touch test_truncate.txt|rm -f test_truncate.txt| -s 1000 test_truncate.txt
-tr|||a-z A-Z < test_tr.txt
 tsort|||test_tsort.txt
 tty|||
 uname|||-a
@@ -158,6 +155,6 @@ whereis|||ls
 whoami|||
 who|||
 w|||
-ypdomainname|||
+ypdomainname||| -d
 zipinfo|||info.zip
-zip||rm -f foo.zip|foo test_crash.c
+zip||rm -f foo2.zip|foo2.zip test_crash.c

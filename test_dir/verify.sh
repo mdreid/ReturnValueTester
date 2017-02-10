@@ -12,7 +12,7 @@ while read -r line; do
 	export PRE=${OPTS[1]}
 	export AFTER=${OPTS[2]}
 	eval "$PRE"
-	echo ${OPTS[0]} >> verify_output.txt
+	echo $line >> verify_output.txt
 	${OPTS[0]} ${ARGS[@]} 2>> verify_output.txt
 	eval "$AFTER"
 	echo "" >> verify_output.txt 
