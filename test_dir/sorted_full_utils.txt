@@ -1,0 +1,83 @@
+base64|echo "testing base64" >> tmp.txt|rm -f tmp.txt|tmp.txt
+basename|touch tmp.txt|rm -f tmp.txt|tmp.txt
+cat|echo "testing cat" >> tmp.txt|rm -f tmp.txt|tmp.txt
+chmod|echo "testing chmod" >> tmp.txt|rm -f tmp.txt|777 tmp.txt
+cksum|echo "testing cksum" >> tmp.txt|rm -f tmp.txt|tmp.txt
+comm|||test_comm1.txt test_comm2.txt
+cp|echo "testing cp" >> tmp.txt|rm -f tmp*.txt|tmp.txt tmp2.txt
+ctags||rm -f tagfile.txt|test_crash.c -o tagfile.txt
+cut||| -c 9-12 test_cut.txt
+date||| 
+df||| -a
+dircolors|||
+dirname|||/usr/bin/
+dnsdomainname|||
+domainname|||
+du|||
+echo|||testing echo
+expr|||1 = 0
+factor|||123456
+finger|||
+fold|echo "testing fold" >> tmp.txt|rm -f tmp.txt| -w4 tmp.txt
+grep||| -i IFS trace.sh
+groups|||samplawski
+gunzip|gzip test_gunzip.c||test_gunzip.c.gz
+gzip||gunzip test_gzip.c.gz|test_gzip.c
+head|echo "testing head" >> tmp.txt|rm -f tmp.txt| -n 1 tmp.txt
+hostid||| 
+hostname|||
+id|||
+ifconfig|||
+ifconfig|||
+ip|||addr
+ip|||maddr
+ipmaddr|||
+ip|||neigh
+ip|||route
+ip|||tunnel
+last|||
+link|echo "testing link" >> tmp1.txt|rm -f tmp*.txt|tmp1.txt tmp2.txt
+logname|||
+ls|||
+make||make clean -s| -s
+md5sum|echo "testing md5sum" >> tmp.txt|rm -f tmp.txt|tmp.txt
+mii-tool|||
+mkdir|rm -rf dir|rm -rf dir|dir
+mktemp|||
+mv|cp test_sort.txt tmp.txt|rm -f test_mv.txt|tmp.txt test_mv.txt
+netstat|||
+netstat|||
+nisdomainname|||
+nproc|||
+printenv|||
+pwd|||
+rarp|||
+route|||
+sdiff|||wrappers/malloc_wrapper.c wrappers/pthread_create_wrapper.c
+seq|||1 10
+shred|cp test_sort.txt test_shred.txt||test_shred.txt -n 5
+sort|||test_sort.txt test_sort2.txt
+stat|||test_comm1.txt
+stat|touch test_stat.txt|rm -f test_stat.txt|test_stat.txt
+sum|echo "testing sum" >> test_sum.txt|rm -f test_sum.txt|test_sum.txt
+tar||rm -f test.tar| -cvf test.tar test_sort2.txt test_cut.txt
+touch||rm -f test.txt|test.txt
+tr|||a-z A-Z < test_tr.txt
+true|||
+truncate|touch test_truncate.txt|rm -f test_truncate.txt| -s 1000 test_truncate.txt
+tsort|||test_tsort.txt
+tty|||
+uname|||-a
+unexpand|cp Makefile test_unexpand.txt|rm -f test_unexpand.txt|test_unexpand.txt
+uniq|||test_uniq.txt
+unlink|echo "testing unlink" >> test.txt|rm -f test.txt|test.txt
+unzip|mv test_crash.c test_unzip.c; zip foo test_unzip.c|mv test_unzip.c test_crash.c|foo.zip
+uptime|||
+users|||
+w|||
+wc|echo "testing wc" >> test.txt|rm -f test.txt|test.txt
+who|||
+whoami|||
+ypdomainname|||
+zipinfo|||info.zip
+zip||rm -f foo.zip|foo test_crash.c

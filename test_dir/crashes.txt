@@ -1,0 +1,22 @@
+Other CL Utilities
+du
+ssh
+hostid
+w
+finger
+
+Network Tools
+ifconfig
+hostid
+ip
+netstat
+ipmaddr
+
+Remaining parts of paper:
+
+-CL Utilities Results
+-du, hostid analysis
+-xmalloc
+-net-tools Results (verify)
+-net-tools source code analysis
+-

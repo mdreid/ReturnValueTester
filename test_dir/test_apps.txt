@@ -1,0 +1,1 @@
+ctags||rm -f tagfile.txt|test_crash.c -o tagfile.txt
