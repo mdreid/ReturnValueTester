@@ -1,0 +1,11 @@
+Steps to setting up the VM:
+
+(1) Install Git: sudo apt-get install git
+(2) Clone into ReturnValueTester repo on GitHub: git clone http://github.com/mdreid/ReturnValueTester.git
+(3) Disable password requirement for sudo: sudo visudo and add the line ubuntu ALL=(ALL) NOPASSWD: ALL
+(4) Update and install applications: ./update_apps.sh test_dir/combined_apps.txt
+(5) Manually install any remaining apps
+(6) Set core pattern properly
+	(6a) sudo sysctl -w kernel.core_pattern=$HOME'/core/%e_%p_%i_%t.core'
+	(6b) sudo touch /etc/sysctl.d/60-core-pattern.conf 
+	(6c) sudo <vim/emacs> /etc/sysctl.d/60-core-pattern.conf and add kernel.core_pattern=$HOME'/core/%e_%p_%i_%t.core'
