@@ -49,11 +49,6 @@ def write_files(dir_list, header_include, out_dir, fn_names):
             
             found = True
 
-            # check for variadic args, skip if found
-            if any([isinstance(arg, c_ast.EllipsisParam) for arg in node.type.args.params]):
-                print "Skipped function %s because of variadic args." % fn[0]
-                continue
-
             write_file(out_dir, header_include, node, fn[1], fn[2])
 
         if not found:
@@ -127,7 +122,7 @@ static %s %s(*%s) (%s) = NULL;
             "%s%s(%s);" % (            # return
                 "return " if not is_void_result else "",
                 real_fn,               # real_open
-                ', '.join([a.name if a.name is not None else '' for a in node.type.args.params]),
+                ', '.join([a.name if a.name is not None else '' for a in node.type.args.params if not isinstance(a, c_ast.EllipsisParam)]),
             )
         ))
     print 'wrote %s' % new_file
